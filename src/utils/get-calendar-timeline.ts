@@ -1,6 +1,8 @@
 import type { AuthData } from '../types/account-service.js';
 import type { CalendarData } from '../types/fn-service.js';
 
+const festivalSongsPrefix = 'PilgrimSong.';
+
 export default async (auth: AuthData) => {
   const res = await fetch(
     'https://fngw-mcp-gc-livefn.ol.epicgames.com/fortnite/api/calendar/v1/timeline',
@@ -52,8 +54,12 @@ export default async (auth: AuthData) => {
       seasonEnd: state.seasonBegin || null,
       seasonDisplayedEnd: state.seasonDisplayedEnd || null,
     },
-    activeEvents: activeEvents.sort((a, b) => a.eventType.localeCompare(b.eventType)),
-    additionalActiveEvents: (state.activeEvents || []).sort((a, b) => a.eventType.localeCompare(b.eventType)),
+    activeEvents: activeEvents
+      .filter((x) => !x.eventType.startsWith(festivalSongsPrefix))
+      .sort((a, b) => a.eventType.localeCompare(b.eventType)),
+    additionalActiveEvents: (state.activeEvents || [])
+      .filter((x) => !x.eventType.startsWith(festivalSongsPrefix))
+      .sort((a, b) => a.eventType.localeCompare(b.eventType)),
   };
 
   return {
