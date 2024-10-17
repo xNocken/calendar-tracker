@@ -198,9 +198,9 @@
          "activeSince": "2024-09-05T00:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Season11.Fortnitemares.Quests.Phase2",
-         "activeUntil": "2024-10-17T00:00:00.000Z",
-         "activeSince": "2024-09-19T00:00:00.000Z"
+         "eventType": "EventFlag.Season11.Fortnitemares.Quests.Phase1",
+         "activeUntil": "2024-11-21T00:00:00.000Z",
+         "activeSince": "2024-10-17T00:00:00.000Z"
       },
       {
          "eventType": "EventFlag.Season11.Fortnitemares.Quests.Phase3",
