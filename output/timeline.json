@@ -133,6 +133,11 @@
          "activeSince": "2024-10-24T23:00:00.000Z"
       },
       {
+         "eventType": "EventFlag.Event_SparksSpotlight_S05_Act02",
+         "activeUntil": "2024-11-01T00:00:00.000Z",
+         "activeSince": "2024-10-26T00:00:00.000Z"
+      },
+      {
          "eventType": "EventFlag.Event_SpooktacularPass",
          "activeUntil": "2024-12-10T08:00:00.000Z",
          "activeSince": "2024-10-10T13:00:00.000Z"
@@ -422,6 +427,14 @@
          "eventStart": "2024-10-24T23:00:00Z",
          "eventEnd": "2024-11-02T08:00:00Z",
          "eventType": "EventFlag.Event_SparksS05_Week11"
+      },
+      {
+         "instanceId": "029ep731dbldq8louoq5g6v4o8[2]0",
+         "devName": "Event_SparksSpotlight_S05_Act02",
+         "eventName": "CalendarEvent_SparksSpotlight_S05_Act02",
+         "eventStart": "2024-10-26T00:00:00Z",
+         "eventEnd": "2024-11-01T00:00:00Z",
+         "eventType": "EventFlag.Event_SparksSpotlight_S05_Act02"
       },
       {
          "instanceId": "6lk31tisojmv58j3lqqu21sdrp[2]0",
