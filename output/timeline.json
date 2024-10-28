@@ -89,7 +89,7 @@
       },
       {
          "eventType": "EventFlag.Event_S31_Mash",
-         "activeUntil": "2024-11-02T06:00:00.000Z",
+         "activeUntil": "2024-11-01T13:00:00.000Z",
          "activeSince": "2024-10-10T13:00:00.000Z"
       },
       {
@@ -361,7 +361,7 @@
          "devName": "Event_S31_Mash",
          "eventName": "CalendarEvent_S31_Mash",
          "eventStart": "2024-10-10T13:00:00Z",
-         "eventEnd": "2024-11-02T06:00:00Z",
+         "eventEnd": "2024-11-01T13:00:00Z",
          "eventType": "EventFlag.Event_S31_Mash"
       },
       {
