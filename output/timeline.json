@@ -103,6 +103,11 @@
          "activeSince": "2024-10-10T13:00:00.000Z"
       },
       {
+         "eventType": "EventFlag.Event_S31_QuestDeckBed",
+         "activeUntil": "2024-11-02T18:00:00.000Z",
+         "activeSince": "2024-10-01T18:00:00.000Z"
+      },
+      {
          "eventType": "EventFlag.Event_S31_RankedScythe",
          "activeUntil": "2024-12-09T14:00:00.000Z",
          "activeSince": "2024-09-24T13:00:00.000Z"
@@ -379,6 +384,14 @@
          "eventStart": "2024-10-10T13:00:00Z",
          "eventEnd": "2024-11-02T06:00:00Z",
          "eventType": "EventFlag.Event_S31_NearAcorn"
+      },
+      {
+         "instanceId": "6jcd8rqqmihnnins8loes6l1tf[2]0",
+         "devName": "Event_S31_QuestDeckBed",
+         "eventName": "CalendarEvent_S31_QuestDeckBed",
+         "eventStart": "2024-10-01T18:00:00Z",
+         "eventEnd": "2024-11-02T18:00:00Z",
+         "eventType": "EventFlag.Event_S31_QuestDeckBed"
       },
       {
          "instanceId": "67nj2k1dcjcksc362m2rhbkmeh[2]0",
