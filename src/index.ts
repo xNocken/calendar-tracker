@@ -33,11 +33,11 @@ const main = async () => {
   const changes: string[] = [];
 
   if (gitStatus.includes(currentTimelineFile)) {
-    changes.push('Current Calendar Timeline');
+    changes.push('Current');
   }
 
   if (gitStatus.includes(latestTimelineFile)) {
-    changes.push('Latest Calendar Timeline');
+    changes.push('Latest');
   }
 
   if (!changes.length) {
