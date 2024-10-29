@@ -19,7 +19,7 @@ export default async (auth: AuthData) => {
     console.log('failed fetching calendar timeline data', res.status, res.statusText, await res.text());
 
     return {
-      success: false,
+      success: false as const,
     };
   }
 
@@ -30,40 +30,26 @@ export default async (auth: AuthData) => {
     console.log('failed to find client events channel', res.status, res.statusText, data);
 
     return {
-      success: false,
+      success: false as const,
     };
   }
-
-  const currentClientEventsState = clientEventsChannel.states?.[0];
-
-  if (!currentClientEventsState) {
-    console.log('failed to find current client events channel state', res.status, res.statusText, clientEventsChannel);
-
-    return {
-      success: false,
-    };
-  }
-
-  const { state, activeEvents = [] } = currentClientEventsState;
-
-  const result = {
-    season: {
-      seasonNumber: state.seasonNumber ?? null,
-      seasonTemplateId: state.seasonTemplateId || null,
-      seasonBegin: state.seasonBegin || null,
-      seasonEnd: state.seasonBegin || null,
-      seasonDisplayedEnd: state.seasonDisplayedEnd || null,
-    },
-    activeEvents: activeEvents
-      .filter((x) => !x.eventType.startsWith(festivalSongsPrefix))
-      .sort((a, b) => a.eventType.localeCompare(b.eventType)),
-    additionalActiveEvents: (state.activeEvents || [])
-      .filter((x) => !x.eventType.startsWith(festivalSongsPrefix))
-      .sort((a, b) => a.eventType.localeCompare(b.eventType)),
-  };
 
   return {
-    success: true,
-    data: result,
+    success: true as const,
+    data: clientEventsChannel.states.map(({ state, activeEvents = [] }) => ({
+      season: {
+        seasonNumber: state.seasonNumber ?? null,
+        seasonTemplateId: state.seasonTemplateId || null,
+        seasonBegin: state.seasonBegin || null,
+        seasonEnd: state.seasonBegin || null,
+        seasonDisplayedEnd: state.seasonDisplayedEnd || null,
+      },
+      activeEvents: activeEvents
+        .filter((x) => !x.eventType.startsWith(festivalSongsPrefix))
+        .sort((a, b) => a.eventType.localeCompare(b.eventType)),
+      additionalActiveEvents: (state.activeEvents || [])
+        .filter((x) => !x.eventType.startsWith(festivalSongsPrefix))
+        .sort((a, b) => a.eventType.localeCompare(b.eventType)),
+    })),
   };
 };

@@ -8,7 +8,8 @@ import killToken from './utils/kill-token.js';
 import getCalendarTimeline from './utils/get-calendar-timeline.js';
 
 const outputFolder = 'output';
-const timelineFile = `${outputFolder}/timeline.json`;
+const currentTimelineFile = `${outputFolder}/timeline.json`;
+const latestTimelineFile = `${outputFolder}/timeline-latest.json`;
 
 const main = async () => {
   if (!fs.existsSync(outputFolder)) {
@@ -19,23 +20,31 @@ const main = async () => {
   const calendarTimeline = await getCalendarTimeline(auth);
 
   if (calendarTimeline.success) {
-    await fsp.writeFile(timelineFile, JSON.stringify(calendarTimeline.data, null, 3));
+    const currentTimeline = calendarTimeline.data[0];
+    const latestTimeline = calendarTimeline.data[calendarTimeline.data.length - 1];
+
+    await fsp.writeFile(currentTimelineFile, JSON.stringify(currentTimeline, null, 3));
+    await fsp.writeFile(latestTimelineFile, JSON.stringify(latestTimeline, null, 3));
   }
 
   await killToken(auth);
 
-  const gitStatus = execSync(`git status ${timelineFile}`)?.toString('utf-8') || '';
+  const gitStatus = execSync(`git status ${currentTimelineFile}`)?.toString('utf-8') || '';
   const changes: string[] = [];
 
-  if (gitStatus.includes(timelineFile)) {
-    changes.push('Calendar Timeline');
+  if (gitStatus.includes(currentTimelineFile)) {
+    changes.push('Current Calendar Timeline');
+  }
+
+  if (gitStatus.includes(latestTimelineFile)) {
+    changes.push('Latest Calendar Timeline');
   }
 
   if (!changes.length) {
     return;
   }
 
-  const commitMessage = `Modified ${changes.join(', ')}`
+  const commitMessage = `Modified ${changes.join(', ')}`;
 
   console.log(commitMessage);
 
