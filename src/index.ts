@@ -29,7 +29,7 @@ const main = async () => {
 
   await killToken(auth);
 
-  const gitStatus = execSync(`git status ${currentTimelineFile}`)?.toString('utf-8') || '';
+  const gitStatus = execSync(`git status ${outputFolder}/*`)?.toString('utf-8') || '';
   const changes: string[] = [];
 
   if (gitStatus.includes(currentTimelineFile)) {
