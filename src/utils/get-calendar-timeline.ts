@@ -41,7 +41,7 @@ export default async (auth: AuthData) => {
         seasonNumber: state.seasonNumber ?? null,
         seasonTemplateId: state.seasonTemplateId || null,
         seasonBegin: state.seasonBegin || null,
-        seasonEnd: state.seasonBegin || null,
+        seasonEnd: state.seasonEnd || null,
         seasonDisplayedEnd: state.seasonDisplayedEnd || null,
       },
       activeEvents: activeEvents
