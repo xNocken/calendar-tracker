@@ -73,6 +73,11 @@
          "activeSince": "2024-05-03T13:00:00.000Z"
       },
       {
+         "eventType": "EventFlag.Event_RedFish_Quest",
+         "activeUntil": "2024-11-13T14:00:00.000Z",
+         "activeSince": "2024-10-30T13:00:00.000Z"
+      },
+      {
          "eventType": "EventFlag.Event_S30_BlastBerryQuests",
          "activeUntil": "2024-11-02T06:00:00.000Z",
          "activeSince": "2024-06-22T18:05:00.000Z"
@@ -325,6 +330,14 @@
          "eventStart": "2024-05-03T13:00:00Z",
          "eventEnd": "2025-05-02T13:00:00Z",
          "eventType": "EventFlag.Event_Juno_Osiris_TownRewards"
+      },
+      {
+         "instanceId": "42vjkub8ceb35jba86beeec5n0[2]0",
+         "devName": "Event_RedFish_Quest",
+         "eventName": "CalendarEvent_RedFish_Quest",
+         "eventStart": "2024-10-30T13:00:00Z",
+         "eventEnd": "2024-11-13T14:00:00Z",
+         "eventType": "EventFlag.Event_RedFish_Quest"
       },
       {
          "instanceId": "17rlku68mhoujagmm03qbrmivc[2]0",
