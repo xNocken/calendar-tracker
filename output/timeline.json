@@ -13,14 +13,19 @@
          "activeSince": "2024-10-29T22:15:00.000Z"
       },
       {
-         "eventType": "EventFlag.ActiveMiniBosses",
-         "activeUntil": "2024-10-31T00:00:00.000Z",
-         "activeSince": "2024-09-05T00:00:00.000Z"
+         "eventType": "EventFlag.CramSession",
+         "activeUntil": "2024-11-21T00:00:00.000Z",
+         "activeSince": "2024-10-31T00:00:00.000Z"
+      },
+      {
+         "eventType": "EventFlag.CramSessionMiniboss",
+         "activeUntil": "2024-11-21T00:00:00.000Z",
+         "activeSince": "2024-10-31T00:00:00.000Z"
       },
       {
          "eventType": "EventFlag.ElderGroupMissions",
-         "activeUntil": "2024-10-31T00:00:00.000Z",
-         "activeSince": "2024-09-05T00:00:00.000Z"
+         "activeUntil": "2024-11-21T00:00:00.000Z",
+         "activeSince": "2024-10-31T00:00:00.000Z"
       },
       {
          "eventType": "EventFlag.Event_ S31_FoundQuests_PB_P02",
@@ -179,28 +184,28 @@
       },
       {
          "eventType": "EventFlag.MissionAlert.MegaAlert",
-         "activeUntil": "2024-10-31T00:00:00.000Z",
-         "activeSince": "2024-09-05T00:00:00.000Z"
+         "activeUntil": "2024-11-21T00:00:00.000Z",
+         "activeSince": "2024-10-31T00:00:00.000Z"
       },
       {
          "eventType": "EventFlag.MissionAlert.MegaAlertMiniboss",
-         "activeUntil": "2024-10-31T00:00:00.000Z",
-         "activeSince": "2024-09-05T00:00:00.000Z"
+         "activeUntil": "2024-11-21T00:00:00.000Z",
+         "activeSince": "2024-10-31T00:00:00.000Z"
       },
       {
          "eventType": "EventFlag.PassiveFireStorms",
-         "activeUntil": "2024-10-31T00:00:00.000Z",
-         "activeSince": "2024-09-05T00:00:00.000Z"
+         "activeUntil": "2024-11-21T00:00:00.000Z",
+         "activeSince": "2024-10-31T00:00:00.000Z"
       },
       {
          "eventType": "EventFlag.PassiveIceStorms",
-         "activeUntil": "2024-10-31T00:00:00.000Z",
-         "activeSince": "2024-09-05T00:00:00.000Z"
+         "activeUntil": "2024-11-21T00:00:00.000Z",
+         "activeSince": "2024-10-31T00:00:00.000Z"
       },
       {
          "eventType": "EventFlag.PassiveLightningStorms",
-         "activeUntil": "2024-10-31T00:00:00.000Z",
-         "activeSince": "2024-09-05T00:00:00.000Z"
+         "activeUntil": "2024-11-21T00:00:00.000Z",
+         "activeSince": "2024-10-31T00:00:00.000Z"
       },
       {
          "eventType": "EventFlag.Phoenix.Fortnitemares",
@@ -216,11 +221,6 @@
          "eventType": "EventFlag.Season11.Fortnitemares.Quests.Phase1",
          "activeUntil": "2024-11-21T00:00:00.000Z",
          "activeSince": "2024-10-17T00:00:00.000Z"
-      },
-      {
-         "eventType": "EventFlag.Season11.Fortnitemares.Quests.Phase3",
-         "activeUntil": "2024-10-31T00:00:00.000Z",
-         "activeSince": "2024-10-03T00:00:00.000Z"
       },
       {
          "eventType": "EventFlag.Starlight",
@@ -256,6 +256,11 @@
          "eventType": "EventFlag.Starlight.Quests.Phase5",
          "activeUntil": "2024-11-21T00:00:00.000Z",
          "activeSince": "2024-09-05T00:00:00.000Z"
+      },
+      {
+         "eventType": "EventFlag.STWBrainstorm",
+         "activeUntil": "2024-11-21T00:00:00.000Z",
+         "activeSince": "2024-10-31T00:00:00.000Z"
       }
    ],
    "additionalActiveEvents": [
