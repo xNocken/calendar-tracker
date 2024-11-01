@@ -103,11 +103,6 @@
          "activeSince": "2024-10-01T13:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Event_S31_Mash",
-         "activeUntil": "2024-11-01T13:00:00.000Z",
-         "activeSince": "2024-10-10T13:00:00.000Z"
-      },
-      {
          "eventType": "EventFlag.Event_S31_MobileQuests",
          "activeUntil": "2024-12-10T08:00:00.000Z",
          "activeSince": "2024-08-16T08:00:00.000Z"
@@ -378,14 +373,6 @@
          "eventStart": "2024-10-01T13:00:00Z",
          "eventEnd": "2024-11-02T06:00:00Z",
          "eventType": "EventFlag.Event_S31_LevelUpPass"
-      },
-      {
-         "instanceId": "5l2944fdhv9ec8mtkti7n401ig[2]0",
-         "devName": "Event_S31_Mash",
-         "eventName": "CalendarEvent_S31_Mash",
-         "eventStart": "2024-10-10T13:00:00Z",
-         "eventEnd": "2024-11-01T13:00:00Z",
-         "eventType": "EventFlag.Event_S31_Mash"
       },
       {
          "instanceId": "159dvva3jhg1p8nen38svrj2o4[2]0",
