@@ -1,0 +1,1016 @@
+[
+   {
+      "profileId": "campaign",
+      "devName": "MAJOR: Spring - Phoenix",
+      "conditions": {
+         "event": {
+            "instanceId": "5eaheh65uclrj0bkuscljchdec[0]1",
+            "eventName": "CalendarEvent_Persistent_Phoenix_Adventure",
+            "eventStart": "2024-04-04T00:00:00.000Z",
+            "eventEnd": "2024-06-20T00:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "conversions": [],
+               "itemsToGrant": [
+                  {
+                     "templateId": "Weapon:wid_edged_sword_light_c_ore_t01",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "Weapon:wid_pistol_sixshooter_c_ore_t01",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "Ammo:ammodatabulletsmedium",
+                     "quantity": 40
+                  }
+               ],
+               "questsToUnpause": []
+            },
+            "endActions": {
+               "hasRun": false,
+               "conversions": [],
+               "itemsToRemove": [
+                  {
+                     "templateId": "AccountResource:phoenixxp",
+                     "quantity": 2147483647
+                  },
+                  {
+                     "templateId": "Stat:technology_phoenix",
+                     "quantity": 2147483647
+                  },
+                  {
+                     "templateId": "Stat:resistance_team_phoenix",
+                     "quantity": 2147483647
+                  },
+                  {
+                     "templateId": "Stat:fortitude_team_phoenix",
+                     "quantity": 2147483647
+                  },
+                  {
+                     "templateId": "Stat:offense_team_phoenix",
+                     "quantity": 2147483647
+                  },
+                  {
+                     "templateId": "Stat:technology_team_phoenix",
+                     "quantity": 2147483647
+                  },
+                  {
+                     "templateId": "Stat:fortitude_phoenix",
+                     "quantity": 2147483647
+                  },
+                  {
+                     "templateId": "Stat:offense_phoenix",
+                     "quantity": 2147483647
+                  },
+                  {
+                     "templateId": "Stat:resistance_phoenix",
+                     "quantity": 2147483647
+                  }
+               ],
+               "questsToPause": []
+            },
+            "metaData": {
+               "grantTo": "theater2",
+               "phoenixEventType": "EventFlag.Phoenix.Adventure",
+               "endAction": "{\"actionClassName\":\"com.epicgames.fortnite.core.game.managers.calendareventactions.ResetSeasonalTheaterCalendarEventAction\",\"profile\":\"campaign\"}"
+            }
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Juno_BattleBus",
+      "conditions": {
+         "event": {
+            "instanceId": "3dtigmpouv8g63cce571vtg1vt[0]0",
+            "eventName": "CalendarEvent_Juno_Battlebus",
+            "eventStart": "2024-08-15T13:00:00.000Z",
+            "eventEnd": "2025-01-14T14:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:bundleschedule_battlebus",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:bundleschedule_battlebus",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Event_RedFish_Quest",
+      "conditions": {
+         "event": {
+            "instanceId": "42vjkub8ceb35jba86beeec5n0[0]0",
+            "eventName": "CalendarEvent_RedFish_Quest",
+            "eventStart": "2024-10-30T13:00:00.000Z",
+            "eventEnd": "2024-11-13T14:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:schedule_redfish",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:schedule_redfish",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "DelMar_TimeTrials_03",
+      "conditions": {
+         "event": {
+            "instanceId": "4uckd7iq7ns93lcatpn7hj621d[0]0",
+            "eventName": "CalendarEvent_DelMar_TimeTrials_03",
+            "eventStart": "2024-10-12T11:00:00.000Z",
+            "eventEnd": "2024-11-09T12:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:delmar_questschedule_timetrials_03",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:delmar_questschedule_timetrials_03",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "Token:delmar_season03_token_timetrials",
+                     "quantity": 999
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Event_S31_MobileQuests",
+      "conditions": {
+         "event": {
+            "instanceId": "159dvva3jhg1p8nen38svrj2o4[0]0",
+            "eventName": "CalendarEvent_S31_MobileQuests",
+            "eventStart": "2024-08-16T08:00:00.000Z",
+            "eventEnd": "2024-11-02T07:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:season31_schedule_mobilequests",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:season31_schedule_mobilequests",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Event_SparksS05_Week11",
+      "conditions": {
+         "event": {
+            "instanceId": "799ik415h4iaf9f2r1rsb6u8lq[0]0",
+            "eventName": "CalendarEvent_SparksS05_Week11",
+            "eventStart": "2024-10-24T23:00:00.000Z",
+            "eventEnd": "2024-11-02T08:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:sparks_s05_schedule_weekly_w11",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:sparks_s05_schedule_weekly_w11",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "DelMar_Season03",
+      "conditions": {
+         "event": {
+            "instanceId": "519rkjuhj2v9415va6udprsueb[0]0",
+            "eventName": "CalendarEvent_DelMar_Season03",
+            "eventStart": "2024-10-12T08:00:00.000Z",
+            "eventEnd": "2024-12-01T09:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:delmar_questschedule_s03_kickoff",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "ChallengeBundleSchedule:delmar_s03_questschedule_ranked",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:delmar_questschedule_s03_kickoff",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "ChallengeBundleSchedule:delmar_s03_questschedule_ranked",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "Token:delmar_season03_token_kickoff_wk01",
+                     "quantity": 999
+                  },
+                  {
+                     "templateId": "Token:delmar_season03_token_kickoff_wk02",
+                     "quantity": 999
+                  },
+                  {
+                     "templateId": "Token:delmar_season03_token_kickoff_wk03",
+                     "quantity": 999
+                  },
+                  {
+                     "templateId": "Token:delmar_season03_token_kickoff_wk04",
+                     "quantity": 999
+                  },
+                  {
+                     "templateId": "Token:delmar_season03_token_kickoff_wk05",
+                     "quantity": 999
+                  },
+                  {
+                     "templateId": "Token:delmar_season03_token_kickoff_wk06",
+                     "quantity": 999
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "DelMar_Season01_Dailies",
+      "conditions": {
+         "event": {
+            "instanceId": "06k2t28rsl80ajssd78cihhq8a[0]0",
+            "eventName": "CalendarEvent_DelMar_Season01_Dailies",
+            "eventStart": "2024-04-09T13:00:00.000Z",
+            "eventEnd": "2024-06-28T13:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "RepeatableDailiesCard:delmar_season01_dailiescard",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "RepeatableDailiesCard:delmar_season01_dailiescard",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Juno Spooktacular Pass",
+      "conditions": {
+         "event": {
+            "instanceId": "6lk31tisojmv58j3lqqu21sdrp[0]0",
+            "eventName": "CalendarEvent_SpooktacularPass",
+            "eventStart": "2024-10-10T13:00:00.000Z",
+            "eventEnd": "2024-12-10T08:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "AthenaSeason:junospooktacularengagementquests_seasondata",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "AthenaSeason:junospooktacularengagementquests_seasondata",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Event_S31_FoundQuests_GreenTown",
+      "conditions": {
+         "event": {
+            "instanceId": "65c9cb46elnencdbq70srlbtuu[0]0",
+            "eventName": "CalendarEvent_S31_FoundQuests_GreenTown",
+            "eventStart": "2024-09-17T08:00:00.000Z",
+            "eventEnd": "2024-11-02T06:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:s31_foundquests_greentown_schedule",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:s31_foundquests_greentown_schedule",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Event_S31_QuestDeckBed",
+      "conditions": {
+         "event": {
+            "instanceId": "6jcd8rqqmihnnins8loes6l1tf[0]0",
+            "eventName": "CalendarEvent_S31_QuestDeckBed",
+            "eventStart": "2024-10-01T18:00:00.000Z",
+            "eventEnd": "2024-11-02T18:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:s31_deckbedquest_schedule",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:s31_deckbedquest_schedule",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Event_S31_NearAcorn",
+      "conditions": {
+         "event": {
+            "instanceId": "7351bir92vdk9pg6vk1amluu5f[0]0",
+            "eventName": "CalendarEvent_S31_NearAcorn",
+            "eventStart": "2024-10-10T13:00:00.000Z",
+            "eventEnd": "2024-11-02T06:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:sparks_nearacorn_schedule",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:sparks_nearacorn_schedule",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "Token:sparks_nearacorn_d1_token",
+                     "quantity": 9999999
+                  },
+                  {
+                     "templateId": "Token:sparks_nearacorn_d2_token",
+                     "quantity": 9999999
+                  },
+                  {
+                     "templateId": "Token:sparks_nearacorn_d3_token",
+                     "quantity": 9999999
+                  },
+                  {
+                     "templateId": "Token:sparks_nearacorn_d4_token",
+                     "quantity": 9999999
+                  },
+                  {
+                     "templateId": "Token:sparks_nearacorn_d5_token",
+                     "quantity": 9999999
+                  },
+                  {
+                     "templateId": "Token:sparks_nearacorn_d6_token",
+                     "quantity": 9999999
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Event_S31_NearAcorn",
+      "conditions": {
+         "event": {
+            "instanceId": "7351bir92vdk9pg6vk1amluu5f[0]0",
+            "eventName": "CalendarEvent_S31_NearAcorn",
+            "eventStart": "2024-10-10T13:00:00.000Z",
+            "eventEnd": "2024-11-02T06:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:delmar_questschedule_nearacorn_01",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:delmar_questschedule_nearacorn_01",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "Token:delmar_nearacorn_grantertoken_d1",
+                     "quantity": 999
+                  },
+                  {
+                     "templateId": "Token:delmar_nearacorn_grantertoken_d2",
+                     "quantity": 999
+                  },
+                  {
+                     "templateId": "Token:delmar_nearacorn_grantertoken_d3",
+                     "quantity": 999
+                  },
+                  {
+                     "templateId": "Token:delmar_nearacorn_grantertoken_d4",
+                     "quantity": 999
+                  },
+                  {
+                     "templateId": "Token:delmar_nearacorn_grantertoken_d5",
+                     "quantity": 999
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Event_S31_BlastBerryQuests",
+      "conditions": {
+         "event": {
+            "instanceId": "5hqhsktmb6bgn3eq58dlea9tbn[0]0",
+            "eventName": "CalendarEvent_S31_BlastBerryQuests",
+            "eventStart": "2024-08-16T06:15:00.000Z",
+            "eventEnd": "2024-11-02T06:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "Quest:quest_blastberry_discover_landmarks",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "Quest:quest_blastberry_discover_namedlocations",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "RepeatableDailiesCard:repeatabledailiescard_blastberry",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "Quest:quest_blastberry_discover_landmarks",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "Quest:quest_blastberry_discover_namedlocations",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "RepeatableDailiesCard:repeatabledailiescard_blastberry",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "JunoEvent_FTUE_V2",
+      "conditions": {
+         "event": {
+            "instanceId": "3gv78os4amga401e1l4n5h0h33[0]0",
+            "eventName": "CalendarEvent_Juno_FTUE_V2",
+            "eventStart": "2024-06-22T05:00:00.000Z",
+            "eventEnd": "2025-07-22T08:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:bundleschedule_ftue_v2",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:bundleschedule_ftue_v2",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Event_S31_FoundQuests_PB_P02",
+      "conditions": {
+         "event": {
+            "instanceId": "151ab16d9gp3uihcbmiv63brd7[0]0",
+            "eventName": "CalendarEvent_S31_FoundQuests_PB_P02",
+            "eventStart": "2024-09-04T08:00:00.000Z",
+            "eventEnd": "2024-11-03T01:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:s31_foundquests_pb_schedule_p02",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:s31_foundquests_pb_schedule_p02",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Event_Sparks_Season05",
+      "conditions": {
+         "event": {
+            "instanceId": "0tl8e8otcnkptqh0obamp30phh[0]0",
+            "eventName": "CalendarEvent_SparksS05",
+            "eventStart": "2024-08-16T05:00:00.000Z",
+            "eventEnd": "2024-11-02T08:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "AthenaSeason:sparkspasss05_season",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "AthenaSeason:sparkspasss05_season",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Event_S31_RankedScytheGranter",
+      "conditions": {
+         "event": {
+            "instanceId": "653est4evkgtmq7jgr9ercgbn4[0]0",
+            "eventName": "CalendarEvent_S31_RankedScytheGranter",
+            "eventStart": "2024-09-24T13:00:00.000Z",
+            "eventEnd": "2024-11-11T14:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:season31_rankedscythe_schedule",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": []
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Juno_Osiris_TownRewards",
+      "conditions": {
+         "event": {
+            "instanceId": "1qpmtohufgsj9hbths6b3m3hrl[0]0",
+            "eventName": "CalendarEvent_Juno_Osiris_TownRewards",
+            "eventStart": "2024-05-03T13:00:00.000Z",
+            "eventEnd": "2025-05-02T13:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:bundleschedule_juno_townrewards",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:bundleschedule_juno_townrewards",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Event_S31_NearAcorn",
+      "conditions": {
+         "event": {
+            "instanceId": "7351bir92vdk9pg6vk1amluu5f[0]0",
+            "eventName": "CalendarEvent_S31_NearAcorn",
+            "eventStart": "2024-10-10T13:00:00.000Z",
+            "eventEnd": "2024-11-02T06:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:season31_nearacorn_schedule",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:season31_nearacorn_schedule",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "Token:athena_s31_nearacorn_chase_token",
+                     "quantity": 9999999
+                  },
+                  {
+                     "templateId": "Token:athena_s31_nearacorn_creative_bg1_token",
+                     "quantity": 9999999
+                  },
+                  {
+                     "templateId": "Token:athena_s31_nearacorn_creative_bg2_token",
+                     "quantity": 9999999
+                  },
+                  {
+                     "templateId": "Token:athena_s31_nearacorn_creative_bg3_token",
+                     "quantity": 9999999
+                  },
+                  {
+                     "templateId": "Token:athena_s31_nearacorn_creative_bg4_token",
+                     "quantity": 9999999
+                  },
+                  {
+                     "templateId": "Token:athena_s31_nearacorn_creative_bg5_token",
+                     "quantity": 9999999
+                  },
+                  {
+                     "templateId": "Token:athena_s31_nearacorn_creative_bg6_token",
+                     "quantity": 9999999
+                  },
+                  {
+                     "templateId": "Token:athena_s31_nearacorn_creativerepeat_token",
+                     "quantity": 9999999
+                  },
+                  {
+                     "templateId": "Token:athena_s31_nearacorn_d1_token",
+                     "quantity": 9999999
+                  },
+                  {
+                     "templateId": "Token:athena_s31_nearacorn_d2_token",
+                     "quantity": 9999999
+                  },
+                  {
+                     "templateId": "Token:athena_s31_nearacorn_d3_token",
+                     "quantity": 9999999
+                  },
+                  {
+                     "templateId": "Token:athena_s31_nearacorn_d4_token",
+                     "quantity": 9999999
+                  },
+                  {
+                     "templateId": "Token:athena_s31_nearacorn_d5_token",
+                     "quantity": 9999999
+                  },
+                  {
+                     "templateId": "Token:athena_s31_nearacorn_d6_token",
+                     "quantity": 9999999
+                  },
+                  {
+                     "templateId": "Token:athena_s31_nearacorn_d7_token",
+                     "quantity": 9999999
+                  },
+                  {
+                     "templateId": "Token:athena_s31_nearacorn_d8_token",
+                     "quantity": 9999999
+                  },
+                  {
+                     "templateId": "Token:athena_s31_nearacorn_d9_token",
+                     "quantity": 9999999
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Event_S31_RankedScythe",
+      "conditions": {
+         "event": {
+            "instanceId": "67nj2k1dcjcksc362m2rhbkmeh[0]0",
+            "eventName": "CalendarEvent_S31_RankedScythe",
+            "eventStart": "2024-09-24T13:00:00.000Z",
+            "eventEnd": "2024-12-09T14:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": []
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:season31_rankedscythe_schedule",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Juno_Hardcore",
+      "conditions": {
+         "event": {
+            "instanceId": "0jo2qb31biq7seotnp8s0809dk[0]0",
+            "eventName": "CalendarEvent_Juno_Hardcore",
+            "eventStart": "2024-06-11T08:00:00.000Z",
+            "eventEnd": "2025-06-10T08:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:bundleschedule_highstakes",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:bundleschedule_highstakes",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Event_S30_BlastBerryQuests",
+      "conditions": {
+         "event": {
+            "instanceId": "17rlku68mhoujagmm03qbrmivc[0]0",
+            "eventName": "CalendarEvent_S30_BlastBerryQuests",
+            "eventStart": "2024-06-22T18:05:00.000Z",
+            "eventEnd": "2024-11-02T06:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:season30_blastberry_kickstart_schedule",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "Quest:quest_blastberry_discover_landmarks",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "Quest:quest_blastberry_discover_namedlocations",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "RepeatableDailiesCard:repeatabledailiescard_blastberry",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:season30_blastberry_kickstart_schedule",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "Quest:quest_blastberry_discover_landmarks",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "Quest:quest_blastberry_discover_namedlocations",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "RepeatableDailiesCard:repeatabledailiescard_blastberry",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "campaign",
+      "devName": "STORE: Spring - Event - Campaign Currency",
+      "conditions": {
+         "event": {
+            "instanceId": "pfl4nvop92r8fa801837fl1k1m[0]1",
+            "eventName": "CalendarEvent_Persistent_Pirate_EventCurrency",
+            "eventStart": "2024-04-04T00:00:00.000Z",
+            "eventEnd": "2024-06-20T00:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "conversions": [],
+               "itemsToGrant": [],
+               "questsToUnpause": [],
+               "eventCurrencyToSet": {
+                  "templateId": "AccountResource:eventcurrency_adventure",
+                  "cf": 1
+               }
+            },
+            "endActions": {
+               "hasRun": false,
+               "conversions": [
+                  {
+                     "recipe": {
+                        "static_results": [
+                           {
+                              "templateId": "CardPack:cardpack_event_persistent_pirate",
+                              "quantity": 1
+                           }
+                        ],
+                        "static_costs": [
+                           {
+                              "templateId": "AccountResource:eventcurrency_adventure",
+                              "quantity": 500
+                           }
+                        ],
+                        "static_catalysts": []
+                     },
+                     "quantity": -1,
+                     "convert_remainder_up": true
+                  }
+               ],
+               "itemsToRemove": [],
+               "questsToPause": [],
+               "eventCurrencyToUnset": "AccountResource:eventcurrency_adventure"
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "campaign",
+      "devName": "MAJOR: Spring - Lobby",
+      "conditions": {
+         "event": {
+            "instanceId": "h8f6km3ecc38jgl88ok8qs690q[0]1",
+            "eventName": "CalendarEvent_Persistent_LobbyStW_Adventure",
+            "eventStart": "2024-04-04T00:00:00.000Z",
+            "eventEnd": "2024-06-20T00:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "conversions": [],
+               "itemsToGrant": [],
+               "questsToUnpause": []
+            },
+            "endActions": {
+               "hasRun": false,
+               "conversions": [],
+               "itemsToRemove": [],
+               "questsToPause": []
+            },
+            "metaData": {}
+         }
+      }
+   }
+]

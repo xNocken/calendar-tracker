@@ -260,7 +260,8 @@
          "eventName": "CalendarEvent_DelMar_QuestPack_02",
          "eventStart": "2024-07-26T00:00:00Z",
          "eventEnd": "2025-07-27T00:00:00Z",
-         "eventType": "EventFlag.Event_DelMar_QuestPack_02"
+         "eventType": "EventFlag.Event_DelMar_QuestPack_02",
+         "profileItem": null
       },
       {
          "instanceId": "06k2t28rsl80ajssd78cihhq8a[2]0",
@@ -268,7 +269,38 @@
          "eventName": "CalendarEvent_DelMar_Season01_Dailies",
          "eventStart": "2024-04-09T13:00:00Z",
          "eventEnd": "2026-01-01T14:00:00Z",
-         "eventType": "EventFlag.Event_DelMar_Season01_Dailies"
+         "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "DelMar_Season01_Dailies",
+            "conditions": {
+               "event": {
+                  "instanceId": "06k2t28rsl80ajssd78cihhq8a[0]0",
+                  "eventName": "CalendarEvent_DelMar_Season01_Dailies",
+                  "eventStart": "2024-04-09T13:00:00.000Z",
+                  "eventEnd": "2024-06-28T13:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "RepeatableDailiesCard:delmar_season01_dailiescard",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "RepeatableDailiesCard:delmar_season01_dailiescard",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "519rkjuhj2v9415va6udprsueb[2]0",
@@ -276,7 +308,70 @@
          "eventName": "CalendarEvent_DelMar_Season03",
          "eventStart": "2024-10-12T08:00:00Z",
          "eventEnd": "2024-12-01T09:00:00Z",
-         "eventType": "EventFlag.Event_DelMar_Season03"
+         "eventType": "EventFlag.Event_DelMar_Season03",
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "DelMar_Season03",
+            "conditions": {
+               "event": {
+                  "instanceId": "519rkjuhj2v9415va6udprsueb[0]0",
+                  "eventName": "CalendarEvent_DelMar_Season03",
+                  "eventStart": "2024-10-12T08:00:00.000Z",
+                  "eventEnd": "2024-12-01T09:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:delmar_questschedule_s03_kickoff",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "ChallengeBundleSchedule:delmar_s03_questschedule_ranked",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:delmar_questschedule_s03_kickoff",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "ChallengeBundleSchedule:delmar_s03_questschedule_ranked",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "Token:delmar_season03_token_kickoff_wk01",
+                           "quantity": 999
+                        },
+                        {
+                           "templateId": "Token:delmar_season03_token_kickoff_wk02",
+                           "quantity": 999
+                        },
+                        {
+                           "templateId": "Token:delmar_season03_token_kickoff_wk03",
+                           "quantity": 999
+                        },
+                        {
+                           "templateId": "Token:delmar_season03_token_kickoff_wk04",
+                           "quantity": 999
+                        },
+                        {
+                           "templateId": "Token:delmar_season03_token_kickoff_wk05",
+                           "quantity": 999
+                        },
+                        {
+                           "templateId": "Token:delmar_season03_token_kickoff_wk06",
+                           "quantity": 999
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "74vvmanpcf3e2cup6dj43cl1cs[2]0",
@@ -284,7 +379,8 @@
          "eventName": "CalendarEvent_DelMar_Season03_Rank",
          "eventStart": "2024-10-12T08:00:00Z",
          "eventEnd": "2024-12-01T09:00:00Z",
-         "eventType": "EventFlag.Event_DelMar_Season03_Rank"
+         "eventType": "EventFlag.Event_DelMar_Season03_Rank",
+         "profileItem": null
       },
       {
          "instanceId": "4uckd7iq7ns93lcatpn7hj621d[2]0",
@@ -292,7 +388,42 @@
          "eventName": "CalendarEvent_DelMar_TimeTrials_03",
          "eventStart": "2024-10-12T11:00:00Z",
          "eventEnd": "2024-11-08T12:00:00Z",
-         "eventType": "EventFlag.Event_DelMar_TimeTrials_03"
+         "eventType": "EventFlag.Event_DelMar_TimeTrials_03",
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "DelMar_TimeTrials_03",
+            "conditions": {
+               "event": {
+                  "instanceId": "4uckd7iq7ns93lcatpn7hj621d[0]0",
+                  "eventName": "CalendarEvent_DelMar_TimeTrials_03",
+                  "eventStart": "2024-10-12T11:00:00.000Z",
+                  "eventEnd": "2024-11-09T12:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:delmar_questschedule_timetrials_03",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:delmar_questschedule_timetrials_03",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "Token:delmar_season03_token_timetrials",
+                           "quantity": 999
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "3dtigmpouv8g63cce571vtg1vt[2]0",
@@ -300,7 +431,38 @@
          "eventName": "CalendarEvent_Juno_Battlebus",
          "eventStart": "2024-08-15T13:00:00Z",
          "eventEnd": "2025-01-14T14:00:00Z",
-         "eventType": "EventFlag.Event_Juno_BattleBus"
+         "eventType": "EventFlag.Event_Juno_BattleBus",
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Juno_BattleBus",
+            "conditions": {
+               "event": {
+                  "instanceId": "3dtigmpouv8g63cce571vtg1vt[0]0",
+                  "eventName": "CalendarEvent_Juno_Battlebus",
+                  "eventStart": "2024-08-15T13:00:00.000Z",
+                  "eventEnd": "2025-01-14T14:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:bundleschedule_battlebus",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:bundleschedule_battlebus",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "3gv78os4amga401e1l4n5h0h33[2]0",
@@ -308,7 +470,38 @@
          "eventName": "CalendarEvent_Juno_FTUE_V2",
          "eventStart": "2024-06-22T05:00:00Z",
          "eventEnd": "2025-07-22T08:00:00Z",
-         "eventType": "EventFlag.Event_Juno_FTUE_V2"
+         "eventType": "EventFlag.Event_Juno_FTUE_V2",
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "JunoEvent_FTUE_V2",
+            "conditions": {
+               "event": {
+                  "instanceId": "3gv78os4amga401e1l4n5h0h33[0]0",
+                  "eventName": "CalendarEvent_Juno_FTUE_V2",
+                  "eventStart": "2024-06-22T05:00:00.000Z",
+                  "eventEnd": "2025-07-22T08:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:bundleschedule_ftue_v2",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:bundleschedule_ftue_v2",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "0jo2qb31biq7seotnp8s0809dk[2]0",
@@ -316,7 +509,38 @@
          "eventName": "CalendarEvent_Juno_Hardcore",
          "eventStart": "2024-06-11T08:00:00Z",
          "eventEnd": "2025-06-10T08:00:00Z",
-         "eventType": "EventFlag.Event_Juno_Hardcore"
+         "eventType": "EventFlag.Event_Juno_Hardcore",
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Juno_Hardcore",
+            "conditions": {
+               "event": {
+                  "instanceId": "0jo2qb31biq7seotnp8s0809dk[0]0",
+                  "eventName": "CalendarEvent_Juno_Hardcore",
+                  "eventStart": "2024-06-11T08:00:00.000Z",
+                  "eventEnd": "2025-06-10T08:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:bundleschedule_highstakes",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:bundleschedule_highstakes",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "1qpmtohufgsj9hbths6b3m3hrl[2]0",
@@ -324,7 +548,38 @@
          "eventName": "CalendarEvent_Juno_Osiris_TownRewards",
          "eventStart": "2024-05-03T13:00:00Z",
          "eventEnd": "2025-05-02T13:00:00Z",
-         "eventType": "EventFlag.Event_Juno_Osiris_TownRewards"
+         "eventType": "EventFlag.Event_Juno_Osiris_TownRewards",
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Juno_Osiris_TownRewards",
+            "conditions": {
+               "event": {
+                  "instanceId": "1qpmtohufgsj9hbths6b3m3hrl[0]0",
+                  "eventName": "CalendarEvent_Juno_Osiris_TownRewards",
+                  "eventStart": "2024-05-03T13:00:00.000Z",
+                  "eventEnd": "2025-05-02T13:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:bundleschedule_juno_townrewards",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:bundleschedule_juno_townrewards",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "42vjkub8ceb35jba86beeec5n0[2]0",
@@ -332,7 +587,38 @@
          "eventName": "CalendarEvent_RedFish_Quest",
          "eventStart": "2024-10-30T13:00:00Z",
          "eventEnd": "2024-11-13T14:00:00Z",
-         "eventType": "EventFlag.Event_RedFish_Quest"
+         "eventType": "EventFlag.Event_RedFish_Quest",
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Event_RedFish_Quest",
+            "conditions": {
+               "event": {
+                  "instanceId": "42vjkub8ceb35jba86beeec5n0[0]0",
+                  "eventName": "CalendarEvent_RedFish_Quest",
+                  "eventStart": "2024-10-30T13:00:00.000Z",
+                  "eventEnd": "2024-11-13T14:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:schedule_redfish",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:schedule_redfish",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "17rlku68mhoujagmm03qbrmivc[2]0",
@@ -340,7 +626,62 @@
          "eventName": "CalendarEvent_S30_BlastBerryQuests",
          "eventStart": "2024-06-22T18:05:00Z",
          "eventEnd": "2024-11-02T06:00:00Z",
-         "eventType": "EventFlag.Event_S30_BlastBerryQuests"
+         "eventType": "EventFlag.Event_S30_BlastBerryQuests",
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Event_S30_BlastBerryQuests",
+            "conditions": {
+               "event": {
+                  "instanceId": "17rlku68mhoujagmm03qbrmivc[0]0",
+                  "eventName": "CalendarEvent_S30_BlastBerryQuests",
+                  "eventStart": "2024-06-22T18:05:00.000Z",
+                  "eventEnd": "2024-11-02T06:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:season30_blastberry_kickstart_schedule",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "Quest:quest_blastberry_discover_landmarks",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "Quest:quest_blastberry_discover_namedlocations",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "RepeatableDailiesCard:repeatabledailiescard_blastberry",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:season30_blastberry_kickstart_schedule",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "Quest:quest_blastberry_discover_landmarks",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "Quest:quest_blastberry_discover_namedlocations",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "RepeatableDailiesCard:repeatabledailiescard_blastberry",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "5hqhsktmb6bgn3eq58dlea9tbn[2]0",
@@ -348,7 +689,54 @@
          "eventName": "CalendarEvent_S31_BlastBerryQuests",
          "eventStart": "2024-08-16T06:15:00Z",
          "eventEnd": "2024-11-02T06:00:00Z",
-         "eventType": "EventFlag.Event_S31_BlastBerryQuests"
+         "eventType": "EventFlag.Event_S31_BlastBerryQuests",
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Event_S31_BlastBerryQuests",
+            "conditions": {
+               "event": {
+                  "instanceId": "5hqhsktmb6bgn3eq58dlea9tbn[0]0",
+                  "eventName": "CalendarEvent_S31_BlastBerryQuests",
+                  "eventStart": "2024-08-16T06:15:00.000Z",
+                  "eventEnd": "2024-11-02T06:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "Quest:quest_blastberry_discover_landmarks",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "Quest:quest_blastberry_discover_namedlocations",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "RepeatableDailiesCard:repeatabledailiescard_blastberry",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "Quest:quest_blastberry_discover_landmarks",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "Quest:quest_blastberry_discover_namedlocations",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "RepeatableDailiesCard:repeatabledailiescard_blastberry",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "65c9cb46elnencdbq70srlbtuu[2]0",
@@ -356,7 +744,38 @@
          "eventName": "CalendarEvent_S31_FoundQuests_GreenTown",
          "eventStart": "2024-09-17T08:00:00Z",
          "eventEnd": "2024-11-02T06:00:00Z",
-         "eventType": "EventFlag.Event_S31_FoundQuests_GreenTown"
+         "eventType": "EventFlag.Event_S31_FoundQuests_GreenTown",
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Event_S31_FoundQuests_GreenTown",
+            "conditions": {
+               "event": {
+                  "instanceId": "65c9cb46elnencdbq70srlbtuu[0]0",
+                  "eventName": "CalendarEvent_S31_FoundQuests_GreenTown",
+                  "eventStart": "2024-09-17T08:00:00.000Z",
+                  "eventEnd": "2024-11-02T06:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:s31_foundquests_greentown_schedule",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:s31_foundquests_greentown_schedule",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "151ab16d9gp3uihcbmiv63brd7[2]0",
@@ -364,7 +783,38 @@
          "eventName": "CalendarEvent_S31_FoundQuests_PB_P02",
          "eventStart": "2024-09-04T08:00:00Z",
          "eventEnd": "2024-11-03T01:00:00Z",
-         "eventType": "EventFlag.Event_S31_FoundQuests_PB_P02"
+         "eventType": "EventFlag.Event_S31_FoundQuests_PB_P02",
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Event_S31_FoundQuests_PB_P02",
+            "conditions": {
+               "event": {
+                  "instanceId": "151ab16d9gp3uihcbmiv63brd7[0]0",
+                  "eventName": "CalendarEvent_S31_FoundQuests_PB_P02",
+                  "eventStart": "2024-09-04T08:00:00.000Z",
+                  "eventEnd": "2024-11-03T01:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:s31_foundquests_pb_schedule_p02",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:s31_foundquests_pb_schedule_p02",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "3ie3fktrnoh5kf8dqckhmvv4a5[2]0",
@@ -372,7 +822,8 @@
          "eventName": "CalendarEvent_S31_LevelUpPass",
          "eventStart": "2024-10-01T13:00:00Z",
          "eventEnd": "2024-11-02T06:00:00Z",
-         "eventType": "EventFlag.Event_S31_LevelUpPass"
+         "eventType": "EventFlag.Event_S31_LevelUpPass",
+         "profileItem": null
       },
       {
          "instanceId": "159dvva3jhg1p8nen38svrj2o4[2]0",
@@ -380,7 +831,38 @@
          "eventName": "CalendarEvent_S31_MobileQuests",
          "eventStart": "2024-08-16T08:00:00Z",
          "eventEnd": "2024-12-10T08:00:00Z",
-         "eventType": "EventFlag.Event_S31_MobileQuests"
+         "eventType": "EventFlag.Event_S31_MobileQuests",
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Event_S31_MobileQuests",
+            "conditions": {
+               "event": {
+                  "instanceId": "159dvva3jhg1p8nen38svrj2o4[0]0",
+                  "eventName": "CalendarEvent_S31_MobileQuests",
+                  "eventStart": "2024-08-16T08:00:00.000Z",
+                  "eventEnd": "2024-11-02T07:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:season31_schedule_mobilequests",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:season31_schedule_mobilequests",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "7351bir92vdk9pg6vk1amluu5f[2]0",
@@ -388,7 +870,62 @@
          "eventName": "CalendarEvent_S31_NearAcorn",
          "eventStart": "2024-10-10T13:00:00Z",
          "eventEnd": "2024-11-02T06:00:00Z",
-         "eventType": "EventFlag.Event_S31_NearAcorn"
+         "eventType": "EventFlag.Event_S31_NearAcorn",
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Event_S31_NearAcorn",
+            "conditions": {
+               "event": {
+                  "instanceId": "7351bir92vdk9pg6vk1amluu5f[0]0",
+                  "eventName": "CalendarEvent_S31_NearAcorn",
+                  "eventStart": "2024-10-10T13:00:00.000Z",
+                  "eventEnd": "2024-11-02T06:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:sparks_nearacorn_schedule",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:sparks_nearacorn_schedule",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "Token:sparks_nearacorn_d1_token",
+                           "quantity": 9999999
+                        },
+                        {
+                           "templateId": "Token:sparks_nearacorn_d2_token",
+                           "quantity": 9999999
+                        },
+                        {
+                           "templateId": "Token:sparks_nearacorn_d3_token",
+                           "quantity": 9999999
+                        },
+                        {
+                           "templateId": "Token:sparks_nearacorn_d4_token",
+                           "quantity": 9999999
+                        },
+                        {
+                           "templateId": "Token:sparks_nearacorn_d5_token",
+                           "quantity": 9999999
+                        },
+                        {
+                           "templateId": "Token:sparks_nearacorn_d6_token",
+                           "quantity": 9999999
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "6jcd8rqqmihnnins8loes6l1tf[2]0",
@@ -396,7 +933,38 @@
          "eventName": "CalendarEvent_S31_QuestDeckBed",
          "eventStart": "2024-10-01T18:00:00Z",
          "eventEnd": "2024-11-02T18:00:00Z",
-         "eventType": "EventFlag.Event_S31_QuestDeckBed"
+         "eventType": "EventFlag.Event_S31_QuestDeckBed",
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Event_S31_QuestDeckBed",
+            "conditions": {
+               "event": {
+                  "instanceId": "6jcd8rqqmihnnins8loes6l1tf[0]0",
+                  "eventName": "CalendarEvent_S31_QuestDeckBed",
+                  "eventStart": "2024-10-01T18:00:00.000Z",
+                  "eventEnd": "2024-11-02T18:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:s31_deckbedquest_schedule",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:s31_deckbedquest_schedule",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "67nj2k1dcjcksc362m2rhbkmeh[2]0",
@@ -404,7 +972,33 @@
          "eventName": "CalendarEvent_S31_RankedScythe",
          "eventStart": "2024-09-24T13:00:00Z",
          "eventEnd": "2024-12-09T14:00:00Z",
-         "eventType": "EventFlag.Event_S31_RankedScythe"
+         "eventType": "EventFlag.Event_S31_RankedScythe",
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Event_S31_RankedScythe",
+            "conditions": {
+               "event": {
+                  "instanceId": "67nj2k1dcjcksc362m2rhbkmeh[0]0",
+                  "eventName": "CalendarEvent_S31_RankedScythe",
+                  "eventStart": "2024-09-24T13:00:00.000Z",
+                  "eventEnd": "2024-12-09T14:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": []
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:season31_rankedscythe_schedule",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "653est4evkgtmq7jgr9ercgbn4[2]0",
@@ -412,7 +1006,33 @@
          "eventName": "CalendarEvent_S31_RankedScytheGranter ",
          "eventStart": "2024-09-24T13:00:00Z",
          "eventEnd": "2024-11-11T14:00:00Z",
-         "eventType": "EventFlag.Event_S31_RankedScytheGranter "
+         "eventType": "EventFlag.Event_S31_RankedScytheGranter ",
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Event_S31_RankedScytheGranter",
+            "conditions": {
+               "event": {
+                  "instanceId": "653est4evkgtmq7jgr9ercgbn4[0]0",
+                  "eventName": "CalendarEvent_S31_RankedScytheGranter",
+                  "eventStart": "2024-09-24T13:00:00.000Z",
+                  "eventEnd": "2024-11-11T14:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:season31_rankedscythe_schedule",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": []
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "1edeabr2gbnf3ghej3bkrt5kmu[2]0",
@@ -420,7 +1040,8 @@
          "eventName": "CalendarEvent_S31_RankedScytheGranterDuplicateFix",
          "eventStart": "2024-09-24T13:00:00Z",
          "eventEnd": "2024-11-11T14:00:00Z",
-         "eventType": "EventFlag.Event_S31_RankedScytheGranterDuplicateFix"
+         "eventType": "EventFlag.Event_S31_RankedScytheGranterDuplicateFix",
+         "profileItem": null
       },
       {
          "instanceId": "58f28mue2p8g3b9q5am6pp643d[2]0",
@@ -428,7 +1049,8 @@
          "eventName": "CalendarEvent_S31_UISeasonEnd",
          "eventStart": "2024-08-16T08:00:00Z",
          "eventEnd": "2024-11-02T06:00:00Z",
-         "eventType": "EventFlag.Event_S31_UISeasonEnd"
+         "eventType": "EventFlag.Event_S31_UISeasonEnd",
+         "profileItem": null
       },
       {
          "instanceId": "0tl8e8otcnkptqh0obamp30phh[2]0",
@@ -436,7 +1058,38 @@
          "eventName": "CalendarEvent_SparksS05",
          "eventStart": "2024-08-16T05:00:00Z",
          "eventEnd": "2024-11-02T06:00:00Z",
-         "eventType": "EventFlag.Event_SparksS05"
+         "eventType": "EventFlag.Event_SparksS05",
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Event_Sparks_Season05",
+            "conditions": {
+               "event": {
+                  "instanceId": "0tl8e8otcnkptqh0obamp30phh[0]0",
+                  "eventName": "CalendarEvent_SparksS05",
+                  "eventStart": "2024-08-16T05:00:00.000Z",
+                  "eventEnd": "2024-11-02T08:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "AthenaSeason:sparkspasss05_season",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "AthenaSeason:sparkspasss05_season",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "799ik415h4iaf9f2r1rsb6u8lq[2]0",
@@ -444,7 +1097,38 @@
          "eventName": "CalendarEvent_SparksS05_Week11",
          "eventStart": "2024-10-24T23:00:00Z",
          "eventEnd": "2024-11-02T08:00:00Z",
-         "eventType": "EventFlag.Event_SparksS05_Week11"
+         "eventType": "EventFlag.Event_SparksS05_Week11",
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Event_SparksS05_Week11",
+            "conditions": {
+               "event": {
+                  "instanceId": "799ik415h4iaf9f2r1rsb6u8lq[0]0",
+                  "eventName": "CalendarEvent_SparksS05_Week11",
+                  "eventStart": "2024-10-24T23:00:00.000Z",
+                  "eventEnd": "2024-11-02T08:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:sparks_s05_schedule_weekly_w11",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:sparks_s05_schedule_weekly_w11",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "6lk31tisojmv58j3lqqu21sdrp[2]0",
@@ -452,7 +1136,38 @@
          "eventName": "CalendarEvent_SpooktacularPass",
          "eventStart": "2024-10-10T13:00:00Z",
          "eventEnd": "2024-12-10T08:00:00Z",
-         "eventType": "EventFlag.Event_SpooktacularPass"
+         "eventType": "EventFlag.Event_SpooktacularPass",
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Juno Spooktacular Pass",
+            "conditions": {
+               "event": {
+                  "instanceId": "6lk31tisojmv58j3lqqu21sdrp[0]0",
+                  "eventName": "CalendarEvent_SpooktacularPass",
+                  "eventStart": "2024-10-10T13:00:00.000Z",
+                  "eventEnd": "2024-12-10T08:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "AthenaSeason:junospooktacularengagementquests_seasondata",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "AthenaSeason:junospooktacularengagementquests_seasondata",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       }
    ]
 }
