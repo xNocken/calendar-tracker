@@ -3,4 +3,5 @@ export interface AuthData {
   token_type: string;
   expires_in: number;
   expires_at: string;
+  account_id: string;
 }

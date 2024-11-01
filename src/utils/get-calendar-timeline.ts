@@ -1,5 +1,6 @@
 import type { AuthData } from '../types/account-service.js';
 import type { CalendarData } from '../types/fn-service.js';
+import getConditionalActionItemsFromResult from './get-conditional-action-items-from-result.js';
 
 const festivalSongsPrefix = 'PilgrimSong.';
 
@@ -39,17 +40,18 @@ export default async (auth: AuthData) => {
     data: clientEventsChannel.states.map(({ state, activeEvents = [] }) => ({
       season: {
         seasonNumber: state.seasonNumber ?? null,
-        seasonTemplateId: state.seasonTemplateId || null,
-        seasonBegin: state.seasonBegin || null,
-        seasonEnd: state.seasonEnd || null,
-        seasonDisplayedEnd: state.seasonDisplayedEnd || null,
+        seasonTemplateId: state.seasonTemplateId ?? null,
+        seasonBegin: state.seasonBegin ?? null,
+        seasonEnd: state.seasonEnd ?? null,
+        seasonDisplayedEnd: state.seasonDisplayedEnd ?? null,
       },
       activeEvents: activeEvents
         .filter((x) => !x.eventType.startsWith(festivalSongsPrefix))
         .sort((a, b) => a.eventType.localeCompare(b.eventType)),
       additionalActiveEvents: (state.activeEvents || [])
         .filter((x) => !x.eventType.startsWith(festivalSongsPrefix))
-        .sort((a, b) => a.eventType.localeCompare(b.eventType)),
+        .sort((a, b) => a.eventType.localeCompare(b.eventType))
+        .map((obj) => Object.assign(obj, { profileItem: <null | ReturnType<typeof getConditionalActionItemsFromResult>[number]>null, })),
     })),
   };
 };
