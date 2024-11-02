@@ -2,8 +2,8 @@
    "season": {
       "seasonNumber": 32,
       "seasonTemplateId": "AthenaSeason:athenaseason32",
-      "seasonBegin": "2024-10-26T13:00:00Z",
-      "seasonEnd": "2024-12-08T14:00:00Z",
+      "seasonBegin": "2024-10-30T13:00:00Z",
+      "seasonEnd": "2024-12-08T13:00:00Z",
       "seasonDisplayedEnd": "0001-01-01T00:00:00.000Z"
    },
    "activeEvents": [
@@ -139,8 +139,8 @@
       },
       {
          "eventType": "EventFlag.LobbySeason32",
-         "activeUntil": "2024-12-08T14:00:00.000Z",
-         "activeSince": "2024-10-26T13:00:00.000Z"
+         "activeUntil": "2024-12-08T13:00:00.000Z",
+         "activeSince": "2024-10-30T13:00:00.000Z"
       },
       {
          "eventType": "EventFlag.LobbyStW.Fortnitemares",
