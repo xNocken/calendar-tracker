@@ -98,6 +98,11 @@
          "activeSince": "2024-11-02T06:15:00.000Z"
       },
       {
+         "eventType": "EventFlag.Event_S32_RebootRally",
+         "activeUntil": "2024-12-09T15:00:00.000Z",
+         "activeSince": "2024-11-02T13:00:00.000Z"
+      },
+      {
          "eventType": "EventFlag.Event_S32_ScytheGold",
          "activeUntil": "2024-11-11T06:00:00.000Z",
          "activeSince": "2024-11-01T13:00:00.000Z"
@@ -828,6 +833,15 @@
                }
             }
          }
+      },
+      {
+         "instanceId": "4qki5grqde46o026kbd675hf16[2]0",
+         "devName": "Event_S32_RebootRally",
+         "eventName": "CalendarEvent_S32_RebootRally",
+         "eventStart": "2024-11-02T13:00:00Z",
+         "eventEnd": "2024-12-09T15:00:00Z",
+         "eventType": "EventFlag.Event_S32_RebootRally",
+         "profileItem": null
       },
       {
          "instanceId": "7ue43u0grhjbvu738hme6s6oah[2]0",
