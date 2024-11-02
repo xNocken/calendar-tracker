@@ -208,37 +208,6 @@
    },
    {
       "profileId": "athena",
-      "devName": "Event_SparksS05_Week11",
-      "conditions": {
-         "event": {
-            "instanceId": "799ik415h4iaf9f2r1rsb6u8lq[0]0",
-            "eventName": "CalendarEvent_SparksS05_Week11",
-            "eventStart": "2024-10-24T23:00:00.000Z",
-            "eventEnd": "2024-11-02T08:00:00.000Z",
-            "startActions": {
-               "hasRun": true,
-               "itemsToGrant": [
-                  {
-                     "templateId": "ChallengeBundleSchedule:sparks_s05_schedule_weekly_w11",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "endActions": {
-               "hasRun": false,
-               "itemsToRemove": [
-                  {
-                     "templateId": "ChallengeBundleSchedule:sparks_s05_schedule_weekly_w11",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "metaData": {}
-         }
-      }
-   },
-   {
-      "profileId": "athena",
       "devName": "DelMar_Season03",
       "conditions": {
          "event": {
