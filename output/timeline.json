@@ -1,9 +1,9 @@
 {
    "season": {
-      "seasonNumber": 31,
-      "seasonTemplateId": "AthenaSeason:athenaseason31",
-      "seasonBegin": "2024-08-09T13:00:00Z",
-      "seasonEnd": "2024-11-09T14:00:00Z",
+      "seasonNumber": 32,
+      "seasonTemplateId": "AthenaSeason:athenaseason32",
+      "seasonBegin": "2024-10-26T13:00:00Z",
+      "seasonEnd": "2024-12-08T14:00:00Z",
       "seasonDisplayedEnd": "0001-01-01T00:00:00.000Z"
    },
    "activeEvents": [
@@ -21,11 +21,6 @@
          "eventType": "EventFlag.ElderGroupMissions",
          "activeUntil": "2024-11-21T00:00:00.000Z",
          "activeSince": "2024-10-31T00:00:00.000Z"
-      },
-      {
-         "eventType": "EventFlag.Event_ S31_FoundQuests_PB_P02",
-         "activeUntil": "2024-11-03T01:00:00.000Z",
-         "activeSince": "2024-09-04T08:00:00.000Z"
       },
       {
          "eventType": "EventFlag.Event_DelMar_QuestPack_02",
@@ -88,16 +83,6 @@
          "activeSince": "2024-08-16T06:15:00.000Z"
       },
       {
-         "eventType": "EventFlag.Event_S31_FoundQuests_GreenTown",
-         "activeUntil": "2024-11-02T06:00:00.000Z",
-         "activeSince": "2024-09-17T08:00:00.000Z"
-      },
-      {
-         "eventType": "EventFlag.Event_S31_LevelUpPass",
-         "activeUntil": "2024-11-02T06:00:00.000Z",
-         "activeSince": "2024-10-01T13:00:00.000Z"
-      },
-      {
          "eventType": "EventFlag.Event_S31_MobileQuests",
          "activeUntil": "2024-12-10T08:00:00.000Z",
          "activeSince": "2024-08-16T08:00:00.000Z"
@@ -106,11 +91,6 @@
          "eventType": "EventFlag.Event_S31_NearAcorn",
          "activeUntil": "2024-11-02T06:00:00.000Z",
          "activeSince": "2024-10-10T13:00:00.000Z"
-      },
-      {
-         "eventType": "EventFlag.Event_S31_QuestDeckBed",
-         "activeUntil": "2024-11-02T18:00:00.000Z",
-         "activeSince": "2024-10-01T18:00:00.000Z"
       },
       {
          "eventType": "EventFlag.Event_S31_RankedScythe",
@@ -131,6 +111,11 @@
          "eventType": "EventFlag.Event_S31_UISeasonEnd",
          "activeUntil": "2024-11-02T06:00:00.000Z",
          "activeSince": "2024-08-16T08:00:00.000Z"
+      },
+      {
+         "eventType": "EventFlag.Event_S32_ScytheGold",
+         "activeUntil": "2024-11-11T06:00:00.000Z",
+         "activeSince": "2024-11-01T13:00:00.000Z"
       },
       {
          "eventType": "EventFlag.Event_SparksS05",
@@ -161,6 +146,11 @@
          "eventType": "EventFlag.LobbySeason31",
          "activeUntil": "2024-11-09T14:00:00.000Z",
          "activeSince": "2024-08-09T13:00:00.000Z"
+      },
+      {
+         "eventType": "EventFlag.LobbySeason32",
+         "activeUntil": "2024-12-08T14:00:00.000Z",
+         "activeSince": "2024-10-26T13:00:00.000Z"
       },
       {
          "eventType": "EventFlag.LobbyStW.Fortnitemares",
@@ -734,93 +724,6 @@
          }
       },
       {
-         "instanceId": "65c9cb46elnencdbq70srlbtuu[2]0",
-         "devName": "Event_S31_FoundQuests_GreenTown",
-         "eventName": "CalendarEvent_S31_FoundQuests_GreenTown",
-         "eventStart": "2024-09-17T08:00:00Z",
-         "eventEnd": "2024-11-02T06:00:00Z",
-         "eventType": "EventFlag.Event_S31_FoundQuests_GreenTown",
-         "profileItem": {
-            "profileId": "athena",
-            "devName": "Event_S31_FoundQuests_GreenTown",
-            "conditions": {
-               "event": {
-                  "instanceId": "65c9cb46elnencdbq70srlbtuu[0]0",
-                  "eventName": "CalendarEvent_S31_FoundQuests_GreenTown",
-                  "eventStart": "2024-09-17T08:00:00.000Z",
-                  "eventEnd": "2024-11-02T06:00:00.000Z",
-                  "startActions": {
-                     "hasRun": true,
-                     "itemsToGrant": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:s31_foundquests_greentown_schedule",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "endActions": {
-                     "hasRun": false,
-                     "itemsToRemove": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:s31_foundquests_greentown_schedule",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "metaData": {}
-               }
-            }
-         }
-      },
-      {
-         "instanceId": "151ab16d9gp3uihcbmiv63brd7[2]0",
-         "devName": "Event_S31_FoundQuests_PB_P02",
-         "eventName": "CalendarEvent_S31_FoundQuests_PB_P02",
-         "eventStart": "2024-09-04T08:00:00Z",
-         "eventEnd": "2024-11-03T01:00:00Z",
-         "eventType": "EventFlag.Event_S31_FoundQuests_PB_P02",
-         "profileItem": {
-            "profileId": "athena",
-            "devName": "Event_S31_FoundQuests_PB_P02",
-            "conditions": {
-               "event": {
-                  "instanceId": "151ab16d9gp3uihcbmiv63brd7[0]0",
-                  "eventName": "CalendarEvent_S31_FoundQuests_PB_P02",
-                  "eventStart": "2024-09-04T08:00:00.000Z",
-                  "eventEnd": "2024-11-03T01:00:00.000Z",
-                  "startActions": {
-                     "hasRun": true,
-                     "itemsToGrant": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:s31_foundquests_pb_schedule_p02",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "endActions": {
-                     "hasRun": false,
-                     "itemsToRemove": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:s31_foundquests_pb_schedule_p02",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "metaData": {}
-               }
-            }
-         }
-      },
-      {
-         "instanceId": "3ie3fktrnoh5kf8dqckhmvv4a5[2]0",
-         "devName": "Event_S31_LevelUpPass",
-         "eventName": "CalendarEvent_S31_LevelUpPass",
-         "eventStart": "2024-10-01T13:00:00Z",
-         "eventEnd": "2024-11-02T06:00:00Z",
-         "eventType": "EventFlag.Event_S31_LevelUpPass",
-         "profileItem": null
-      },
-      {
          "instanceId": "159dvva3jhg1p8nen38svrj2o4[2]0",
          "devName": "Event_S31_MobileQuests",
          "eventName": "CalendarEvent_S31_MobileQuests",
@@ -923,45 +826,6 @@
          }
       },
       {
-         "instanceId": "6jcd8rqqmihnnins8loes6l1tf[2]0",
-         "devName": "Event_S31_QuestDeckBed",
-         "eventName": "CalendarEvent_S31_QuestDeckBed",
-         "eventStart": "2024-10-01T18:00:00Z",
-         "eventEnd": "2024-11-02T18:00:00Z",
-         "eventType": "EventFlag.Event_S31_QuestDeckBed",
-         "profileItem": {
-            "profileId": "athena",
-            "devName": "Event_S31_QuestDeckBed",
-            "conditions": {
-               "event": {
-                  "instanceId": "6jcd8rqqmihnnins8loes6l1tf[0]0",
-                  "eventName": "CalendarEvent_S31_QuestDeckBed",
-                  "eventStart": "2024-10-01T18:00:00.000Z",
-                  "eventEnd": "2024-11-02T18:00:00.000Z",
-                  "startActions": {
-                     "hasRun": true,
-                     "itemsToGrant": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:s31_deckbedquest_schedule",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "endActions": {
-                     "hasRun": false,
-                     "itemsToRemove": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:s31_deckbedquest_schedule",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "metaData": {}
-               }
-            }
-         }
-      },
-      {
          "instanceId": "67nj2k1dcjcksc362m2rhbkmeh[2]0",
          "devName": "Event_S31_RankedScythe",
          "eventName": "CalendarEvent_S31_RankedScythe",
@@ -1045,6 +909,15 @@
          "eventStart": "2024-08-16T08:00:00Z",
          "eventEnd": "2024-11-02T06:00:00Z",
          "eventType": "EventFlag.Event_S31_UISeasonEnd",
+         "profileItem": null
+      },
+      {
+         "instanceId": "7ue43u0grhjbvu738hme6s6oah[2]0",
+         "devName": "S32_ScytheGold",
+         "eventName": "CalendarEvent_S32_ScytheGold",
+         "eventStart": "2024-11-01T13:00:00Z",
+         "eventEnd": "2024-11-11T06:00:00Z",
+         "eventType": "EventFlag.Event_S32_ScytheGold",
          "profileItem": null
       },
       {

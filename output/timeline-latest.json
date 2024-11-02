@@ -1,9 +1,9 @@
 {
    "season": {
-      "seasonNumber": 31,
-      "seasonTemplateId": "AthenaSeason:athenaseason31",
-      "seasonBegin": "2024-08-09T13:00:00Z",
-      "seasonEnd": "2024-11-09T14:00:00Z",
+      "seasonNumber": 32,
+      "seasonTemplateId": "AthenaSeason:athenaseason32",
+      "seasonBegin": "2024-10-26T13:00:00Z",
+      "seasonEnd": "2024-12-08T14:00:00Z",
       "seasonDisplayedEnd": "0001-01-01T00:00:00.000Z"
    },
    "activeEvents": [
@@ -21,11 +21,6 @@
          "eventType": "EventFlag.ElderGroupMissions",
          "activeUntil": "2024-11-21T00:00:00.000Z",
          "activeSince": "2024-10-31T00:00:00.000Z"
-      },
-      {
-         "eventType": "EventFlag.Event_ S31_FoundQuests_PB_P02",
-         "activeUntil": "2024-11-03T01:00:00.000Z",
-         "activeSince": "2024-09-04T08:00:00.000Z"
       },
       {
          "eventType": "EventFlag.Event_DelMar_QuestPack_02",
@@ -83,11 +78,6 @@
          "activeSince": "2024-08-16T08:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Event_S31_QuestDeckBed",
-         "activeUntil": "2024-11-02T18:00:00.000Z",
-         "activeSince": "2024-10-01T18:00:00.000Z"
-      },
-      {
          "eventType": "EventFlag.Event_S31_RankedScythe",
          "activeUntil": "2024-12-09T14:00:00.000Z",
          "activeSince": "2024-09-24T13:00:00.000Z"
@@ -103,9 +93,29 @@
          "activeSince": "2024-09-24T13:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Event_SparksS05_Week11",
-         "activeUntil": "2024-11-02T08:00:00.000Z",
-         "activeSince": "2024-10-24T23:00:00.000Z"
+         "eventType": "EventFlag.Event_S32_BlastBerryQuests",
+         "activeUntil": "2024-12-01T06:00:00.000Z",
+         "activeSince": "2024-11-02T06:15:00.000Z"
+      },
+      {
+         "eventType": "EventFlag.Event_S32_ScytheGold",
+         "activeUntil": "2024-11-11T06:00:00.000Z",
+         "activeSince": "2024-11-01T13:00:00.000Z"
+      },
+      {
+         "eventType": "EventFlag.Event_S32_UISeasonEnd",
+         "activeUntil": "2024-12-01T07:00:00.000Z",
+         "activeSince": "2024-11-02T08:00:00.000Z"
+      },
+      {
+         "eventType": "EventFlag.Event_SparksS06",
+         "activeUntil": "2025-01-14T07:00:00.000Z",
+         "activeSince": "2024-11-02T06:00:00.000Z"
+      },
+      {
+         "eventType": "EventFlag.Event_SparksS06_Week01",
+         "activeUntil": "2024-11-07T01:00:00.000Z",
+         "activeSince": "2024-11-02T06:00:00.000Z"
       },
       {
          "eventType": "EventFlag.Event_SpooktacularPass",
@@ -121,6 +131,11 @@
          "eventType": "EventFlag.LobbySeason31",
          "activeUntil": "2024-11-09T14:00:00.000Z",
          "activeSince": "2024-08-09T13:00:00.000Z"
+      },
+      {
+         "eventType": "EventFlag.LobbySeason32",
+         "activeUntil": "2024-12-08T14:00:00.000Z",
+         "activeSince": "2024-10-26T13:00:00.000Z"
       },
       {
          "eventType": "EventFlag.LobbyStW.Fortnitemares",
@@ -206,26 +221,6 @@
          "eventType": "EventFlag.STWBrainstorm",
          "activeUntil": "2024-11-21T00:00:00.000Z",
          "activeSince": "2024-10-31T00:00:00.000Z"
-      },
-      {
-         "eventType": "Sparks.Spotlight.ballin",
-         "activeUntil": "2024-11-03T00:00:00.000Z",
-         "activeSince": "2024-11-02T06:00:00.000Z"
-      },
-      {
-         "eventType": "Sparks.Spotlight.beautiful",
-         "activeUntil": "2024-11-03T00:00:00.000Z",
-         "activeSince": "2024-11-02T06:00:00.000Z"
-      },
-      {
-         "eventType": "Sparks.Spotlight.dropitlikeitshot",
-         "activeUntil": "2024-11-03T00:00:00.000Z",
-         "activeSince": "2024-11-02T06:00:00.000Z"
-      },
-      {
-         "eventType": "Sparks.Spotlight.regulate",
-         "activeUntil": "2024-11-03T00:00:00.000Z",
-         "activeSince": "2024-11-02T06:00:00.000Z"
       }
    ],
    "additionalActiveEvents": [
@@ -596,45 +591,6 @@
          }
       },
       {
-         "instanceId": "151ab16d9gp3uihcbmiv63brd7[2]0",
-         "devName": "Event_S31_FoundQuests_PB_P02",
-         "eventName": "CalendarEvent_S31_FoundQuests_PB_P02",
-         "eventStart": "2024-09-04T08:00:00Z",
-         "eventEnd": "2024-11-03T01:00:00Z",
-         "eventType": "EventFlag.Event_S31_FoundQuests_PB_P02",
-         "profileItem": {
-            "profileId": "athena",
-            "devName": "Event_S31_FoundQuests_PB_P02",
-            "conditions": {
-               "event": {
-                  "instanceId": "151ab16d9gp3uihcbmiv63brd7[0]0",
-                  "eventName": "CalendarEvent_S31_FoundQuests_PB_P02",
-                  "eventStart": "2024-09-04T08:00:00.000Z",
-                  "eventEnd": "2024-11-03T01:00:00.000Z",
-                  "startActions": {
-                     "hasRun": true,
-                     "itemsToGrant": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:s31_foundquests_pb_schedule_p02",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "endActions": {
-                     "hasRun": false,
-                     "itemsToRemove": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:s31_foundquests_pb_schedule_p02",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "metaData": {}
-               }
-            }
-         }
-      },
-      {
          "instanceId": "159dvva3jhg1p8nen38svrj2o4[2]0",
          "devName": "Event_S31_MobileQuests",
          "eventName": "CalendarEvent_S31_MobileQuests",
@@ -664,45 +620,6 @@
                      "itemsToRemove": [
                         {
                            "templateId": "ChallengeBundleSchedule:season31_schedule_mobilequests",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "metaData": {}
-               }
-            }
-         }
-      },
-      {
-         "instanceId": "6jcd8rqqmihnnins8loes6l1tf[2]0",
-         "devName": "Event_S31_QuestDeckBed",
-         "eventName": "CalendarEvent_S31_QuestDeckBed",
-         "eventStart": "2024-10-01T18:00:00Z",
-         "eventEnd": "2024-11-02T18:00:00Z",
-         "eventType": "EventFlag.Event_S31_QuestDeckBed",
-         "profileItem": {
-            "profileId": "athena",
-            "devName": "Event_S31_QuestDeckBed",
-            "conditions": {
-               "event": {
-                  "instanceId": "6jcd8rqqmihnnins8loes6l1tf[0]0",
-                  "eventName": "CalendarEvent_S31_QuestDeckBed",
-                  "eventStart": "2024-10-01T18:00:00.000Z",
-                  "eventEnd": "2024-11-02T18:00:00.000Z",
-                  "startActions": {
-                     "hasRun": true,
-                     "itemsToGrant": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:s31_deckbedquest_schedule",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "endActions": {
-                     "hasRun": false,
-                     "itemsToRemove": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:s31_deckbedquest_schedule",
                            "quantity": 1
                         }
                      ]
@@ -790,43 +707,49 @@
          "profileItem": null
       },
       {
-         "instanceId": "799ik415h4iaf9f2r1rsb6u8lq[2]0",
-         "devName": "Event_SparksS05_Week11",
-         "eventName": "CalendarEvent_SparksS05_Week11",
-         "eventStart": "2024-10-24T23:00:00Z",
-         "eventEnd": "2024-11-02T08:00:00Z",
-         "eventType": "EventFlag.Event_SparksS05_Week11",
-         "profileItem": {
-            "profileId": "athena",
-            "devName": "Event_SparksS05_Week11",
-            "conditions": {
-               "event": {
-                  "instanceId": "799ik415h4iaf9f2r1rsb6u8lq[0]0",
-                  "eventName": "CalendarEvent_SparksS05_Week11",
-                  "eventStart": "2024-10-24T23:00:00.000Z",
-                  "eventEnd": "2024-11-02T08:00:00.000Z",
-                  "startActions": {
-                     "hasRun": true,
-                     "itemsToGrant": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:sparks_s05_schedule_weekly_w11",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "endActions": {
-                     "hasRun": false,
-                     "itemsToRemove": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:sparks_s05_schedule_weekly_w11",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "metaData": {}
-               }
-            }
-         }
+         "instanceId": "0ofakdo6svhho2l33jv6ji759j[2]0",
+         "devName": "Event_S32_BlastBerryQuests",
+         "eventName": "CalendarEvent_S32_BlastBerryQuests",
+         "eventStart": "2024-11-02T06:15:00Z",
+         "eventEnd": "2024-12-01T06:00:00Z",
+         "eventType": "EventFlag.Event_S32_BlastBerryQuests",
+         "profileItem": null
+      },
+      {
+         "instanceId": "7ue43u0grhjbvu738hme6s6oah[2]0",
+         "devName": "S32_ScytheGold",
+         "eventName": "CalendarEvent_S32_ScytheGold",
+         "eventStart": "2024-11-01T13:00:00Z",
+         "eventEnd": "2024-11-11T06:00:00Z",
+         "eventType": "EventFlag.Event_S32_ScytheGold",
+         "profileItem": null
+      },
+      {
+         "instanceId": "2l8ugbbfnght55cfp46h6vl8ae[2]0",
+         "devName": "Event_S32_UISeasonEnd",
+         "eventName": "CalendarEvent_S32_UISeasonEnd",
+         "eventStart": "2024-11-02T08:00:00Z",
+         "eventEnd": "2024-12-01T07:00:00Z",
+         "eventType": "EventFlag.Event_S32_UISeasonEnd",
+         "profileItem": null
+      },
+      {
+         "instanceId": "40i16co6k0nc1q27sskla40l6c[2]0",
+         "devName": "Event_Sparks_Season06",
+         "eventName": "CalendarEvent_SparksS06",
+         "eventStart": "2024-11-02T06:00:00Z",
+         "eventEnd": "2025-01-14T07:00:00Z",
+         "eventType": "EventFlag.Event_SparksS06",
+         "profileItem": null
+      },
+      {
+         "instanceId": "593n99o3d6v31r6d1rarqcpgei[2]0",
+         "devName": "Event_SparksS06_Week01",
+         "eventName": "CalendarEvent_SparksS06_Week01",
+         "eventStart": "2024-11-02T06:00:00Z",
+         "eventEnd": "2024-11-07T01:00:00Z",
+         "eventType": "EventFlag.Event_SparksS06_Week01",
+         "profileItem": null
       },
       {
          "instanceId": "6lk31tisojmv58j3lqqu21sdrp[2]0",
