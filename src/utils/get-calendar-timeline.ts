@@ -2,7 +2,8 @@ import type { AuthData } from '../types/account-service.js';
 import type { CalendarData } from '../types/fn-service.js';
 import getConditionalActionItemsFromResult from './get-conditional-action-items-from-result.js';
 
-const festivalSongsPrefix = 'PilgrimSong.';
+const festivalFeaturedSongsPrefix = 'PilgrimSong.';
+const festivalSpotlightSongsPrefix = 'Sparks.Spotlight.';
 
 export default async (auth: AuthData) => {
   const res = await fetch(
@@ -46,10 +47,10 @@ export default async (auth: AuthData) => {
         seasonDisplayedEnd: state.seasonDisplayedEnd ?? null,
       },
       activeEvents: activeEvents
-        .filter((x) => !x.eventType.startsWith(festivalSongsPrefix))
+        .filter((x) => !x.eventType.startsWith(festivalFeaturedSongsPrefix) && !x.eventType.startsWith(festivalSpotlightSongsPrefix))
         .sort((a, b) => a.eventType.localeCompare(b.eventType)),
       additionalActiveEvents: (state.activeEvents || [])
-        .filter((x) => !x.eventType.startsWith(festivalSongsPrefix))
+        .filter((x) => !x.eventType.startsWith(festivalFeaturedSongsPrefix) && !x.eventType.startsWith(festivalSpotlightSongsPrefix))
         .sort((a, b) => a.eventType.localeCompare(b.eventType))
         .map((obj) => Object.assign(obj, { profileItem: <null | ReturnType<typeof getConditionalActionItemsFromResult>[number]>null, })),
     })),
