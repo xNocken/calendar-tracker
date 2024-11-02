@@ -93,6 +93,11 @@
          "activeSince": "2024-09-24T13:00:00.000Z"
       },
       {
+         "eventType": "EventFlag.Event_S32_BlastBerryQuests",
+         "activeUntil": "2024-12-01T06:00:00.000Z",
+         "activeSince": "2024-11-02T06:15:00.000Z"
+      },
+      {
          "eventType": "EventFlag.Event_S32_ScytheGold",
          "activeUntil": "2024-11-11T06:00:00.000Z",
          "activeSince": "2024-11-01T13:00:00.000Z"
@@ -699,6 +704,15 @@
          "eventStart": "2024-09-24T13:00:00Z",
          "eventEnd": "2024-11-11T14:00:00Z",
          "eventType": "EventFlag.Event_S31_RankedScytheGranterDuplicateFix",
+         "profileItem": null
+      },
+      {
+         "instanceId": "0ofakdo6svhho2l33jv6ji759j[2]0",
+         "devName": "Event_S32_BlastBerryQuests",
+         "eventName": "CalendarEvent_S32_BlastBerryQuests",
+         "eventStart": "2024-11-02T06:15:00Z",
+         "eventEnd": "2024-12-01T06:00:00Z",
+         "eventType": "EventFlag.Event_S32_BlastBerryQuests",
          "profileItem": null
       },
       {
