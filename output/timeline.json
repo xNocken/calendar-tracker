@@ -103,9 +103,9 @@
          "activeSince": "2024-11-01T13:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Event_SparksS05_Week11",
-         "activeUntil": "2024-11-02T08:00:00.000Z",
-         "activeSince": "2024-10-24T23:00:00.000Z"
+         "eventType": "EventFlag.Event_S32_UISeasonEnd",
+         "activeUntil": "2024-12-01T07:00:00.000Z",
+         "activeSince": "2024-11-02T08:00:00.000Z"
       },
       {
          "eventType": "EventFlag.Event_SparksS06",
@@ -869,12 +869,12 @@
          }
       },
       {
-         "instanceId": "799ik415h4iaf9f2r1rsb6u8lq[2]0",
-         "devName": "Event_SparksS05_Week11",
-         "eventName": "CalendarEvent_SparksS05_Week11",
-         "eventStart": "2024-10-24T23:00:00Z",
-         "eventEnd": "2024-11-02T08:00:00Z",
-         "eventType": "EventFlag.Event_SparksS05_Week11",
+         "instanceId": "2l8ugbbfnght55cfp46h6vl8ae[2]0",
+         "devName": "Event_S32_UISeasonEnd",
+         "eventName": "CalendarEvent_S32_UISeasonEnd",
+         "eventStart": "2024-11-02T08:00:00Z",
+         "eventEnd": "2024-12-01T07:00:00Z",
+         "eventType": "EventFlag.Event_S32_UISeasonEnd",
          "profileItem": null
       },
       {
