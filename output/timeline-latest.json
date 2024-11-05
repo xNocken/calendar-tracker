@@ -841,7 +841,44 @@
          "eventStart": "2024-11-02T13:00:00Z",
          "eventEnd": "2024-12-09T15:00:00Z",
          "eventType": "EventFlag.Event_S32_RebootRally",
-         "profileItem": null
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Event_S32_RebootRally",
+            "conditions": {
+               "event": {
+                  "instanceId": "4qki5grqde46o026kbd675hf16[0]0",
+                  "eventName": "CalendarEvent_S32_RebootRally",
+                  "eventStart": "2024-11-02T13:00:00.000Z",
+                  "eventEnd": "2024-12-09T15:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:season_s32_rebootrally_schedule",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:season_s32_rebootrally_schedule",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {
+                     "rebootRallyQuests": "[\"Quest:quest_s32_rebootrally_quest2_01\",\"Quest:quest_s32_rebootrally_quest2_02\",\"Quest:quest_s32_rebootrally_quest2_03\",\"Quest:quest_s32_rebootrally_quest2_04\",\"Quest:quest_s32_rebootrally_quest2_05\"]",
+                     "rebootRallyRewards": "[\"Quest:quest_s32_rebootrally_rewards_01\",\"Quest:quest_s32_rebootrally_rewards_02\",\"Quest:quest_s32_rebootrally_rewards_03\"]",
+                     "rebootRallyPoints": "AccountResource:s32_rebootpoints",
+                     "rebootRallyGiftboxSubGame": "Athena",
+                     "rebootRallyGiftboxTemplate": "GiftBox:gb_generic",
+                     "rebootRallyClientQuest": "Quest:quest_s32_rebootrally_quest1_01"
+                  }
+               }
+            }
+         }
       },
       {
          "instanceId": "7ue43u0grhjbvu738hme6s6oah[2]0",
