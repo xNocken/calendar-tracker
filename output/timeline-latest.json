@@ -118,9 +118,9 @@
          "activeSince": "2024-11-02T06:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Event_SparksS06_Week01",
-         "activeUntil": "2024-11-07T01:00:00.000Z",
-         "activeSince": "2024-11-02T06:00:00.000Z"
+         "eventType": "EventFlag.Event_SparksS06_Week02",
+         "activeUntil": "2024-11-14T01:00:00.000Z",
+         "activeSince": "2024-11-07T01:00:00.000Z"
       },
       {
          "eventType": "EventFlag.Event_SpooktacularPass",
@@ -968,43 +968,13 @@
          }
       },
       {
-         "instanceId": "593n99o3d6v31r6d1rarqcpgei[2]0",
-         "devName": "Event_SparksS06_Week01",
-         "eventName": "CalendarEvent_SparksS06_Week01",
-         "eventStart": "2024-11-02T06:00:00Z",
-         "eventEnd": "2024-11-07T01:00:00Z",
-         "eventType": "EventFlag.Event_SparksS06_Week01",
-         "profileItem": {
-            "profileId": "athena",
-            "devName": "Event_SparksS06_Week01",
-            "conditions": {
-               "event": {
-                  "instanceId": "593n99o3d6v31r6d1rarqcpgei[0]0",
-                  "eventName": "CalendarEvent_SparksS06_Week01",
-                  "eventStart": "2024-11-02T06:00:00.000Z",
-                  "eventEnd": "2024-11-07T01:00:00.000Z",
-                  "startActions": {
-                     "hasRun": true,
-                     "itemsToGrant": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:sparks_s06_schedule_weekly_w01",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "endActions": {
-                     "hasRun": false,
-                     "itemsToRemove": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:sparks_s06_schedule_weekly_w01",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "metaData": {}
-               }
-            }
-         }
+         "instanceId": "296sdphdp639eld5lqkeq3solr[2]0",
+         "devName": "Event_SparksS06_Week02",
+         "eventName": "CalendarEvent_SparksS06_Week02",
+         "eventStart": "2024-11-07T01:00:00Z",
+         "eventEnd": "2024-11-14T01:00:00Z",
+         "eventType": "EventFlag.Event_SparksS06_Week02",
+         "profileItem": null
       },
       {
          "instanceId": "6lk31tisojmv58j3lqqu21sdrp[2]0",
