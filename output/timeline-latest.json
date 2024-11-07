@@ -8,6 +8,11 @@
    },
    "activeEvents": [
       {
+         "eventType": "<span>PilgrimSong</span>.changes",
+         "activeUntil": "2024-11-09T00:00:00.000Z",
+         "activeSince": "2024-11-08T00:00:00.000Z"
+      },
+      {
          "eventType": "EventFlag.CramSession",
          "activeUntil": "2024-11-21T00:00:00.000Z",
          "activeSince": "2024-10-31T00:00:00.000Z"
