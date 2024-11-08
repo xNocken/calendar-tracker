@@ -48,9 +48,9 @@
          "activeSince": "2024-10-12T08:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Event_DelMar_TimeTrials_03",
-         "activeUntil": "2024-11-08T12:00:00.000Z",
-         "activeSince": "2024-10-12T11:00:00.000Z"
+         "eventType": "EventFlag.Event_DelMar_TimeTrials_04",
+         "activeUntil": "2024-11-29T12:00:00.000Z",
+         "activeSince": "2024-11-08T12:00:00.000Z"
       },
       {
          "eventType": "EventFlag.Event_Juno_BattleBus",
@@ -363,47 +363,13 @@
          "profileItem": null
       },
       {
-         "instanceId": "4uckd7iq7ns93lcatpn7hj621d[2]0",
-         "devName": "DelMar_TimeTrials_03",
-         "eventName": "CalendarEvent_DelMar_TimeTrials_03",
-         "eventStart": "2024-10-12T11:00:00Z",
-         "eventEnd": "2024-11-08T12:00:00Z",
-         "eventType": "EventFlag.Event_DelMar_TimeTrials_03",
-         "profileItem": {
-            "profileId": "athena",
-            "devName": "DelMar_TimeTrials_03",
-            "conditions": {
-               "event": {
-                  "instanceId": "4uckd7iq7ns93lcatpn7hj621d[0]0",
-                  "eventName": "CalendarEvent_DelMar_TimeTrials_03",
-                  "eventStart": "2024-10-12T11:00:00.000Z",
-                  "eventEnd": "2024-11-09T12:00:00.000Z",
-                  "startActions": {
-                     "hasRun": true,
-                     "itemsToGrant": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:delmar_questschedule_timetrials_03",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "endActions": {
-                     "hasRun": false,
-                     "itemsToRemove": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:delmar_questschedule_timetrials_03",
-                           "quantity": 1
-                        },
-                        {
-                           "templateId": "Token:delmar_season03_token_timetrials",
-                           "quantity": 999
-                        }
-                     ]
-                  },
-                  "metaData": {}
-               }
-            }
-         }
+         "instanceId": "0jmaaoidfl91o8i7o79dvt2ef5[2]0",
+         "devName": "DelMar_TimeTrials_04",
+         "eventName": "CalendarEvent_DelMar_TimeTrials_04",
+         "eventStart": "2024-11-08T12:00:00Z",
+         "eventEnd": "2024-11-29T12:00:00Z",
+         "eventType": "EventFlag.Event_DelMar_TimeTrials_04",
+         "profileItem": null
       },
       {
          "instanceId": "3dtigmpouv8g63cce571vtg1vt[2]0",
