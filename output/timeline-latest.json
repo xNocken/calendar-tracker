@@ -138,11 +138,6 @@
          "activeSince": "2024-09-05T00:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.LobbySeason31",
-         "activeUntil": "2024-11-09T14:00:00.000Z",
-         "activeSince": "2024-08-09T13:00:00.000Z"
-      },
-      {
          "eventType": "EventFlag.LobbySeason32",
          "activeUntil": "2024-12-08T13:00:00.000Z",
          "activeSince": "2024-10-30T13:00:00.000Z"
