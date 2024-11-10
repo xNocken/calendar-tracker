@@ -142,41 +142,6 @@
    },
    {
       "profileId": "athena",
-      "devName": "DelMar_TimeTrials_03",
-      "conditions": {
-         "event": {
-            "instanceId": "4uckd7iq7ns93lcatpn7hj621d[0]0",
-            "eventName": "CalendarEvent_DelMar_TimeTrials_03",
-            "eventStart": "2024-10-12T11:00:00.000Z",
-            "eventEnd": "2024-11-09T12:00:00.000Z",
-            "startActions": {
-               "hasRun": true,
-               "itemsToGrant": [
-                  {
-                     "templateId": "ChallengeBundleSchedule:delmar_questschedule_timetrials_03",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "endActions": {
-               "hasRun": false,
-               "itemsToRemove": [
-                  {
-                     "templateId": "ChallengeBundleSchedule:delmar_questschedule_timetrials_03",
-                     "quantity": 1
-                  },
-                  {
-                     "templateId": "Token:delmar_season03_token_timetrials",
-                     "quantity": 999
-                  }
-               ]
-            },
-            "metaData": {}
-         }
-      }
-   },
-   {
-      "profileId": "athena",
       "devName": "Event_S31_MobileQuests",
       "conditions": {
          "event": {
@@ -371,6 +336,72 @@
    },
    {
       "profileId": "athena",
+      "devName": "Event_SparksS06_Week02",
+      "conditions": {
+         "event": {
+            "instanceId": "296sdphdp639eld5lqkeq3solr[0]0",
+            "eventName": "CalendarEvent_SparksS06_Week02",
+            "eventStart": "2024-11-07T01:00:00.000Z",
+            "eventEnd": "2024-11-14T01:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:sparks_s06_schedule_weekly_w02",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:sparks_s06_schedule_weekly_w02",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "DelMar_TimeTrials_04",
+      "conditions": {
+         "event": {
+            "instanceId": "0jmaaoidfl91o8i7o79dvt2ef5[0]0",
+            "eventName": "CalendarEvent_DelMar_TimeTrials_04",
+            "eventStart": "2024-11-08T12:00:00.000Z",
+            "eventEnd": "2024-11-29T12:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:delmar_questschedule_timetrials_04",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:delmar_questschedule_timetrials_04",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "Token:delmar_season03_token_timetrials_02",
+                     "quantity": 999
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
       "devName": "JunoEvent_FTUE_V2",
       "conditions": {
          "event": {
@@ -506,37 +537,6 @@
                "itemsToRemove": [
                   {
                      "templateId": "ChallengeBundleSchedule:season31_rankedscythe_schedule",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "metaData": {}
-         }
-      }
-   },
-   {
-      "profileId": "athena",
-      "devName": "Event_SparksS06_Week01",
-      "conditions": {
-         "event": {
-            "instanceId": "593n99o3d6v31r6d1rarqcpgei[0]0",
-            "eventName": "CalendarEvent_SparksS06_Week01",
-            "eventStart": "2024-11-02T06:00:00.000Z",
-            "eventEnd": "2024-11-07T01:00:00.000Z",
-            "startActions": {
-               "hasRun": true,
-               "itemsToGrant": [
-                  {
-                     "templateId": "ChallengeBundleSchedule:sparks_s06_schedule_weekly_w01",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "endActions": {
-               "hasRun": false,
-               "itemsToRemove": [
-                  {
-                     "templateId": "ChallengeBundleSchedule:sparks_s06_schedule_weekly_w01",
                      "quantity": 1
                   }
                ]
