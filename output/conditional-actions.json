@@ -464,32 +464,6 @@
    },
    {
       "profileId": "athena",
-      "devName": "Event_S31_RankedScytheGranter",
-      "conditions": {
-         "event": {
-            "instanceId": "653est4evkgtmq7jgr9ercgbn4[0]0",
-            "eventName": "CalendarEvent_S31_RankedScytheGranter",
-            "eventStart": "2024-09-24T13:00:00.000Z",
-            "eventEnd": "2024-11-11T14:00:00.000Z",
-            "startActions": {
-               "hasRun": true,
-               "itemsToGrant": [
-                  {
-                     "templateId": "ChallengeBundleSchedule:season31_rankedscythe_schedule",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "endActions": {
-               "hasRun": false,
-               "itemsToRemove": []
-            },
-            "metaData": {}
-         }
-      }
-   },
-   {
-      "profileId": "athena",
       "devName": "Juno_Osiris_TownRewards",
       "conditions": {
          "event": {
@@ -683,37 +657,6 @@
                   },
                   {
                      "templateId": "RepeatableDailiesCard:repeatabledailiescard_blastberry",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "metaData": {}
-         }
-      }
-   },
-   {
-      "profileId": "athena",
-      "devName": "S32_ScytheGold",
-      "conditions": {
-         "event": {
-            "instanceId": "7ue43u0grhjbvu738hme6s6oah[0]0",
-            "eventName": "CalendarEvent_S32_ScytheGold",
-            "eventStart": "2024-11-01T13:00:00.000Z",
-            "eventEnd": "2024-11-11T06:00:00.000Z",
-            "startActions": {
-               "hasRun": true,
-               "itemsToGrant": [
-                  {
-                     "templateId": "ChallengeBundleSchedule:season_s32_scythegold_schedule",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "endActions": {
-               "hasRun": false,
-               "itemsToRemove": [
-                  {
-                     "templateId": "ChallengeBundleSchedule:season_s32_scythegold_schedule",
                      "quantity": 1
                   }
                ]
