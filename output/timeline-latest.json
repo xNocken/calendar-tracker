@@ -108,11 +108,6 @@
          "activeSince": "2024-11-02T13:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Event_S32_ScytheGold",
-         "activeUntil": "2024-11-11T06:00:00.000Z",
-         "activeSince": "2024-11-01T13:00:00.000Z"
-      },
-      {
          "eventType": "EventFlag.Event_S32_UISeasonEnd",
          "activeUntil": "2024-12-01T07:00:00.000Z",
          "activeSince": "2024-11-02T08:00:00.000Z"
@@ -876,45 +871,6 @@
                      "rebootRallyGiftboxTemplate": "GiftBox:gb_generic",
                      "rebootRallyClientQuest": "Quest:quest_s32_rebootrally_quest1_01"
                   }
-               }
-            }
-         }
-      },
-      {
-         "instanceId": "7ue43u0grhjbvu738hme6s6oah[2]0",
-         "devName": "S32_ScytheGold",
-         "eventName": "CalendarEvent_S32_ScytheGold",
-         "eventStart": "2024-11-01T13:00:00Z",
-         "eventEnd": "2024-11-11T06:00:00Z",
-         "eventType": "EventFlag.Event_S32_ScytheGold",
-         "profileItem": {
-            "profileId": "athena",
-            "devName": "S32_ScytheGold",
-            "conditions": {
-               "event": {
-                  "instanceId": "7ue43u0grhjbvu738hme6s6oah[0]0",
-                  "eventName": "CalendarEvent_S32_ScytheGold",
-                  "eventStart": "2024-11-01T13:00:00.000Z",
-                  "eventEnd": "2024-11-11T06:00:00.000Z",
-                  "startActions": {
-                     "hasRun": true,
-                     "itemsToGrant": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:season_s32_scythegold_schedule",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "endActions": {
-                     "hasRun": false,
-                     "itemsToRemove": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:season_s32_scythegold_schedule",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "metaData": {}
                }
             }
          }
