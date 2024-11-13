@@ -8,11 +8,6 @@
    },
    "activeEvents": [
       {
-         "eventType": "<span>PilgrimSong</span>.changes",
-         "activeUntil": "2024-11-14T00:00:00.000Z",
-         "activeSince": "2024-11-09T00:00:00.000Z"
-      },
-      {
          "eventType": "EventFlag.BetaStorms.B",
          "activeUntil": "2025-01-23T00:00:00.000Z",
          "activeSince": "2024-09-18T00:00:00.000Z"
