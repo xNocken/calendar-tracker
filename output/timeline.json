@@ -78,11 +78,6 @@
          "activeSince": "2024-05-03T13:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Event_RedFish_Quest",
-         "activeUntil": "2024-11-13T14:00:00.000Z",
-         "activeSince": "2024-10-30T13:00:00.000Z"
-      },
-      {
          "eventType": "EventFlag.Event_S31_MobileQuests",
          "activeUntil": "2024-12-10T08:00:00.000Z",
          "activeSince": "2024-08-16T08:00:00.000Z"
@@ -542,45 +537,6 @@
                      "itemsToRemove": [
                         {
                            "templateId": "ChallengeBundleSchedule:bundleschedule_juno_townrewards",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "metaData": {}
-               }
-            }
-         }
-      },
-      {
-         "instanceId": "42vjkub8ceb35jba86beeec5n0[2]0",
-         "devName": "Event_RedFish_Quest",
-         "eventName": "CalendarEvent_RedFish_Quest",
-         "eventStart": "2024-10-30T13:00:00Z",
-         "eventEnd": "2024-11-13T14:00:00Z",
-         "eventType": "EventFlag.Event_RedFish_Quest",
-         "profileItem": {
-            "profileId": "athena",
-            "devName": "Event_RedFish_Quest",
-            "conditions": {
-               "event": {
-                  "instanceId": "42vjkub8ceb35jba86beeec5n0[0]0",
-                  "eventName": "CalendarEvent_RedFish_Quest",
-                  "eventStart": "2024-10-30T13:00:00.000Z",
-                  "eventEnd": "2024-11-13T14:00:00.000Z",
-                  "startActions": {
-                     "hasRun": true,
-                     "itemsToGrant": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:schedule_redfish",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "endActions": {
-                     "hasRun": false,
-                     "itemsToRemove": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:schedule_redfish",
                            "quantity": 1
                         }
                      ]
