@@ -93,11 +93,6 @@
          "activeSince": "2024-11-02T06:15:00.000Z"
       },
       {
-         "eventType": "EventFlag.Event_S32_DailyDiscovery_MeltedIron",
-         "activeUntil": "2024-11-26T09:00:00.000Z",
-         "activeSince": "2024-11-13T19:00:00.000Z"
-      },
-      {
          "eventType": "EventFlag.Event_S32_RebootRally",
          "activeUntil": "2024-12-09T15:00:00.000Z",
          "activeSince": "2024-11-02T13:00:00.000Z"
@@ -746,15 +741,6 @@
                }
             }
          }
-      },
-      {
-         "instanceId": "7q9hgmru5rbjh8tmlaas0u1478[2]0",
-         "devName": "S32_DailyDiscovery_MeltedIron",
-         "eventName": "CalendarEvent_S32_DailyDiscovery_MeltedIron",
-         "eventStart": "2024-11-13T19:00:00Z",
-         "eventEnd": "2024-11-26T09:00:00Z",
-         "eventType": "EventFlag.Event_S32_DailyDiscovery_MeltedIron",
-         "profileItem": null
       },
       {
          "instanceId": "4qki5grqde46o026kbd675hf16[2]0",
