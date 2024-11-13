@@ -13,6 +13,11 @@
          "activeSince": "2024-11-09T00:00:00.000Z"
       },
       {
+         "eventType": "EventFlag.BetaStorms.B",
+         "activeUntil": "2025-01-23T00:00:00.000Z",
+         "activeSince": "2024-09-18T00:00:00.000Z"
+      },
+      {
          "eventType": "EventFlag.CramSession",
          "activeUntil": "2024-11-21T00:00:00.000Z",
          "activeSince": "2024-10-31T00:00:00.000Z"
@@ -211,6 +216,11 @@
          "eventType": "EventFlag.STWBrainstorm",
          "activeUntil": "2024-11-21T00:00:00.000Z",
          "activeSince": "2024-10-31T00:00:00.000Z"
+      },
+      {
+         "eventType": "EventFlag.STWHuntMonster",
+         "activeUntil": "2025-01-23T00:00:00.000Z",
+         "activeSince": "2024-10-02T00:00:00.000Z"
       }
    ],
    "additionalActiveEvents": [
