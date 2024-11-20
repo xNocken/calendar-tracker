@@ -103,9 +103,9 @@
          "activeSince": "2024-11-02T06:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Event_SparksS06_Week03",
-         "activeUntil": "2024-11-21T01:00:00.000Z",
-         "activeSince": "2024-11-14T01:00:00.000Z"
+         "eventType": "EventFlag.Event_SparksS06_Week04",
+         "activeUntil": "2024-11-28T01:00:00.000Z",
+         "activeSince": "2024-11-21T01:00:00.000Z"
       },
       {
          "eventType": "EventFlag.Event_SpooktacularPass",
@@ -801,12 +801,12 @@
          }
       },
       {
-         "instanceId": "7c5md84difthoabprfp1h9q8ar[2]0",
-         "devName": "Event_SparksS06_Week03",
-         "eventName": "CalendarEvent_SparksS06_Week03",
-         "eventStart": "2024-11-14T01:00:00Z",
-         "eventEnd": "2024-11-21T01:00:00Z",
-         "eventType": "EventFlag.Event_SparksS06_Week03",
+         "instanceId": "7ca1q421uo9gnk3cnluq1q23pr[2]0",
+         "devName": "Event_SparksS06_Week04",
+         "eventName": "CalendarEvent_SparksS06_Week04",
+         "eventStart": "2024-11-21T01:00:00Z",
+         "eventEnd": "2024-11-28T01:00:00Z",
+         "eventType": "EventFlag.Event_SparksS06_Week04",
          "profileItem": null
       },
       {
