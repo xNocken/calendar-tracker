@@ -8,24 +8,19 @@
    },
    "activeEvents": [
       {
+         "eventType": "EventFlag.ActiveIceStorms",
+         "activeUntil": "2025-01-23T00:00:00.000Z",
+         "activeSince": "2024-11-21T00:00:00.000Z"
+      },
+      {
          "eventType": "EventFlag.BetaStorms.B",
          "activeUntil": "2025-01-23T00:00:00.000Z",
          "activeSince": "2024-09-18T00:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.CramSession",
-         "activeUntil": "2024-11-21T00:00:00.000Z",
-         "activeSince": "2024-10-31T00:00:00.000Z"
-      },
-      {
-         "eventType": "EventFlag.CramSessionMiniboss",
-         "activeUntil": "2024-11-21T00:00:00.000Z",
-         "activeSince": "2024-10-31T00:00:00.000Z"
-      },
-      {
          "eventType": "EventFlag.ElderGroupMissions",
-         "activeUntil": "2024-11-21T00:00:00.000Z",
-         "activeSince": "2024-10-31T00:00:00.000Z"
+         "activeUntil": "2025-01-23T00:00:00.000Z",
+         "activeSince": "2024-11-21T00:00:00.000Z"
       },
       {
          "eventType": "EventFlag.Event_DelMar_QuestPack_02",
@@ -118,104 +113,64 @@
          "activeSince": "2024-10-10T13:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Fortnitemares.EnableEnemyVariants",
-         "activeUntil": "2024-11-21T00:00:00.000Z",
-         "activeSince": "2024-09-05T00:00:00.000Z"
-      },
-      {
          "eventType": "EventFlag.LobbySeason32",
          "activeUntil": "2024-12-08T14:00:00.000Z",
          "activeSince": "2024-10-30T14:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.LobbyStW.Fortnitemares",
-         "activeUntil": "2024-11-21T00:00:00.000Z",
-         "activeSince": "2024-09-05T00:00:00.000Z"
+         "eventType": "EventFlag.LobbyStW.Winterfest",
+         "activeUntil": "2025-01-23T00:00:00.000Z",
+         "activeSince": "2024-11-21T00:00:00.000Z"
       },
       {
          "eventType": "EventFlag.MissionAlert.MegaAlert",
-         "activeUntil": "2024-11-21T00:00:00.000Z",
-         "activeSince": "2024-10-31T00:00:00.000Z"
-      },
-      {
-         "eventType": "EventFlag.MissionAlert.MegaAlertMiniboss",
-         "activeUntil": "2024-11-21T00:00:00.000Z",
-         "activeSince": "2024-10-31T00:00:00.000Z"
+         "activeUntil": "2025-01-23T00:00:00.000Z",
+         "activeSince": "2024-11-21T00:00:00.000Z"
       },
       {
          "eventType": "EventFlag.PassiveFireStorms",
-         "activeUntil": "2024-11-21T00:00:00.000Z",
-         "activeSince": "2024-10-31T00:00:00.000Z"
-      },
-      {
-         "eventType": "EventFlag.PassiveIceStorms",
-         "activeUntil": "2024-11-21T00:00:00.000Z",
-         "activeSince": "2024-10-31T00:00:00.000Z"
+         "activeUntil": "2025-01-23T00:00:00.000Z",
+         "activeSince": "2024-11-21T00:00:00.000Z"
       },
       {
          "eventType": "EventFlag.PassiveLightningStorms",
-         "activeUntil": "2024-11-21T00:00:00.000Z",
-         "activeSince": "2024-10-31T00:00:00.000Z"
+         "activeUntil": "2025-01-23T00:00:00.000Z",
+         "activeSince": "2024-11-21T00:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Phoenix.Fortnitemares",
-         "activeUntil": "2024-11-21T00:00:00.000Z",
-         "activeSince": "2024-09-05T00:00:00.000Z"
+         "eventType": "EventFlag.PassiveMiniBosses",
+         "activeUntil": "2025-01-23T00:00:00.000Z",
+         "activeSince": "2024-11-21T00:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Phoenix.Fortnitemares.Quests",
-         "activeUntil": "2024-11-21T00:00:00.000Z",
-         "activeSince": "2024-09-05T00:00:00.000Z"
+         "eventType": "EventFlag.Phoenix.Winterfest",
+         "activeUntil": "2025-01-23T00:00:00.000Z",
+         "activeSince": "2024-11-21T00:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Season11.Fortnitemares.Quests.Phase1",
-         "activeUntil": "2024-11-21T00:00:00.000Z",
-         "activeSince": "2024-10-17T00:00:00.000Z"
+         "eventType": "EventFlag.Phoenix.Winterfest.Quests",
+         "activeUntil": "2025-01-23T00:00:00.000Z",
+         "activeSince": "2024-11-21T00:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Starlight",
-         "activeUntil": "2024-11-21T00:00:00.000Z",
-         "activeSince": "2024-09-05T00:00:00.000Z"
+         "eventType": "EventFlag.Season11.Frostnite",
+         "activeUntil": "2025-01-23T00:00:00.000Z",
+         "activeSince": "2024-11-21T00:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Starlight.Quests.D5Science",
-         "activeUntil": "2024-11-21T00:00:00.000Z",
-         "activeSince": "2024-09-05T00:00:00.000Z"
-      },
-      {
-         "eventType": "EventFlag.Starlight.Quests.Phase1",
-         "activeUntil": "2024-11-21T00:00:00.000Z",
-         "activeSince": "2024-09-05T00:00:00.000Z"
-      },
-      {
-         "eventType": "EventFlag.Starlight.Quests.Phase2",
-         "activeUntil": "2024-11-21T00:00:00.000Z",
-         "activeSince": "2024-09-05T00:00:00.000Z"
-      },
-      {
-         "eventType": "EventFlag.Starlight.Quests.Phase3",
-         "activeUntil": "2024-11-21T00:00:00.000Z",
-         "activeSince": "2024-09-05T00:00:00.000Z"
-      },
-      {
-         "eventType": "EventFlag.Starlight.Quests.Phase4",
-         "activeUntil": "2024-11-21T00:00:00.000Z",
-         "activeSince": "2024-09-05T00:00:00.000Z"
-      },
-      {
-         "eventType": "EventFlag.Starlight.Quests.Phase5",
-         "activeUntil": "2024-11-21T00:00:00.000Z",
-         "activeSince": "2024-09-05T00:00:00.000Z"
-      },
-      {
-         "eventType": "EventFlag.STWBrainstorm",
-         "activeUntil": "2024-11-21T00:00:00.000Z",
-         "activeSince": "2024-10-31T00:00:00.000Z"
+         "eventType": "EventFlag.Season11.WinterFest.Quests.Phase1",
+         "activeUntil": "2025-01-02T00:00:00.000Z",
+         "activeSince": "2024-11-21T00:00:00.000Z"
       },
       {
          "eventType": "EventFlag.STWHuntMonster",
          "activeUntil": "2025-01-23T00:00:00.000Z",
          "activeSince": "2024-10-02T00:00:00.000Z"
+      },
+      {
+         "eventType": "EventFlag.Winterfest.EnableEnemyVariants",
+         "activeUntil": "2025-01-23T00:00:00.000Z",
+         "activeSince": "2024-11-21T00:00:00.000Z"
       }
    ],
    "additionalActiveEvents": [
