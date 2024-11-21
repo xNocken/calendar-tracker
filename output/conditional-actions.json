@@ -32,18 +32,18 @@
    },
    {
       "profileId": "athena",
-      "devName": "Event_RedFish_Quest",
+      "devName": "Event_SparksS06_Week04",
       "conditions": {
          "event": {
-            "instanceId": "42vjkub8ceb35jba86beeec5n0[0]0",
-            "eventName": "CalendarEvent_RedFish_Quest",
-            "eventStart": "2024-10-30T13:00:00.000Z",
-            "eventEnd": "2024-11-13T14:00:00.000Z",
+            "instanceId": "7ca1q421uo9gnk3cnluq1q23pr[0]0",
+            "eventName": "CalendarEvent_SparksS06_Week04",
+            "eventStart": "2024-11-21T01:00:00.000Z",
+            "eventEnd": "2024-11-28T01:00:00.000Z",
             "startActions": {
                "hasRun": true,
                "itemsToGrant": [
                   {
-                     "templateId": "ChallengeBundleSchedule:schedule_redfish",
+                     "templateId": "ChallengeBundleSchedule:sparks_s06_schedule_weekly_w04",
                      "quantity": 1
                   }
                ]
@@ -52,7 +52,7 @@
                "hasRun": false,
                "itemsToRemove": [
                   {
-                     "templateId": "ChallengeBundleSchedule:schedule_redfish",
+                     "templateId": "ChallengeBundleSchedule:sparks_s06_schedule_weekly_w04",
                      "quantity": 1
                   }
                ]
@@ -257,30 +257,20 @@
    },
    {
       "profileId": "athena",
-      "devName": "Event_SparksS06_Week02",
+      "devName": "S32_DailyDiscovery_MeltedIron",
       "conditions": {
          "event": {
-            "instanceId": "296sdphdp639eld5lqkeq3solr[0]0",
-            "eventName": "CalendarEvent_SparksS06_Week02",
-            "eventStart": "2024-11-07T01:00:00.000Z",
-            "eventEnd": "2024-11-14T01:00:00.000Z",
+            "instanceId": "7q9hgmru5rbjh8tmlaas0u1478[0]0",
+            "eventName": "CalendarEvent_S32_DailyDiscovery_MeltedIron",
+            "eventStart": "2024-11-14T19:00:00.000Z",
+            "eventEnd": "2024-11-26T09:00:00.000Z",
             "startActions": {
                "hasRun": true,
-               "itemsToGrant": [
-                  {
-                     "templateId": "ChallengeBundleSchedule:sparks_s06_schedule_weekly_w02",
-                     "quantity": 1
-                  }
-               ]
+               "itemsToGrant": []
             },
             "endActions": {
                "hasRun": false,
-               "itemsToRemove": [
-                  {
-                     "templateId": "ChallengeBundleSchedule:sparks_s06_schedule_weekly_w02",
-                     "quantity": 1
-                  }
-               ]
+               "itemsToRemove": []
             },
             "metaData": {}
          }

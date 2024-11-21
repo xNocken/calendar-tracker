@@ -8,6 +8,16 @@
    },
    "activeEvents": [
       {
+         "eventType": "DL01",
+         "activeUntil": "2024-11-30T19:00:00.000Z",
+         "activeSince": "2024-11-21T10:00:00.000Z"
+      },
+      {
+         "eventType": "DL02",
+         "activeUntil": "2024-11-30T18:57:00.000Z",
+         "activeSince": "2024-11-21T10:00:00.000Z"
+      },
+      {
          "eventType": "EventFlag.ActiveIceStorms",
          "activeUntil": "2025-01-23T00:00:00.000Z",
          "activeSince": "2024-11-21T00:00:00.000Z"
@@ -704,7 +714,27 @@
          "eventStart": "2024-11-14T19:00:00Z",
          "eventEnd": "2024-11-26T09:00:00Z",
          "eventType": "EventFlag.Event_S32_DailyDiscovery_MeltedIron",
-         "profileItem": null
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "S32_DailyDiscovery_MeltedIron",
+            "conditions": {
+               "event": {
+                  "instanceId": "7q9hgmru5rbjh8tmlaas0u1478[0]0",
+                  "eventName": "CalendarEvent_S32_DailyDiscovery_MeltedIron",
+                  "eventStart": "2024-11-14T19:00:00.000Z",
+                  "eventEnd": "2024-11-26T09:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": []
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": []
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "4qki5grqde46o026kbd675hf16[2]0",
@@ -807,7 +837,37 @@
          "eventStart": "2024-11-21T01:00:00Z",
          "eventEnd": "2024-11-28T01:00:00Z",
          "eventType": "EventFlag.Event_SparksS06_Week04",
-         "profileItem": null
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Event_SparksS06_Week04",
+            "conditions": {
+               "event": {
+                  "instanceId": "7ca1q421uo9gnk3cnluq1q23pr[0]0",
+                  "eventName": "CalendarEvent_SparksS06_Week04",
+                  "eventStart": "2024-11-21T01:00:00.000Z",
+                  "eventEnd": "2024-11-28T01:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:sparks_s06_schedule_weekly_w04",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:sparks_s06_schedule_weekly_w04",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "6lk31tisojmv58j3lqqu21sdrp[2]0",
