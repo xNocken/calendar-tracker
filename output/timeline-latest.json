@@ -119,7 +119,7 @@
       },
       {
          "eventType": "EventFlag.Event_SpooktacularPass",
-         "activeUntil": "2024-12-10T08:00:00.000Z",
+         "activeUntil": "2024-12-10T08:30:00.000Z",
          "activeSince": "2024-10-10T13:00:00.000Z"
       },
       {
@@ -854,7 +854,7 @@
          "devName": "Juno Spooktacular Pass",
          "eventName": "CalendarEvent_SpooktacularPass",
          "eventStart": "2024-10-10T13:00:00Z",
-         "eventEnd": "2024-12-10T08:00:00Z",
+         "eventEnd": "2024-12-10T08:30:00Z",
          "eventType": "EventFlag.Event_SpooktacularPass",
          "profileItem": {
             "profileId": "athena",
