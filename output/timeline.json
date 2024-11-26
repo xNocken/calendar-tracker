@@ -93,11 +93,6 @@
          "activeSince": "2024-11-02T06:15:00.000Z"
       },
       {
-         "eventType": "EventFlag.Event_S32_DailyDiscovery_MeltedIron",
-         "activeUntil": "2024-11-26T09:00:00.000Z",
-         "activeSince": "2024-11-14T19:00:00.000Z"
-      },
-      {
          "eventType": "EventFlag.Event_S32_Quail",
          "activeUntil": "2024-12-01T03:00:00.000Z",
          "activeSince": "2024-11-25T14:00:00.000Z"
@@ -706,35 +701,6 @@
                            "quantity": 1
                         }
                      ]
-                  },
-                  "metaData": {}
-               }
-            }
-         }
-      },
-      {
-         "instanceId": "7q9hgmru5rbjh8tmlaas0u1478[2]0",
-         "devName": "S32_DailyDiscovery_MeltedIron",
-         "eventName": "CalendarEvent_S32_DailyDiscovery_MeltedIron",
-         "eventStart": "2024-11-14T19:00:00Z",
-         "eventEnd": "2024-11-26T09:00:00Z",
-         "eventType": "EventFlag.Event_S32_DailyDiscovery_MeltedIron",
-         "profileItem": {
-            "profileId": "athena",
-            "devName": "S32_DailyDiscovery_MeltedIron",
-            "conditions": {
-               "event": {
-                  "instanceId": "7q9hgmru5rbjh8tmlaas0u1478[0]0",
-                  "eventName": "CalendarEvent_S32_DailyDiscovery_MeltedIron",
-                  "eventStart": "2024-11-14T19:00:00.000Z",
-                  "eventEnd": "2024-11-26T09:00:00.000Z",
-                  "startActions": {
-                     "hasRun": true,
-                     "itemsToGrant": []
-                  },
-                  "endActions": {
-                     "hasRun": false,
-                     "itemsToRemove": []
                   },
                   "metaData": {}
                }
