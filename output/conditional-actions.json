@@ -32,30 +32,25 @@
    },
    {
       "profileId": "athena",
-      "devName": "Event_SparksS06_Week04",
+      "devName": "Event_S32_Quail",
       "conditions": {
          "event": {
-            "instanceId": "7ca1q421uo9gnk3cnluq1q23pr[0]0",
-            "eventName": "CalendarEvent_SparksS06_Week04",
-            "eventStart": "2024-11-21T01:00:00.000Z",
-            "eventEnd": "2024-11-28T01:00:00.000Z",
+            "instanceId": "6td4etpli489gaiivpa3dppi7f[0]0",
+            "eventName": "CalendarEvent_S32_Quail",
+            "eventStart": "2024-11-25T14:00:00.000Z",
+            "eventEnd": "2024-12-01T03:00:00.000Z",
             "startActions": {
                "hasRun": true,
                "itemsToGrant": [
                   {
-                     "templateId": "ChallengeBundleSchedule:sparks_s06_schedule_weekly_w04",
+                     "templateId": "Token:athena_quail_token",
                      "quantity": 1
                   }
                ]
             },
             "endActions": {
                "hasRun": false,
-               "itemsToRemove": [
-                  {
-                     "templateId": "ChallengeBundleSchedule:sparks_s06_schedule_weekly_w04",
-                     "quantity": 1
-                  }
-               ]
+               "itemsToRemove": []
             },
             "metaData": {}
          }
@@ -248,62 +243,6 @@
                   {
                      "templateId": "AthenaSeason:junospooktacularengagementquests_seasondata",
                      "quantity": 1
-                  }
-               ]
-            },
-            "metaData": {}
-         }
-      }
-   },
-   {
-      "profileId": "athena",
-      "devName": "S32_DailyDiscovery_MeltedIron",
-      "conditions": {
-         "event": {
-            "instanceId": "7q9hgmru5rbjh8tmlaas0u1478[0]0",
-            "eventName": "CalendarEvent_S32_DailyDiscovery_MeltedIron",
-            "eventStart": "2024-11-14T19:00:00.000Z",
-            "eventEnd": "2024-11-26T09:00:00.000Z",
-            "startActions": {
-               "hasRun": true,
-               "itemsToGrant": []
-            },
-            "endActions": {
-               "hasRun": false,
-               "itemsToRemove": []
-            },
-            "metaData": {}
-         }
-      }
-   },
-   {
-      "profileId": "athena",
-      "devName": "DelMar_TimeTrials_04",
-      "conditions": {
-         "event": {
-            "instanceId": "0jmaaoidfl91o8i7o79dvt2ef5[0]0",
-            "eventName": "CalendarEvent_DelMar_TimeTrials_04",
-            "eventStart": "2024-11-08T12:00:00.000Z",
-            "eventEnd": "2024-11-29T12:00:00.000Z",
-            "startActions": {
-               "hasRun": true,
-               "itemsToGrant": [
-                  {
-                     "templateId": "ChallengeBundleSchedule:delmar_questschedule_timetrials_04",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "endActions": {
-               "hasRun": false,
-               "itemsToRemove": [
-                  {
-                     "templateId": "ChallengeBundleSchedule:delmar_questschedule_timetrials_04",
-                     "quantity": 1
-                  },
-                  {
-                     "templateId": "Token:delmar_season03_token_timetrials_02",
-                     "quantity": 999
                   }
                ]
             },
@@ -568,6 +507,37 @@
                   },
                   {
                      "templateId": "RepeatableDailiesCard:repeatabledailiescard_blastberry",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Event_SparksS06_Week05",
+      "conditions": {
+         "event": {
+            "instanceId": "3t7uqtt9si68o9vqff49vqdtbm[0]0",
+            "eventName": "CalendarEvent_SparksS06_Week05",
+            "eventStart": "2024-11-28T00:00:00.000Z",
+            "eventEnd": "2024-12-05T00:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:sparks_s06_schedule_weekly_w05",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:sparks_s06_schedule_weekly_w05",
                      "quantity": 1
                   }
                ]
