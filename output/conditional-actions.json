@@ -252,37 +252,6 @@
    },
    {
       "profileId": "athena",
-      "devName": "JunoEvent_FTUE_V2",
-      "conditions": {
-         "event": {
-            "instanceId": "3gv78os4amga401e1l4n5h0h33[0]0",
-            "eventName": "CalendarEvent_Juno_FTUE_V2",
-            "eventStart": "2024-06-22T05:00:00.000Z",
-            "eventEnd": "2025-07-22T08:00:00.000Z",
-            "startActions": {
-               "hasRun": true,
-               "itemsToGrant": [
-                  {
-                     "templateId": "ChallengeBundleSchedule:bundleschedule_ftue_v2",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "endActions": {
-               "hasRun": false,
-               "itemsToRemove": [
-                  {
-                     "templateId": "ChallengeBundleSchedule:bundleschedule_ftue_v2",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "metaData": {}
-         }
-      }
-   },
-   {
-      "profileId": "athena",
       "devName": "Event_Sparks_Season06",
       "conditions": {
          "event": {
