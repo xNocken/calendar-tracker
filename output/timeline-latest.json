@@ -58,11 +58,6 @@
          "activeSince": "2024-08-15T13:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Event_Juno_FTUE_V2",
-         "activeUntil": "2024-11-30T09:00:00.000Z",
-         "activeSince": "2024-06-22T05:00:00.000Z"
-      },
-      {
          "eventType": "EventFlag.Event_Juno_Hardcore",
          "activeUntil": "2025-06-10T08:00:00.000Z",
          "activeSince": "2024-06-11T08:00:00.000Z"
@@ -342,45 +337,6 @@
                      "itemsToRemove": [
                         {
                            "templateId": "ChallengeBundleSchedule:bundleschedule_battlebus",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "metaData": {}
-               }
-            }
-         }
-      },
-      {
-         "instanceId": "3gv78os4amga401e1l4n5h0h33[2]0",
-         "devName": "JunoEvent_FTUE_V2",
-         "eventName": "CalendarEvent_Juno_FTUE_V2",
-         "eventStart": "2024-06-22T05:00:00Z",
-         "eventEnd": "2024-11-30T09:00:00Z",
-         "eventType": "EventFlag.Event_Juno_FTUE_V2",
-         "profileItem": {
-            "profileId": "athena",
-            "devName": "JunoEvent_FTUE_V2",
-            "conditions": {
-               "event": {
-                  "instanceId": "3gv78os4amga401e1l4n5h0h33[0]0",
-                  "eventName": "CalendarEvent_Juno_FTUE_V2",
-                  "eventStart": "2024-06-22T05:00:00.000Z",
-                  "eventEnd": "2025-07-22T08:00:00.000Z",
-                  "startActions": {
-                     "hasRun": true,
-                     "itemsToGrant": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:bundleschedule_ftue_v2",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "endActions": {
-                     "hasRun": false,
-                     "itemsToRemove": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:bundleschedule_ftue_v2",
                            "quantity": 1
                         }
                      ]
