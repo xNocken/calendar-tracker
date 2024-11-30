@@ -13,11 +13,6 @@
          "activeSince": "2024-11-21T10:00:00.000Z"
       },
       {
-         "eventType": "DL02",
-         "activeUntil": "2024-11-30T18:20:00.000Z",
-         "activeSince": "2024-11-21T10:00:00.000Z"
-      },
-      {
          "eventType": "EventFlag.ActiveIceStorms",
          "activeUntil": "2025-01-23T00:00:00.000Z",
          "activeSince": "2024-11-21T00:00:00.000Z"
