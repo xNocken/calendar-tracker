@@ -8,9 +8,9 @@
    },
    "activeEvents": [
       {
-         "eventType": "DL01",
-         "activeUntil": "2024-11-30T19:00:00.000Z",
-         "activeSince": "2024-11-21T10:00:00.000Z"
+         "eventType": "BSCD",
+         "activeUntil": "2024-11-30T19:10:00.000Z",
+         "activeSince": "2024-11-30T19:00:00.000Z"
       },
       {
          "eventType": "EventFlag.ActiveIceStorms",
@@ -171,6 +171,11 @@
          "eventType": "EventFlag.Winterfest.EnableEnemyVariants",
          "activeUntil": "2025-01-23T00:00:00.000Z",
          "activeSince": "2024-11-21T00:00:00.000Z"
+      },
+      {
+         "eventType": "QNN",
+         "activeUntil": "2024-12-01T09:00:00.000Z",
+         "activeSince": "2024-11-30T19:00:00.000Z"
       }
    ],
    "additionalActiveEvents": [
