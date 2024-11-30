@@ -514,5 +514,159 @@
             "metaData": {}
          }
       }
+   },
+   {
+      "profileId": "campaign",
+      "devName": "MAJOR: Fortnitemares - Phoenix",
+      "conditions": {
+         "event": {
+            "instanceId": "vc85u959g77ba069cdgj4rr1l6[0]1",
+            "eventName": "CalendarEvent_Persistent_Phoenix_Fortnitemares",
+            "eventStart": "2024-09-05T00:00:00.000Z",
+            "eventEnd": "2024-11-21T00:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "conversions": [],
+               "itemsToGrant": [
+                  {
+                     "templateId": "Weapon:wid_edged_scythe_c_ore_t01",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "Weapon:wid_assault_burst_c_ore_t01",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "Ammo:ammodatabulletslight",
+                     "quantity": 60
+                  }
+               ],
+               "questsToUnpause": []
+            },
+            "endActions": {
+               "hasRun": false,
+               "conversions": [],
+               "itemsToRemove": [
+                  {
+                     "templateId": "AccountResource:phoenixxp",
+                     "quantity": 2147483647
+                  },
+                  {
+                     "templateId": "Stat:technology_phoenix",
+                     "quantity": 2147483647
+                  },
+                  {
+                     "templateId": "Stat:resistance_team_phoenix",
+                     "quantity": 2147483647
+                  },
+                  {
+                     "templateId": "Stat:fortitude_team_phoenix",
+                     "quantity": 2147483647
+                  },
+                  {
+                     "templateId": "Stat:offense_team_phoenix",
+                     "quantity": 2147483647
+                  },
+                  {
+                     "templateId": "Stat:technology_team_phoenix",
+                     "quantity": 2147483647
+                  },
+                  {
+                     "templateId": "Stat:fortitude_phoenix",
+                     "quantity": 2147483647
+                  },
+                  {
+                     "templateId": "Stat:offense_phoenix",
+                     "quantity": 2147483647
+                  },
+                  {
+                     "templateId": "Stat:resistance_phoenix",
+                     "quantity": 2147483647
+                  }
+               ],
+               "questsToPause": []
+            },
+            "metaData": {
+               "grantTo": "theater2",
+               "phoenixEventType": "EventFlag.Phoenix.Fortnitemares",
+               "endAction": "{\"actionClassName\":\"com.epicgames.fortnite.core.game.managers.calendareventactions.ResetSeasonalTheaterCalendarEventAction\",\"profile\":\"campaign\"}"
+            }
+         }
+      }
+   },
+   {
+      "profileId": "campaign",
+      "devName": "MAJOR: Fortnitemares - Lobby",
+      "conditions": {
+         "event": {
+            "instanceId": "soh32ee7o38gp0gum0tmlcholi[0]1",
+            "eventName": "CalendarEvent_Persistent_LobbyStW_Fortnitemares",
+            "eventStart": "2024-09-05T00:00:00.000Z",
+            "eventEnd": "2024-11-21T00:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "conversions": [],
+               "itemsToGrant": [],
+               "questsToUnpause": []
+            },
+            "endActions": {
+               "hasRun": false,
+               "conversions": [],
+               "itemsToRemove": [],
+               "questsToPause": []
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "campaign",
+      "devName": "STORE: Fortnitemares - Event - Campaign Currency",
+      "conditions": {
+         "event": {
+            "instanceId": "d2aq33a6m1og6db5npi04jjpe7[0]1",
+            "eventName": "CalendarEvent_Persistent_Fortnitemares_EventCurrency",
+            "eventStart": "2024-09-05T00:00:00.000Z",
+            "eventEnd": "2024-11-21T00:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "conversions": [],
+               "itemsToGrant": [],
+               "questsToUnpause": [],
+               "eventCurrencyToSet": {
+                  "templateId": "AccountResource:eventcurrency_candy",
+                  "cf": 1
+               }
+            },
+            "endActions": {
+               "hasRun": false,
+               "conversions": [
+                  {
+                     "recipe": {
+                        "static_results": [
+                           {
+                              "templateId": "CardPack:cardpack_event_persistent_fortnitemares",
+                              "quantity": 1
+                           }
+                        ],
+                        "static_costs": [
+                           {
+                              "templateId": "AccountResource:eventcurrency_candy",
+                              "quantity": 500
+                           }
+                        ],
+                        "static_catalysts": []
+                     },
+                     "quantity": -1,
+                     "convert_remainder_up": true
+                  }
+               ],
+               "itemsToRemove": [],
+               "questsToPause": [],
+               "eventCurrencyToUnset": "AccountResource:eventcurrency_candy"
+            },
+            "metaData": {}
+         }
+      }
    }
 ]
