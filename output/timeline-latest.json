@@ -78,11 +78,6 @@
          "activeSince": "2024-09-24T13:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Event_S32_BlastBerryQuests",
-         "activeUntil": "2024-12-01T06:00:00.000Z",
-         "activeSince": "2024-11-02T06:15:00.000Z"
-      },
-      {
          "eventType": "EventFlag.Event_S32_RebootRally",
          "activeUntil": "2024-12-09T15:00:00.000Z",
          "activeSince": "2024-11-02T13:00:00.000Z"
@@ -191,7 +186,37 @@
          "eventStart": "2024-11-30T05:00:00Z",
          "eventEnd": "2025-02-11T05:00:00Z",
          "eventType": "EventFlag.Event_ JunoQuestRepeatable  ",
-         "profileItem": null
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Juno Quest Repeatable",
+            "conditions": {
+               "event": {
+                  "instanceId": "0fb0h0brau7neh8bcfoamsb55p[0]0",
+                  "eventName": "CalendarEvent_JunoQuestRepeatable",
+                  "eventStart": "2024-11-30T05:00:00.000Z",
+                  "eventEnd": "2025-02-11T05:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "RepeatableDailiesCard:junoquest_repeatabledailies",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "RepeatableDailiesCard:junoquest_repeatabledailies",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "3s12fq0ljdbdjhsig8nrk9tchi[2]0",
@@ -328,7 +353,37 @@
          "eventStart": "2024-11-28T09:00:00Z",
          "eventEnd": "2028-11-17T07:00:00Z",
          "eventType": "EventFlag.Event_Ecosystem_DailyBonusGoals",
-         "profileItem": null
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Event_Ecosystem_DailyBonusGoals",
+            "conditions": {
+               "event": {
+                  "instanceId": "41ohiiqdfkkj5u2bln49e0tu20[0]0",
+                  "eventName": "CalendarEvent_Ecosystem_DailyBonusGoals",
+                  "eventStart": "2024-11-28T09:00:00.000Z",
+                  "eventEnd": "2028-11-17T07:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "RepeatableDailiesCard:repeatabledailies_ecosystembonusgoals",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "RepeatableDailiesCard:repeatabledailies_ecosystembonusgoals",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "3dtigmpouv8g63cce571vtg1vt[2]0",
@@ -511,129 +566,6 @@
                      "itemsToRemove": [
                         {
                            "templateId": "ChallengeBundleSchedule:season31_rankedscythe_schedule",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "metaData": {}
-               }
-            }
-         }
-      },
-      {
-         "instanceId": "0ofakdo6svhho2l33jv6ji759j[2]0",
-         "devName": "Event_S32_BlastBerryQuests",
-         "eventName": "CalendarEvent_S32_BlastBerryQuests",
-         "eventStart": "2024-11-02T06:15:00Z",
-         "eventEnd": "2024-12-01T06:00:00Z",
-         "eventType": "EventFlag.Event_S32_BlastBerryQuests",
-         "profileItem": {
-            "profileId": "athena",
-            "devName": "Event_S32_BlastBerryQuests",
-            "conditions": {
-               "event": {
-                  "instanceId": "0ofakdo6svhho2l33jv6ji759j[0]0",
-                  "eventName": "CalendarEvent_S32_BlastBerryQuests",
-                  "eventStart": "2024-11-02T06:15:00.000Z",
-                  "eventEnd": "2024-12-01T06:00:00.000Z",
-                  "startActions": {
-                     "hasRun": true,
-                     "itemsToGrant": [
-                        {
-                           "templateId": "Quest:quest_blastberry_kickstart_q01",
-                           "quantity": 1
-                        },
-                        {
-                           "templateId": "Quest:quest_blastberry_kickstart_q02",
-                           "quantity": 1
-                        },
-                        {
-                           "templateId": "Quest:quest_blastberry_kickstart_q03",
-                           "quantity": 1
-                        },
-                        {
-                           "templateId": "Quest:quest_blastberry_kickstart_q04",
-                           "quantity": 1
-                        },
-                        {
-                           "templateId": "Quest:quest_blastberry_kickstart_q05",
-                           "quantity": 1
-                        },
-                        {
-                           "templateId": "Quest:quest_blastberry_kickstart_q06",
-                           "quantity": 1
-                        },
-                        {
-                           "templateId": "Quest:quest_blastberry_kickstart_q07",
-                           "quantity": 1
-                        },
-                        {
-                           "templateId": "Quest:quest_blastberry_kickstart_q08",
-                           "quantity": 1
-                        },
-                        {
-                           "templateId": "Quest:quest_blastberry_kickstart_q09",
-                           "quantity": 1
-                        },
-                        {
-                           "templateId": "Quest:quest_blastberry_kickstart_q10",
-                           "quantity": 1
-                        },
-                        {
-                           "templateId": "RepeatableDailiesCard:repeatabledailiescard_blastberry",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "endActions": {
-                     "hasRun": false,
-                     "itemsToRemove": [
-                        {
-                           "templateId": "Token:athena_blastberry_kickstart_token",
-                           "quantity": 2147483647
-                        },
-                        {
-                           "templateId": "Quest:quest_blastberry_kickstart_q01",
-                           "quantity": 1
-                        },
-                        {
-                           "templateId": "Quest:quest_blastberry_kickstart_q02",
-                           "quantity": 1
-                        },
-                        {
-                           "templateId": "Quest:quest_blastberry_kickstart_q03",
-                           "quantity": 1
-                        },
-                        {
-                           "templateId": "Quest:quest_blastberry_kickstart_q04",
-                           "quantity": 1
-                        },
-                        {
-                           "templateId": "Quest:quest_blastberry_kickstart_q05",
-                           "quantity": 1
-                        },
-                        {
-                           "templateId": "Quest:quest_blastberry_kickstart_q06",
-                           "quantity": 1
-                        },
-                        {
-                           "templateId": "Quest:quest_blastberry_kickstart_q07",
-                           "quantity": 1
-                        },
-                        {
-                           "templateId": "Quest:quest_blastberry_kickstart_q08",
-                           "quantity": 1
-                        },
-                        {
-                           "templateId": "Quest:quest_blastberry_kickstart_q09",
-                           "quantity": 1
-                        },
-                        {
-                           "templateId": "Quest:quest_blastberry_kickstart_q10",
-                           "quantity": 1
-                        },
-                        {
-                           "templateId": "RepeatableDailiesCard:repeatabledailiescard_blastberry",
                            "quantity": 1
                         }
                      ]

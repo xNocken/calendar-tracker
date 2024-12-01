@@ -32,94 +32,6 @@
    },
    {
       "profileId": "athena",
-      "devName": "Event_S32_Quail",
-      "conditions": {
-         "event": {
-            "instanceId": "6td4etpli489gaiivpa3dppi7f[0]0",
-            "eventName": "CalendarEvent_S32_Quail",
-            "eventStart": "2024-11-25T14:00:00.000Z",
-            "eventEnd": "2024-12-01T03:00:00.000Z",
-            "startActions": {
-               "hasRun": true,
-               "itemsToGrant": [
-                  {
-                     "templateId": "Token:athena_quail_token",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "endActions": {
-               "hasRun": false,
-               "itemsToRemove": []
-            },
-            "metaData": {}
-         }
-      }
-   },
-   {
-      "profileId": "athena",
-      "devName": "Event_Sparks_Season06",
-      "conditions": {
-         "event": {
-            "instanceId": "40i16co6k0nc1q27sskla40l6c[0]0",
-            "eventName": "CalendarEvent_SparksS06",
-            "eventStart": "2024-11-02T06:00:00.000Z",
-            "eventEnd": "2025-01-14T07:00:00.000Z",
-            "startActions": {
-               "hasRun": true,
-               "itemsToGrant": [
-                  {
-                     "templateId": "AthenaSeason:sparkspasss06_season",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "endActions": {
-               "hasRun": false,
-               "itemsToRemove": [
-                  {
-                     "templateId": "AthenaSeason:sparkspasss06_season",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "metaData": {}
-         }
-      }
-   },
-   {
-      "profileId": "athena",
-      "devName": "Juno_Osiris_TownRewards",
-      "conditions": {
-         "event": {
-            "instanceId": "1qpmtohufgsj9hbths6b3m3hrl[0]0",
-            "eventName": "CalendarEvent_Juno_Osiris_TownRewards",
-            "eventStart": "2024-05-03T13:00:00.000Z",
-            "eventEnd": "2025-05-02T13:00:00.000Z",
-            "startActions": {
-               "hasRun": true,
-               "itemsToGrant": [
-                  {
-                     "templateId": "ChallengeBundleSchedule:bundleschedule_juno_townrewards",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "endActions": {
-               "hasRun": false,
-               "itemsToRemove": [
-                  {
-                     "templateId": "ChallengeBundleSchedule:bundleschedule_juno_townrewards",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "metaData": {}
-         }
-      }
-   },
-   {
-      "profileId": "athena",
       "devName": "Event_S31_MobileQuests",
       "conditions": {
          "event": {
@@ -151,22 +63,27 @@
    },
    {
       "profileId": "athena",
-      "devName": "Event_S31_RankedScythe",
+      "devName": "Event_Ecosystem_DailyBonusGoals",
       "conditions": {
          "event": {
-            "instanceId": "67nj2k1dcjcksc362m2rhbkmeh[0]0",
-            "eventName": "CalendarEvent_S31_RankedScythe",
-            "eventStart": "2024-09-24T13:00:00.000Z",
-            "eventEnd": "2024-12-09T14:00:00.000Z",
+            "instanceId": "41ohiiqdfkkj5u2bln49e0tu20[0]0",
+            "eventName": "CalendarEvent_Ecosystem_DailyBonusGoals",
+            "eventStart": "2024-11-28T09:00:00.000Z",
+            "eventEnd": "2028-11-17T07:00:00.000Z",
             "startActions": {
                "hasRun": true,
-               "itemsToGrant": []
+               "itemsToGrant": [
+                  {
+                     "templateId": "RepeatableDailiesCard:repeatabledailies_ecosystembonusgoals",
+                     "quantity": 1
+                  }
+               ]
             },
             "endActions": {
                "hasRun": false,
                "itemsToRemove": [
                   {
-                     "templateId": "ChallengeBundleSchedule:season31_rankedscythe_schedule",
+                     "templateId": "RepeatableDailiesCard:repeatabledailies_ecosystembonusgoals",
                      "quantity": 1
                   }
                ]
@@ -330,6 +247,125 @@
                "itemsToRemove": [
                   {
                      "templateId": "AthenaSeason:junospooktacularengagementquests_seasondata",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Juno Quest Repeatable",
+      "conditions": {
+         "event": {
+            "instanceId": "0fb0h0brau7neh8bcfoamsb55p[0]0",
+            "eventName": "CalendarEvent_JunoQuestRepeatable",
+            "eventStart": "2024-11-30T05:00:00.000Z",
+            "eventEnd": "2025-02-11T05:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "RepeatableDailiesCard:junoquest_repeatabledailies",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "RepeatableDailiesCard:junoquest_repeatabledailies",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Event_Sparks_Season06",
+      "conditions": {
+         "event": {
+            "instanceId": "40i16co6k0nc1q27sskla40l6c[0]0",
+            "eventName": "CalendarEvent_SparksS06",
+            "eventStart": "2024-11-02T06:00:00.000Z",
+            "eventEnd": "2025-01-14T07:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "AthenaSeason:sparkspasss06_season",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "AthenaSeason:sparkspasss06_season",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Juno_Osiris_TownRewards",
+      "conditions": {
+         "event": {
+            "instanceId": "1qpmtohufgsj9hbths6b3m3hrl[0]0",
+            "eventName": "CalendarEvent_Juno_Osiris_TownRewards",
+            "eventStart": "2024-05-03T13:00:00.000Z",
+            "eventEnd": "2025-05-02T13:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:bundleschedule_juno_townrewards",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:bundleschedule_juno_townrewards",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Event_S31_RankedScythe",
+      "conditions": {
+         "event": {
+            "instanceId": "67nj2k1dcjcksc362m2rhbkmeh[0]0",
+            "eventName": "CalendarEvent_S31_RankedScythe",
+            "eventStart": "2024-09-24T13:00:00.000Z",
+            "eventEnd": "2024-12-09T14:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": []
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:season31_rankedscythe_schedule",
                      "quantity": 1
                   }
                ]

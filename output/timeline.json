@@ -191,7 +191,37 @@
          "eventStart": "2024-11-30T05:00:00Z",
          "eventEnd": "2025-02-11T05:00:00Z",
          "eventType": "EventFlag.Event_ JunoQuestRepeatable  ",
-         "profileItem": null
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Juno Quest Repeatable",
+            "conditions": {
+               "event": {
+                  "instanceId": "0fb0h0brau7neh8bcfoamsb55p[0]0",
+                  "eventName": "CalendarEvent_JunoQuestRepeatable",
+                  "eventStart": "2024-11-30T05:00:00.000Z",
+                  "eventEnd": "2025-02-11T05:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "RepeatableDailiesCard:junoquest_repeatabledailies",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "RepeatableDailiesCard:junoquest_repeatabledailies",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "3s12fq0ljdbdjhsig8nrk9tchi[2]0",
@@ -328,7 +358,37 @@
          "eventStart": "2024-11-28T09:00:00Z",
          "eventEnd": "2028-11-17T07:00:00Z",
          "eventType": "EventFlag.Event_Ecosystem_DailyBonusGoals",
-         "profileItem": null
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Event_Ecosystem_DailyBonusGoals",
+            "conditions": {
+               "event": {
+                  "instanceId": "41ohiiqdfkkj5u2bln49e0tu20[0]0",
+                  "eventName": "CalendarEvent_Ecosystem_DailyBonusGoals",
+                  "eventStart": "2024-11-28T09:00:00.000Z",
+                  "eventEnd": "2028-11-17T07:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "RepeatableDailiesCard:repeatabledailies_ecosystembonusgoals",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "RepeatableDailiesCard:repeatabledailies_ecosystembonusgoals",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "3dtigmpouv8g63cce571vtg1vt[2]0",
