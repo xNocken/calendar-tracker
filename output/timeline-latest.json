@@ -73,11 +73,6 @@
          "activeSince": "2024-11-02T06:15:00.000Z"
       },
       {
-         "eventType": "EventFlag.Event_S32_Quail",
-         "activeUntil": "2024-12-01T03:00:00.000Z",
-         "activeSince": "2024-11-25T14:00:00.000Z"
-      },
-      {
          "eventType": "EventFlag.Event_S32_RebootRally",
          "activeUntil": "2024-12-09T15:00:00.000Z",
          "activeSince": "2024-11-02T13:00:00.000Z"
@@ -609,40 +604,6 @@
                            "quantity": 1
                         }
                      ]
-                  },
-                  "metaData": {}
-               }
-            }
-         }
-      },
-      {
-         "instanceId": "6td4etpli489gaiivpa3dppi7f[2]0",
-         "devName": "Event_S32_Quail",
-         "eventName": "CalendarEvent_S32_Quail",
-         "eventStart": "2024-11-25T14:00:00Z",
-         "eventEnd": "2024-12-01T03:00:00Z",
-         "eventType": "EventFlag.Event_S32_Quail",
-         "profileItem": {
-            "profileId": "athena",
-            "devName": "Event_S32_Quail",
-            "conditions": {
-               "event": {
-                  "instanceId": "6td4etpli489gaiivpa3dppi7f[0]0",
-                  "eventName": "CalendarEvent_S32_Quail",
-                  "eventStart": "2024-11-25T14:00:00.000Z",
-                  "eventEnd": "2024-12-01T03:00:00.000Z",
-                  "startActions": {
-                     "hasRun": true,
-                     "itemsToGrant": [
-                        {
-                           "templateId": "Token:athena_quail_token",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "endActions": {
-                     "hasRun": false,
-                     "itemsToRemove": []
                   },
                   "metaData": {}
                }
