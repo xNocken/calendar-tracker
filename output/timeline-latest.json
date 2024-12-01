@@ -53,6 +53,11 @@
          "activeSince": "2024-11-28T09:00:00.000Z"
       },
       {
+         "eventType": "EventFlag.Event_Evergreen_DailyQuests",
+         "activeUntil": "2025-02-21T07:00:00.000Z",
+         "activeSince": "2024-12-01T07:00:00.000Z"
+      },
+      {
          "eventType": "EventFlag.Event_Juno_BattleBus",
          "activeUntil": "2025-01-14T14:00:00.000Z",
          "activeSince": "2024-08-15T13:00:00.000Z"
@@ -81,11 +86,6 @@
          "eventType": "EventFlag.Event_S32_RebootRally",
          "activeUntil": "2024-12-09T15:00:00.000Z",
          "activeSince": "2024-11-02T13:00:00.000Z"
-      },
-      {
-         "eventType": "EventFlag.Event_S32_UISeasonEnd",
-         "activeUntil": "2024-12-01T07:00:00.000Z",
-         "activeSince": "2024-11-02T08:00:00.000Z"
       },
       {
          "eventType": "EventFlag.Event_SparksS06",
@@ -386,6 +386,15 @@
          }
       },
       {
+         "instanceId": "2n648d5gppk8s9goebvr3pqkdg[2]0",
+         "devName": "Event_Evergreen_DailyQuests",
+         "eventName": "CalendarEvent_Evergreen_DailyQuests",
+         "eventStart": "2024-12-01T07:00:00Z",
+         "eventEnd": "2025-02-21T07:00:00Z",
+         "eventType": "EventFlag.Event_Evergreen_DailyQuests",
+         "profileItem": null
+      },
+      {
          "instanceId": "3dtigmpouv8g63cce571vtg1vt[2]0",
          "devName": "Juno_BattleBus",
          "eventName": "CalendarEvent_Juno_Battlebus",
@@ -620,15 +629,6 @@
                }
             }
          }
-      },
-      {
-         "instanceId": "2l8ugbbfnght55cfp46h6vl8ae[2]0",
-         "devName": "Event_S32_UISeasonEnd",
-         "eventName": "CalendarEvent_S32_UISeasonEnd",
-         "eventStart": "2024-11-02T08:00:00Z",
-         "eventEnd": "2024-12-01T07:00:00Z",
-         "eventType": "EventFlag.Event_S32_UISeasonEnd",
-         "profileItem": null
       },
       {
          "instanceId": "40i16co6k0nc1q27sskla40l6c[2]0",
