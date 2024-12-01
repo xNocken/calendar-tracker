@@ -1,9 +1,9 @@
 {
    "season": {
-      "seasonNumber": 32,
-      "seasonTemplateId": "AthenaSeason:athenaseason32",
-      "seasonBegin": "2024-10-30T14:00:00Z",
-      "seasonEnd": "2024-12-08T14:00:00Z",
+      "seasonNumber": 33,
+      "seasonTemplateId": "AthenaSeason:athenaseason33",
+      "seasonBegin": "2024-11-24T14:00:00Z",
+      "seasonEnd": "2025-02-28T14:00:00Z",
       "seasonDisplayedEnd": "0001-01-01T00:00:00.000Z"
    },
    "activeEvents": [
@@ -21,6 +21,11 @@
          "eventType": "EventFlag.ElderGroupMissions",
          "activeUntil": "2025-01-23T00:00:00.000Z",
          "activeSince": "2024-11-21T00:00:00.000Z"
+      },
+      {
+         "eventType": "EventFlag.Event_ JunoQuestRepeatable  ",
+         "activeUntil": "2025-02-11T05:00:00.000Z",
+         "activeSince": "2024-11-30T05:00:00.000Z"
       },
       {
          "eventType": "EventFlag.Event_DelMar_QuestPack_02",
@@ -41,6 +46,11 @@
          "eventType": "EventFlag.Event_DelMar_Season03_Rank",
          "activeUntil": "2024-12-01T09:00:00.000Z",
          "activeSince": "2024-10-12T08:00:00.000Z"
+      },
+      {
+         "eventType": "EventFlag.Event_Ecosystem_DailyBonusGoals",
+         "activeUntil": "2028-11-17T07:00:00.000Z",
+         "activeSince": "2024-11-28T09:00:00.000Z"
       },
       {
          "eventType": "EventFlag.Event_Juno_BattleBus",
@@ -113,6 +123,11 @@
          "activeSince": "2024-10-30T14:00:00.000Z"
       },
       {
+         "eventType": "EventFlag.LobbySeason33",
+         "activeUntil": "2025-02-28T14:00:00.000Z",
+         "activeSince": "2024-11-24T14:00:00.000Z"
+      },
+      {
          "eventType": "EventFlag.LobbyStW.Winterfest",
          "activeUntil": "2025-01-23T00:00:00.000Z",
          "activeSince": "2024-11-21T00:00:00.000Z"
@@ -174,6 +189,15 @@
       }
    ],
    "additionalActiveEvents": [
+      {
+         "instanceId": "0fb0h0brau7neh8bcfoamsb55p[2]0",
+         "devName": "Juno Quest Repeatable",
+         "eventName": "CalendarEvent_JunoQuestRepeatable",
+         "eventStart": "2024-11-30T05:00:00Z",
+         "eventEnd": "2025-02-11T05:00:00Z",
+         "eventType": "EventFlag.Event_ JunoQuestRepeatable  ",
+         "profileItem": null
+      },
       {
          "instanceId": "3s12fq0ljdbdjhsig8nrk9tchi[2]0",
          "devName": "DelMarQuestPack_02",
@@ -300,6 +324,15 @@
          "eventStart": "2024-10-12T08:00:00Z",
          "eventEnd": "2024-12-01T09:00:00Z",
          "eventType": "EventFlag.Event_DelMar_Season03_Rank",
+         "profileItem": null
+      },
+      {
+         "instanceId": "41ohiiqdfkkj5u2bln49e0tu20[2]0",
+         "devName": "Event_Ecosystem_DailyBonusGoals",
+         "eventName": "CalendarEvent_Ecosystem_DailyBonusGoals",
+         "eventStart": "2024-11-28T09:00:00Z",
+         "eventEnd": "2028-11-17T07:00:00Z",
+         "eventType": "EventFlag.Event_Ecosystem_DailyBonusGoals",
          "profileItem": null
       },
       {
