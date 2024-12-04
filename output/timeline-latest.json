@@ -103,9 +103,9 @@
          "activeSince": "2024-11-02T06:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Event_SparksS06_Week05",
-         "activeUntil": "2024-12-05T00:00:00.000Z",
-         "activeSince": "2024-11-28T00:00:00.000Z"
+         "eventType": "EventFlag.Event_SparksS06_Week06",
+         "activeUntil": "2024-12-12T00:00:00.000Z",
+         "activeSince": "2024-12-05T00:00:00.000Z"
       },
       {
          "eventType": "EventFlag.Event_SpooktacularPass",
@@ -113,9 +113,9 @@
          "activeSince": "2024-10-10T13:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Frostnite.Week1",
-         "activeUntil": "2024-12-05T00:00:00.000Z",
-         "activeSince": "2024-11-28T00:00:00.000Z"
+         "eventType": "EventFlag.Frostnite.Week2",
+         "activeUntil": "2024-12-12T00:00:00.000Z",
+         "activeSince": "2024-12-05T00:00:00.000Z"
       },
       {
          "eventType": "EventFlag.LobbySeason32",
@@ -795,43 +795,13 @@
          }
       },
       {
-         "instanceId": "3t7uqtt9si68o9vqff49vqdtbm[2]0",
-         "devName": "Event_SparksS06_Week05",
-         "eventName": "CalendarEvent_SparksS06_Week05",
-         "eventStart": "2024-11-28T00:00:00Z",
-         "eventEnd": "2024-12-05T00:00:00Z",
-         "eventType": "EventFlag.Event_SparksS06_Week05",
-         "profileItem": {
-            "profileId": "athena",
-            "devName": "Event_SparksS06_Week05",
-            "conditions": {
-               "event": {
-                  "instanceId": "3t7uqtt9si68o9vqff49vqdtbm[0]0",
-                  "eventName": "CalendarEvent_SparksS06_Week05",
-                  "eventStart": "2024-11-28T00:00:00.000Z",
-                  "eventEnd": "2024-12-05T00:00:00.000Z",
-                  "startActions": {
-                     "hasRun": true,
-                     "itemsToGrant": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:sparks_s06_schedule_weekly_w05",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "endActions": {
-                     "hasRun": false,
-                     "itemsToRemove": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:sparks_s06_schedule_weekly_w05",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "metaData": {}
-               }
-            }
-         }
+         "instanceId": "58umsdn7mo6opasg6aclg212o1[2]0",
+         "devName": "Event_SparksS06_Week06",
+         "eventName": "CalendarEvent_SparksS06_Week06",
+         "eventStart": "2024-12-05T00:00:00Z",
+         "eventEnd": "2024-12-12T00:00:00Z",
+         "eventType": "EventFlag.Event_SparksS06_Week06",
+         "profileItem": null
       },
       {
          "instanceId": "6lk31tisojmv58j3lqqu21sdrp[2]0",
