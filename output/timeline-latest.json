@@ -230,7 +230,37 @@
          "eventStart": "2024-12-01T09:00:00Z",
          "eventEnd": "2025-12-01T07:00:00Z",
          "eventType": "EventFlag.Event_BR_Ch06_MapDiscovery",
-         "profileItem": null
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Event_BR_Ch06_MapDiscovery",
+            "conditions": {
+               "event": {
+                  "instanceId": "0pv4fafp3844uu621d1k9gr7fq[0]0",
+                  "eventName": "CalendarEvent_BR_Ch06_MapDiscovery",
+                  "eventStart": "2024-12-01T09:00:00.000Z",
+                  "eventEnd": "2025-12-01T07:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "Quest:quest_ch6_discover_namedlocations",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "Quest:quest_ch6_discover_namedlocations",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "3s12fq0ljdbdjhsig8nrk9tchi[2]0",
@@ -287,7 +317,69 @@
          "eventStart": "2024-12-01T12:00:00Z",
          "eventEnd": "2025-02-23T12:00:00Z",
          "eventType": "EventFlag.Event_DelMar_Season04",
-         "profileItem": null
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "DelMar_Season04",
+            "conditions": {
+               "event": {
+                  "instanceId": "0go4mau51t6pqm8r509pq4p7ic[0]0",
+                  "eventName": "CalendarEvent_DelMar_Season04",
+                  "eventStart": "2024-12-01T12:00:00.000Z",
+                  "eventEnd": "2025-02-23T12:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:delmar_s04_questschedule_weekly",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:delmar_s04_questschedule_weekly",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "Token:delmar_season04_token_weekly_wk01",
+                           "quantity": 9999
+                        },
+                        {
+                           "templateId": "Token:delmar_season04_token_weekly_wk02",
+                           "quantity": 9999
+                        },
+                        {
+                           "templateId": "Token:delmar_season04_token_weekly_wk03",
+                           "quantity": 9999
+                        },
+                        {
+                           "templateId": "Token:delmar_season04_token_weekly_wk04",
+                           "quantity": 9999
+                        },
+                        {
+                           "templateId": "Token:delmar_season04_token_weekly_wk05",
+                           "quantity": 9999
+                        },
+                        {
+                           "templateId": "Token:delmar_season04_token_weekly_wk06",
+                           "quantity": 9999
+                        },
+                        {
+                           "templateId": "Token:delmar_season04_token_weekly_wk07",
+                           "quantity": 9999
+                        },
+                        {
+                           "templateId": "Token:delmar_season04_token_weekly_wk08",
+                           "quantity": 9999
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "7b5jabr8qha111qeaq8qd2lstu[2]0",
@@ -296,7 +388,49 @@
          "eventStart": "2024-12-01T12:00:00Z",
          "eventEnd": "2025-02-23T12:00:00Z",
          "eventType": "EventFlag.Event_DelMar_Season04_Rank",
-         "profileItem": null
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "DelMar_Season04_Rank",
+            "conditions": {
+               "event": {
+                  "instanceId": "7b5jabr8qha111qeaq8qd2lstu[0]0",
+                  "eventName": "CalendarEvent_DelMar_Season04_Rank",
+                  "eventStart": "2024-12-01T12:00:00.000Z",
+                  "eventEnd": "2025-02-23T12:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:delmar_s04_questschedule_ranked",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "RepeatableDailiesCard:delmar_s04_rankedcard",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:delmar_s04_questschedule_ranked",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "Token:delmar_season04_token_ranked",
+                           "quantity": 9999
+                        },
+                        {
+                           "templateId": "RepeatableDailiesCard:delmar_s04_rankedcard",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "41ohiiqdfkkj5u2bln49e0tu20[2]0",
@@ -344,7 +478,37 @@
          "eventStart": "2024-12-01T07:00:00Z",
          "eventEnd": "2025-02-21T07:00:00Z",
          "eventType": "EventFlag.Event_Evergreen_DailyQuests",
-         "profileItem": null
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Event_Evergreen_DailyQuests",
+            "conditions": {
+               "event": {
+                  "instanceId": "2n648d5gppk8s9goebvr3pqkdg[0]0",
+                  "eventName": "CalendarEvent_Evergreen_DailyQuests",
+                  "eventStart": "2024-12-01T07:00:00.000Z",
+                  "eventEnd": "2025-02-21T07:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "RepeatableDailiesCard:repeatabledailiescard_evergreen",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "RepeatableDailiesCard:repeatabledailiescard_evergreen",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "3dtigmpouv8g63cce571vtg1vt[2]0",

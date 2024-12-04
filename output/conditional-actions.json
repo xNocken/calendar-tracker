@@ -1,6 +1,69 @@
 [
    {
       "profileId": "athena",
+      "devName": "DelMar_Season04",
+      "conditions": {
+         "event": {
+            "instanceId": "0go4mau51t6pqm8r509pq4p7ic[0]0",
+            "eventName": "CalendarEvent_DelMar_Season04",
+            "eventStart": "2024-12-01T12:00:00.000Z",
+            "eventEnd": "2025-02-23T12:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:delmar_s04_questschedule_weekly",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:delmar_s04_questschedule_weekly",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "Token:delmar_season04_token_weekly_wk01",
+                     "quantity": 9999
+                  },
+                  {
+                     "templateId": "Token:delmar_season04_token_weekly_wk02",
+                     "quantity": 9999
+                  },
+                  {
+                     "templateId": "Token:delmar_season04_token_weekly_wk03",
+                     "quantity": 9999
+                  },
+                  {
+                     "templateId": "Token:delmar_season04_token_weekly_wk04",
+                     "quantity": 9999
+                  },
+                  {
+                     "templateId": "Token:delmar_season04_token_weekly_wk05",
+                     "quantity": 9999
+                  },
+                  {
+                     "templateId": "Token:delmar_season04_token_weekly_wk06",
+                     "quantity": 9999
+                  },
+                  {
+                     "templateId": "Token:delmar_season04_token_weekly_wk07",
+                     "quantity": 9999
+                  },
+                  {
+                     "templateId": "Token:delmar_season04_token_weekly_wk08",
+                     "quantity": 9999
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
       "devName": "Juno_BattleBus",
       "conditions": {
          "event": {
@@ -32,6 +95,130 @@
    },
    {
       "profileId": "athena",
+      "devName": "Event_BR_Ch06_MapDiscovery",
+      "conditions": {
+         "event": {
+            "instanceId": "0pv4fafp3844uu621d1k9gr7fq[0]0",
+            "eventName": "CalendarEvent_BR_Ch06_MapDiscovery",
+            "eventStart": "2024-12-01T09:00:00.000Z",
+            "eventEnd": "2025-12-01T07:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "Quest:quest_ch6_discover_namedlocations",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "Quest:quest_ch6_discover_namedlocations",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Event_Sparks_Season06",
+      "conditions": {
+         "event": {
+            "instanceId": "40i16co6k0nc1q27sskla40l6c[0]0",
+            "eventName": "CalendarEvent_SparksS06",
+            "eventStart": "2024-11-02T06:00:00.000Z",
+            "eventEnd": "2025-01-14T07:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "AthenaSeason:sparkspasss06_season",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "AthenaSeason:sparkspasss06_season",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Event_Evergreen_DailyQuests",
+      "conditions": {
+         "event": {
+            "instanceId": "2n648d5gppk8s9goebvr3pqkdg[0]0",
+            "eventName": "CalendarEvent_Evergreen_DailyQuests",
+            "eventStart": "2024-12-01T07:00:00.000Z",
+            "eventEnd": "2025-02-21T07:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "RepeatableDailiesCard:repeatabledailiescard_evergreen",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "RepeatableDailiesCard:repeatabledailiescard_evergreen",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Juno_Osiris_TownRewards",
+      "conditions": {
+         "event": {
+            "instanceId": "1qpmtohufgsj9hbths6b3m3hrl[0]0",
+            "eventName": "CalendarEvent_Juno_Osiris_TownRewards",
+            "eventStart": "2024-05-03T13:00:00.000Z",
+            "eventEnd": "2025-05-02T13:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:bundleschedule_juno_townrewards",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:bundleschedule_juno_townrewards",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
       "devName": "Event_S31_MobileQuests",
       "conditions": {
          "event": {
@@ -53,6 +240,32 @@
                "itemsToRemove": [
                   {
                      "templateId": "ChallengeBundleSchedule:season31_schedule_mobilequests",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Event_S31_RankedScythe",
+      "conditions": {
+         "event": {
+            "instanceId": "67nj2k1dcjcksc362m2rhbkmeh[0]0",
+            "eventName": "CalendarEvent_S31_RankedScythe",
+            "eventStart": "2024-09-24T13:00:00.000Z",
+            "eventEnd": "2024-12-09T14:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": []
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:season31_rankedscythe_schedule",
                      "quantity": 1
                   }
                ]
@@ -132,69 +345,6 @@
    },
    {
       "profileId": "athena",
-      "devName": "DelMar_Season03",
-      "conditions": {
-         "event": {
-            "instanceId": "519rkjuhj2v9415va6udprsueb[0]0",
-            "eventName": "CalendarEvent_DelMar_Season03",
-            "eventStart": "2024-10-12T08:00:00.000Z",
-            "eventEnd": "2024-12-01T09:00:00.000Z",
-            "startActions": {
-               "hasRun": true,
-               "itemsToGrant": [
-                  {
-                     "templateId": "ChallengeBundleSchedule:delmar_questschedule_s03_kickoff",
-                     "quantity": 1
-                  },
-                  {
-                     "templateId": "ChallengeBundleSchedule:delmar_s03_questschedule_ranked",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "endActions": {
-               "hasRun": false,
-               "itemsToRemove": [
-                  {
-                     "templateId": "ChallengeBundleSchedule:delmar_questschedule_s03_kickoff",
-                     "quantity": 1
-                  },
-                  {
-                     "templateId": "ChallengeBundleSchedule:delmar_s03_questschedule_ranked",
-                     "quantity": 1
-                  },
-                  {
-                     "templateId": "Token:delmar_season03_token_kickoff_wk01",
-                     "quantity": 999
-                  },
-                  {
-                     "templateId": "Token:delmar_season03_token_kickoff_wk02",
-                     "quantity": 999
-                  },
-                  {
-                     "templateId": "Token:delmar_season03_token_kickoff_wk03",
-                     "quantity": 999
-                  },
-                  {
-                     "templateId": "Token:delmar_season03_token_kickoff_wk04",
-                     "quantity": 999
-                  },
-                  {
-                     "templateId": "Token:delmar_season03_token_kickoff_wk05",
-                     "quantity": 999
-                  },
-                  {
-                     "templateId": "Token:delmar_season03_token_kickoff_wk06",
-                     "quantity": 999
-                  }
-               ]
-            },
-            "metaData": {}
-         }
-      }
-   },
-   {
-      "profileId": "athena",
       "devName": "DelMar_Season01_Dailies",
       "conditions": {
          "event": {
@@ -216,6 +366,49 @@
                "itemsToRemove": [
                   {
                      "templateId": "RepeatableDailiesCard:delmar_season01_dailiescard",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "DelMar_Season04_Rank",
+      "conditions": {
+         "event": {
+            "instanceId": "7b5jabr8qha111qeaq8qd2lstu[0]0",
+            "eventName": "CalendarEvent_DelMar_Season04_Rank",
+            "eventStart": "2024-12-01T12:00:00.000Z",
+            "eventEnd": "2025-02-23T12:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:delmar_s04_questschedule_ranked",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "RepeatableDailiesCard:delmar_s04_rankedcard",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:delmar_s04_questschedule_ranked",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "Token:delmar_season04_token_ranked",
+                     "quantity": 9999
+                  },
+                  {
+                     "templateId": "RepeatableDailiesCard:delmar_s04_rankedcard",
                      "quantity": 1
                   }
                ]
@@ -257,125 +450,6 @@
    },
    {
       "profileId": "athena",
-      "devName": "Juno Quest Repeatable",
-      "conditions": {
-         "event": {
-            "instanceId": "0fb0h0brau7neh8bcfoamsb55p[0]0",
-            "eventName": "CalendarEvent_JunoQuestRepeatable",
-            "eventStart": "2024-11-30T05:00:00.000Z",
-            "eventEnd": "2025-02-11T05:00:00.000Z",
-            "startActions": {
-               "hasRun": true,
-               "itemsToGrant": [
-                  {
-                     "templateId": "RepeatableDailiesCard:junoquest_repeatabledailies",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "endActions": {
-               "hasRun": false,
-               "itemsToRemove": [
-                  {
-                     "templateId": "RepeatableDailiesCard:junoquest_repeatabledailies",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "metaData": {}
-         }
-      }
-   },
-   {
-      "profileId": "athena",
-      "devName": "Event_Sparks_Season06",
-      "conditions": {
-         "event": {
-            "instanceId": "40i16co6k0nc1q27sskla40l6c[0]0",
-            "eventName": "CalendarEvent_SparksS06",
-            "eventStart": "2024-11-02T06:00:00.000Z",
-            "eventEnd": "2025-01-14T07:00:00.000Z",
-            "startActions": {
-               "hasRun": true,
-               "itemsToGrant": [
-                  {
-                     "templateId": "AthenaSeason:sparkspasss06_season",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "endActions": {
-               "hasRun": false,
-               "itemsToRemove": [
-                  {
-                     "templateId": "AthenaSeason:sparkspasss06_season",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "metaData": {}
-         }
-      }
-   },
-   {
-      "profileId": "athena",
-      "devName": "Juno_Osiris_TownRewards",
-      "conditions": {
-         "event": {
-            "instanceId": "1qpmtohufgsj9hbths6b3m3hrl[0]0",
-            "eventName": "CalendarEvent_Juno_Osiris_TownRewards",
-            "eventStart": "2024-05-03T13:00:00.000Z",
-            "eventEnd": "2025-05-02T13:00:00.000Z",
-            "startActions": {
-               "hasRun": true,
-               "itemsToGrant": [
-                  {
-                     "templateId": "ChallengeBundleSchedule:bundleschedule_juno_townrewards",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "endActions": {
-               "hasRun": false,
-               "itemsToRemove": [
-                  {
-                     "templateId": "ChallengeBundleSchedule:bundleschedule_juno_townrewards",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "metaData": {}
-         }
-      }
-   },
-   {
-      "profileId": "athena",
-      "devName": "Event_S31_RankedScythe",
-      "conditions": {
-         "event": {
-            "instanceId": "67nj2k1dcjcksc362m2rhbkmeh[0]0",
-            "eventName": "CalendarEvent_S31_RankedScythe",
-            "eventStart": "2024-09-24T13:00:00.000Z",
-            "eventEnd": "2024-12-09T14:00:00.000Z",
-            "startActions": {
-               "hasRun": true,
-               "itemsToGrant": []
-            },
-            "endActions": {
-               "hasRun": false,
-               "itemsToRemove": [
-                  {
-                     "templateId": "ChallengeBundleSchedule:season31_rankedscythe_schedule",
-                     "quantity": 1
-                  }
-               ]
-            },
-            "metaData": {}
-         }
-      }
-   },
-   {
-      "profileId": "athena",
       "devName": "Juno_Hardcore",
       "conditions": {
          "event": {
@@ -397,6 +471,37 @@
                "itemsToRemove": [
                   {
                      "templateId": "ChallengeBundleSchedule:bundleschedule_highstakes",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
+      "devName": "Juno Quest Repeatable",
+      "conditions": {
+         "event": {
+            "instanceId": "0fb0h0brau7neh8bcfoamsb55p[0]0",
+            "eventName": "CalendarEvent_JunoQuestRepeatable",
+            "eventStart": "2024-11-30T05:00:00.000Z",
+            "eventEnd": "2025-02-11T05:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "RepeatableDailiesCard:junoquest_repeatabledailies",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "RepeatableDailiesCard:junoquest_repeatabledailies",
                      "quantity": 1
                   }
                ]
