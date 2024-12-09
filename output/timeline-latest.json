@@ -108,11 +108,6 @@
          "activeSince": "2024-08-16T08:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Event_S31_RankedScythe",
-         "activeUntil": "2024-12-09T14:00:00.000Z",
-         "activeSince": "2024-09-24T13:00:00.000Z"
-      },
-      {
          "eventType": "EventFlag.Event_S32_RebootRally",
          "activeUntil": "2024-12-09T15:00:00.000Z",
          "activeSince": "2024-11-02T13:00:00.000Z"
@@ -722,40 +717,6 @@
                      "itemsToRemove": [
                         {
                            "templateId": "ChallengeBundleSchedule:season31_schedule_mobilequests",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "metaData": {}
-               }
-            }
-         }
-      },
-      {
-         "instanceId": "67nj2k1dcjcksc362m2rhbkmeh[2]0",
-         "devName": "Event_S31_RankedScythe",
-         "eventName": "CalendarEvent_S31_RankedScythe",
-         "eventStart": "2024-09-24T13:00:00Z",
-         "eventEnd": "2024-12-09T14:00:00Z",
-         "eventType": "EventFlag.Event_S31_RankedScythe",
-         "profileItem": {
-            "profileId": "athena",
-            "devName": "Event_S31_RankedScythe",
-            "conditions": {
-               "event": {
-                  "instanceId": "67nj2k1dcjcksc362m2rhbkmeh[0]0",
-                  "eventName": "CalendarEvent_S31_RankedScythe",
-                  "eventStart": "2024-09-24T13:00:00.000Z",
-                  "eventEnd": "2024-12-09T14:00:00.000Z",
-                  "startActions": {
-                     "hasRun": true,
-                     "itemsToGrant": []
-                  },
-                  "endActions": {
-                     "hasRun": false,
-                     "itemsToRemove": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:season31_rankedscythe_schedule",
                            "quantity": 1
                         }
                      ]
