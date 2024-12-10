@@ -512,6 +512,45 @@
    },
    {
       "profileId": "athena",
+      "devName": "Juno_Hardcore",
+      "conditions": {
+         "event": {
+            "instanceId": "0jo2qb31biq7seotnp8s0809dk[0]0",
+            "eventName": "CalendarEvent_Juno_Hardcore",
+            "eventStart": "2024-06-11T08:00:00.000Z",
+            "eventEnd": "2025-06-10T08:00:00.000Z",
+            "startActions": {
+               "hasRun": true,
+               "itemsToGrant": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:bundleschedule_highstakesp2",
+                     "quantity": 1
+                  }
+               ]
+            },
+            "endActions": {
+               "hasRun": false,
+               "itemsToRemove": [
+                  {
+                     "templateId": "ChallengeBundleSchedule:bundleschedule_highstakesp2",
+                     "quantity": 1
+                  },
+                  {
+                     "templateId": "Token:questtoken_juno_lostisles_01",
+                     "quantity": 2147483647
+                  },
+                  {
+                     "templateId": "Token:questtoken_juno_stormking_01",
+                     "quantity": 2147483647
+                  }
+               ]
+            },
+            "metaData": {}
+         }
+      }
+   },
+   {
+      "profileId": "athena",
       "devName": "Event_SparksS06_Week05",
       "conditions": {
          "event": {

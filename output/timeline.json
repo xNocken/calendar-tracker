@@ -98,6 +98,11 @@
          "activeSince": "2024-05-03T13:00:00.000Z"
       },
       {
+         "eventType": "EventFlag.Event_JunoSeason1Pass",
+         "activeUntil": "2025-03-11T07:30:00.000Z",
+         "activeSince": "2024-12-10T05:00:00.000Z"
+      },
+      {
          "eventType": "EventFlag.Event_ReloadQuests_Ch06_MapDiscovery",
          "activeUntil": "2025-11-28T14:00:00.000Z",
          "activeSince": "2024-12-06T14:00:00.000Z"
@@ -171,6 +176,11 @@
          "eventType": "EventFlag.Season11.WinterFest.Quests.Phase1",
          "activeUntil": "2025-01-02T00:00:00.000Z",
          "activeSince": "2024-11-21T00:00:00.000Z"
+      },
+      {
+         "eventType": "EventFlag.StormKing.Landmark",
+         "activeUntil": "2025-01-23T00:00:00.000Z",
+         "activeSince": "2024-12-10T00:00:00.000Z"
       },
       {
          "eventType": "EventFlag.STWHuntMonster",
@@ -662,6 +672,15 @@
                }
             }
          }
+      },
+      {
+         "instanceId": "4tkjaot4scor6pujihbbetj9ui[2]0",
+         "devName": "Juno Season 1 Pass",
+         "eventName": "CalendarEvent_JunoSeason1Pass",
+         "eventStart": "2024-12-10T05:00:00Z",
+         "eventEnd": "2025-03-11T07:30:00Z",
+         "eventType": "EventFlag.Event_JunoSeason1Pass",
+         "profileItem": null
       },
       {
          "instanceId": "7f2r4flm3237k352umm2df7k5s[2]0",
