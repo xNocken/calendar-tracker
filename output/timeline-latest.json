@@ -103,11 +103,6 @@
          "activeSince": "2024-12-06T14:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Event_S31_MobileQuests",
-         "activeUntil": "2024-12-10T08:00:00.000Z",
-         "activeSince": "2024-08-16T08:00:00.000Z"
-      },
-      {
          "eventType": "EventFlag.Event_S33_UISeasonEnd",
          "activeUntil": "2025-02-22T07:00:00.000Z",
          "activeSince": "2024-12-01T09:00:00.000Z"
@@ -681,45 +676,6 @@
          "eventEnd": "2025-11-28T14:00:00Z",
          "eventType": "EventFlag.Event_ReloadQuests_Ch06_MapDiscovery",
          "profileItem": null
-      },
-      {
-         "instanceId": "159dvva3jhg1p8nen38svrj2o4[2]0",
-         "devName": "Event_S31_MobileQuests",
-         "eventName": "CalendarEvent_S31_MobileQuests",
-         "eventStart": "2024-08-16T08:00:00Z",
-         "eventEnd": "2024-12-10T08:00:00Z",
-         "eventType": "EventFlag.Event_S31_MobileQuests",
-         "profileItem": {
-            "profileId": "athena",
-            "devName": "Event_S31_MobileQuests",
-            "conditions": {
-               "event": {
-                  "instanceId": "159dvva3jhg1p8nen38svrj2o4[0]0",
-                  "eventName": "CalendarEvent_S31_MobileQuests",
-                  "eventStart": "2024-08-16T08:00:00.000Z",
-                  "eventEnd": "2024-11-02T07:00:00.000Z",
-                  "startActions": {
-                     "hasRun": true,
-                     "itemsToGrant": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:season31_schedule_mobilequests",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "endActions": {
-                     "hasRun": false,
-                     "itemsToRemove": [
-                        {
-                           "templateId": "ChallengeBundleSchedule:season31_schedule_mobilequests",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "metaData": {}
-               }
-            }
-         }
       },
       {
          "instanceId": "6i6uh1mbhukk9sofdkohovm3q3[2]0",
