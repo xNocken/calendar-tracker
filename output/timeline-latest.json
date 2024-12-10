@@ -527,7 +527,37 @@
          "eventStart": "2024-12-06T14:00:00Z",
          "eventEnd": "2025-01-31T07:00:00Z",
          "eventType": "EventFlag.Event_FigmentPass",
-         "profileItem": null
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Figment Pass",
+            "conditions": {
+               "event": {
+                  "instanceId": "3gg03ta9p0lgsnbtk14oeglkvv[0]0",
+                  "eventName": "CalendarEvent_FigmentPass",
+                  "eventStart": "2024-12-06T14:00:00.000Z",
+                  "eventEnd": "2025-01-31T07:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "AthenaSeason:figmentpass_s01",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "AthenaSeason:figmentpass_s01",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "00i294dhu6e32spc6q4jpe5fus[2]0",
@@ -536,7 +566,32 @@
          "eventStart": "2024-12-06T14:00:00Z",
          "eventEnd": "2025-11-28T14:00:00Z",
          "eventType": "EventFlag.Event_FigmentQuests_Ch01_MapDiscovery",
-         "profileItem": null
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Event_FigmentQuests_Ch01_MapDiscovery",
+            "conditions": {
+               "event": {
+                  "instanceId": "00i294dhu6e32spc6q4jpe5fus[0]0",
+                  "eventName": "CalendarEvent_FigmentQuests_Ch01_MapDiscovery",
+                  "eventStart": "2024-12-06T14:00:00.000Z",
+                  "eventEnd": "2025-11-28T14:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "Quest:quest_figment_s01_discover_namedlocations",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": []
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "16cv3o0snsm1qg870rta5m5aph[2]0",
@@ -545,7 +600,61 @@
          "eventStart": "2024-12-06T14:00:00Z",
          "eventEnd": "2026-11-27T14:00:00Z",
          "eventType": "EventFlag.Event_FigmentQuests_Evergreen",
-         "profileItem": null
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Event_FigmentQuests_Evergreen",
+            "conditions": {
+               "event": {
+                  "instanceId": "16cv3o0snsm1qg870rta5m5aph[0]0",
+                  "eventName": "CalendarEvent_FigmentQuests_Evergreen",
+                  "eventStart": "2024-12-06T14:00:00.000Z",
+                  "eventEnd": "2026-11-27T14:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "Quest:quest_figment_hidden_ringdoorbell",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "Quest:quest_figment_hidden_riderocket",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "Quest:quest_figment_hidden_emoteafterelim",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "Quest:quest_figment_hidden_doublepumpshotgun",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "Quest:quest_figment_hidden_ringdoorbell",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "Quest:quest_figment_hidden_riderocket",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "Quest:quest_figment_hidden_emoteafterelim",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "Quest:quest_figment_hidden_doublepumpshotgun",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "0231bfr3ku5hg8r6ouoikoqa7h[2]0",
@@ -554,7 +663,81 @@
          "eventStart": "2024-12-06T14:00:00Z",
          "eventEnd": "2025-01-31T09:00:00Z",
          "eventType": "EventFlag.Event_FigmentQuests_S01",
-         "profileItem": null
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Event_FigmentQuests_S01",
+            "conditions": {
+               "event": {
+                  "instanceId": "0231bfr3ku5hg8r6ouoikoqa7h[0]0",
+                  "eventName": "CalendarEvent_FigmentQuests_S01",
+                  "eventStart": "2024-12-06T14:00:00.000Z",
+                  "eventEnd": "2025-01-31T09:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:figment_s01_kickstart_schedule_p01",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "ChallengeBundleSchedule:figment_s01_kickstart_schedule_p02",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "ChallengeBundleSchedule:figment_milestone_bonusgoal_schedule",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "RepeatableDailiesCard:repeatablemilestonescard_figment",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "RepeatableDailiesCard:repeatabledailiescard_figment",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:figment_s01_kickstart_schedule_p01",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "ChallengeBundleSchedule:figment_s01_kickstart_schedule_p02",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "ChallengeBundleSchedule:figment_milestone_bonusgoal_schedule",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "Token:figment_milestone_challenge_token",
+                           "quantity": 2147483647
+                        },
+                        {
+                           "templateId": "Token:figment_milestone_combat_token",
+                           "quantity": 2147483647
+                        },
+                        {
+                           "templateId": "Token:figment_milestone_exploration_token",
+                           "quantity": 2147483647
+                        },
+                        {
+                           "templateId": "RepeatableDailiesCard:repeatablemilestonescard_figment",
+                           "quantity": 1
+                        },
+                        {
+                           "templateId": "RepeatableDailiesCard:repeatabledailiescard_figment",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "3dtigmpouv8g63cce571vtg1vt[2]0",
@@ -680,7 +863,37 @@
          "eventStart": "2024-12-10T05:00:00Z",
          "eventEnd": "2025-03-11T07:30:00Z",
          "eventType": "EventFlag.Event_JunoSeason1Pass",
-         "profileItem": null
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Juno Season 1 Pass",
+            "conditions": {
+               "event": {
+                  "instanceId": "4tkjaot4scor6pujihbbetj9ui[0]0",
+                  "eventName": "CalendarEvent_JunoSeason1Pass",
+                  "eventStart": "2024-12-10T05:00:00.000Z",
+                  "eventEnd": "2025-03-11T07:30:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:junoquests1_questschedule",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:junoquests1_questschedule",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "7f2r4flm3237k352umm2df7k5s[2]0",
@@ -689,7 +902,37 @@
          "eventStart": "2024-12-06T14:00:00Z",
          "eventEnd": "2025-11-28T14:00:00Z",
          "eventType": "EventFlag.Event_ReloadQuests_Ch06_MapDiscovery",
-         "profileItem": null
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Event_ReloadQuests_Ch06_MapDiscovery",
+            "conditions": {
+               "event": {
+                  "instanceId": "7f2r4flm3237k352umm2df7k5s[0]0",
+                  "eventName": "CalendarEvent_ReloadQuests_Ch06_MapDiscovery",
+                  "eventStart": "2024-12-06T14:00:00.000Z",
+                  "eventEnd": "2025-11-28T14:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "Quest:quest_blastberry_discover_namedlocations",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "Quest:quest_blastberry_discover_namedlocations",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       },
       {
          "instanceId": "6i6uh1mbhukk9sofdkohovm3q3[2]0",
@@ -746,7 +989,37 @@
          "eventStart": "2024-12-05T00:00:00Z",
          "eventEnd": "2024-12-12T00:00:00Z",
          "eventType": "EventFlag.Event_SparksS06_Week06",
-         "profileItem": null
+         "profileItem": {
+            "profileId": "athena",
+            "devName": "Event_SparksS06_Week06",
+            "conditions": {
+               "event": {
+                  "instanceId": "58umsdn7mo6opasg6aclg212o1[0]0",
+                  "eventName": "CalendarEvent_SparksS06_Week06",
+                  "eventStart": "2024-12-05T00:00:00.000Z",
+                  "eventEnd": "2024-12-12T00:00:00.000Z",
+                  "startActions": {
+                     "hasRun": true,
+                     "itemsToGrant": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:sparks_s06_schedule_weekly_w06",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "endActions": {
+                     "hasRun": false,
+                     "itemsToRemove": [
+                        {
+                           "templateId": "ChallengeBundleSchedule:sparks_s06_schedule_weekly_w06",
+                           "quantity": 1
+                        }
+                     ]
+                  },
+                  "metaData": {}
+               }
+            }
+         }
       }
    ]
 }
