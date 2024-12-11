@@ -108,6 +108,16 @@
          "activeSince": "2024-12-06T14:00:00.000Z"
       },
       {
+         "eventType": "EventFlag.Event_S33_FeralCorgiQuests",
+         "activeUntil": "2025-05-22T13:00:00.000Z",
+         "activeSince": "2024-12-11T14:00:00.000Z"
+      },
+      {
+         "eventType": "EventFlag.Event_S33_MobileQuests",
+         "activeUntil": "2025-01-09T14:00:00.000Z",
+         "activeSince": "2024-12-11T14:00:00.000Z"
+      },
+      {
          "eventType": "EventFlag.Event_S33_UISeasonEnd",
          "activeUntil": "2025-02-22T07:00:00.000Z",
          "activeSince": "2024-12-01T09:00:00.000Z"
@@ -933,6 +943,24 @@
                }
             }
          }
+      },
+      {
+         "instanceId": "30lmijqp4qn5oo3h30iqntpnj9[2]0",
+         "devName": "Event_S33_FeralCorgiQuests",
+         "eventName": "CalendarEvent_S33_FeralCorgiQuests",
+         "eventStart": "2024-12-11T14:00:00Z",
+         "eventEnd": "2025-05-22T13:00:00Z",
+         "eventType": "EventFlag.Event_S33_FeralCorgiQuests",
+         "profileItem": null
+      },
+      {
+         "instanceId": "4sql8or68imm9o97lts9sk0ks1[2]0",
+         "devName": "Event_S33_MobileQuests",
+         "eventName": "CalendarEvent_S33_MobileQuests",
+         "eventStart": "2024-12-11T14:00:00Z",
+         "eventEnd": "2025-01-09T14:00:00Z",
+         "eventType": "EventFlag.Event_S33_MobileQuests",
+         "profileItem": null
       },
       {
          "instanceId": "6i6uh1mbhukk9sofdkohovm3q3[2]0",
