@@ -128,21 +128,6 @@
          "activeSince": "2024-12-01T09:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Event_SparksAnniversaryY01",
-         "activeUntil": "2024-12-16T00:00:00.000Z",
-         "activeSince": "2024-12-13T00:00:00.000Z"
-      },
-      {
-         "eventType": "EventFlag.Event_SparksS06",
-         "activeUntil": "2025-01-14T07:00:00.000Z",
-         "activeSince": "2024-11-02T06:00:00.000Z"
-      },
-      {
-         "eventType": "EventFlag.Event_SparksS06_Week07",
-         "activeUntil": "2024-12-19T00:00:00.000Z",
-         "activeSince": "2024-12-12T00:00:00.000Z"
-      },
-      {
          "eventType": "EventFlag.Event_SproutQuestDaily",
          "activeUntil": "2025-02-21T09:00:00.000Z",
          "activeSince": "2024-12-12T07:00:00.000Z"
@@ -998,63 +983,6 @@
          "eventStart": "2024-12-01T09:00:00Z",
          "eventEnd": "2025-02-22T07:00:00Z",
          "eventType": "EventFlag.Event_S33_UISeasonEnd",
-         "profileItem": null
-      },
-      {
-         "instanceId": "67pkc4nrs0mjp80p2ig8kmsjmt[2]0",
-         "devName": "Event_SparksAnniversaryY01",
-         "eventName": "CalendarEvent_SparksAnniversaryY01",
-         "eventStart": "2024-12-13T00:00:00Z",
-         "eventEnd": "2024-12-16T00:00:00Z",
-         "eventType": "EventFlag.Event_SparksAnniversaryY01",
-         "profileItem": null
-      },
-      {
-         "instanceId": "40i16co6k0nc1q27sskla40l6c[2]0",
-         "devName": "Event_Sparks_Season06",
-         "eventName": "CalendarEvent_SparksS06",
-         "eventStart": "2024-11-02T06:00:00Z",
-         "eventEnd": "2025-01-14T07:00:00Z",
-         "eventType": "EventFlag.Event_SparksS06",
-         "profileItem": {
-            "profileId": "athena",
-            "devName": "Event_Sparks_Season06",
-            "conditions": {
-               "event": {
-                  "instanceId": "40i16co6k0nc1q27sskla40l6c[0]0",
-                  "eventName": "CalendarEvent_SparksS06",
-                  "eventStart": "2024-11-02T06:00:00.000Z",
-                  "eventEnd": "2025-01-14T07:00:00.000Z",
-                  "startActions": {
-                     "hasRun": true,
-                     "itemsToGrant": [
-                        {
-                           "templateId": "AthenaSeason:sparkspasss06_season",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "endActions": {
-                     "hasRun": false,
-                     "itemsToRemove": [
-                        {
-                           "templateId": "AthenaSeason:sparkspasss06_season",
-                           "quantity": 1
-                        }
-                     ]
-                  },
-                  "metaData": {}
-               }
-            }
-         }
-      },
-      {
-         "instanceId": "73ott963n8l15u976f1vqcnb4d[2]0",
-         "devName": "Event_SparksS06_Week07",
-         "eventName": "CalendarEvent_SparksS06_Week07",
-         "eventStart": "2024-12-12T00:00:00Z",
-         "eventEnd": "2024-12-19T00:00:00Z",
-         "eventType": "EventFlag.Event_SparksS06_Week07",
          "profileItem": null
       },
       {
