@@ -133,11 +133,6 @@
          "activeSince": "2024-12-01T09:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Event_SparksAnniversaryY01",
-         "activeUntil": "2024-12-16T00:00:00.000Z",
-         "activeSince": "2024-12-13T00:00:00.000Z"
-      },
-      {
          "eventType": "EventFlag.Event_SparksS06",
          "activeUntil": "2025-01-14T07:00:00.000Z",
          "activeSince": "2024-11-02T06:00:00.000Z"
@@ -569,15 +564,6 @@
          "eventStart": "2024-12-01T09:00:00Z",
          "eventEnd": "2025-02-22T07:00:00Z",
          "eventType": "EventFlag.Event_S33_UISeasonEnd",
-         "profileItem": null
-      },
-      {
-         "instanceId": "67pkc4nrs0mjp80p2ig8kmsjmt[2]0",
-         "devName": "Event_SparksAnniversaryY01",
-         "eventName": "CalendarEvent_SparksAnniversaryY01",
-         "eventStart": "2024-12-13T00:00:00Z",
-         "eventEnd": "2024-12-16T00:00:00Z",
-         "eventType": "EventFlag.Event_SparksAnniversaryY01",
          "profileItem": null
       },
       {
