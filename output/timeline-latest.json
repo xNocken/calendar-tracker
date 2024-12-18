@@ -133,6 +133,11 @@
          "activeSince": "2024-12-01T09:00:00.000Z"
       },
       {
+         "eventType": "EventFlag.Event_Scenario_Shell",
+         "activeUntil": "2025-01-31T08:00:00.000Z",
+         "activeSince": "2024-12-18T14:00:00.000Z"
+      },
+      {
          "eventType": "EventFlag.Event_SparksS06",
          "activeUntil": "2025-01-14T07:00:00.000Z",
          "activeSince": "2024-11-02T06:00:00.000Z"
@@ -564,6 +569,15 @@
          "eventStart": "2024-12-01T09:00:00Z",
          "eventEnd": "2025-02-22T07:00:00Z",
          "eventType": "EventFlag.Event_S33_UISeasonEnd",
+         "profileItem": null
+      },
+      {
+         "instanceId": "6rmtdiflc4qvctb943n6q0ei0n[2]0",
+         "devName": "Event_S33_Scenario_Shell",
+         "eventName": "CalendarEvent_Scenario_Shell",
+         "eventStart": "2024-12-18T14:00:00Z",
+         "eventEnd": "2025-01-31T08:00:00Z",
+         "eventType": "EventFlag.Event_Scenario_Shell",
          "profileItem": null
       },
       {
