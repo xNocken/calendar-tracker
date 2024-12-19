@@ -223,6 +223,11 @@
          "activeSince": "2024-10-02T00:00:00.000Z"
       },
       {
+         "eventType": "EventFlag.Winterfest_S33_CabinRewards",
+         "activeUntil": "2025-01-07T14:00:00.000Z",
+         "activeSince": "2024-12-19T14:00:00.000Z"
+      },
+      {
          "eventType": "EventFlag.Winterfest.EnableEnemyVariants",
          "activeUntil": "2025-01-23T00:00:00.000Z",
          "activeSince": "2024-11-21T00:00:00.000Z"
@@ -635,6 +640,15 @@
          "eventStart": "2024-12-12T07:00:00Z",
          "eventEnd": "2025-02-21T09:00:00Z",
          "eventType": "EventFlag.Event_SproutQuestDaily",
+         "profileItem": null
+      },
+      {
+         "instanceId": "401a80k2sdh2npjjgon05dp2g7[2]0",
+         "devName": "Winterfest_S33_CabinRewards",
+         "eventName": "CalendarEvent_Winterfest_S33_CabinRewards",
+         "eventStart": "2024-12-19T14:00:00Z",
+         "eventEnd": "2025-01-07T14:00:00Z",
+         "eventType": "EventFlag.Winterfest_S33_CabinRewards",
          "profileItem": null
       }
    ]
