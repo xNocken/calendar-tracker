@@ -44,12 +44,12 @@
       },
       {
          "eventType": "EventFlag.Event_DelMar_Season04",
-         "activeUntil": "2025-02-23T12:00:00.000Z",
+         "activeUntil": "2025-02-21T08:30:00.000Z",
          "activeSince": "2024-12-01T12:00:00.000Z"
       },
       {
          "eventType": "EventFlag.Event_DelMar_Season04_Rank",
-         "activeUntil": "2025-02-23T12:00:00.000Z",
+         "activeUntil": "2025-02-21T08:30:00.000Z",
          "activeSince": "2024-12-01T12:00:00.000Z"
       },
       {
@@ -305,7 +305,7 @@
          "devName": "DelMar_Season04",
          "eventName": "CalendarEvent_DelMar_Season04",
          "eventStart": "2024-12-01T12:00:00Z",
-         "eventEnd": "2025-02-23T12:00:00Z",
+         "eventEnd": "2025-02-21T08:30:00Z",
          "eventType": "EventFlag.Event_DelMar_Season04",
          "profileItem": null
       },
@@ -314,7 +314,7 @@
          "devName": "DelMar_Season04_Rank",
          "eventName": "CalendarEvent_DelMar_Season04_Rank",
          "eventStart": "2024-12-01T12:00:00Z",
-         "eventEnd": "2025-02-23T12:00:00Z",
+         "eventEnd": "2025-02-21T08:30:00Z",
          "eventType": "EventFlag.Event_DelMar_Season04_Rank",
          "profileItem": null
       },
