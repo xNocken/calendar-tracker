@@ -143,9 +143,9 @@
          "activeSince": "2024-11-02T06:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Event_SparksS06_Week07",
-         "activeUntil": "2024-12-19T00:00:00.000Z",
-         "activeSince": "2024-12-12T00:00:00.000Z"
+         "eventType": "EventFlag.Event_SparksS06_Week08",
+         "activeUntil": "2024-12-26T00:00:00.000Z",
+         "activeSince": "2024-12-19T00:00:00.000Z"
       },
       {
          "eventType": "EventFlag.Event_SproutQuestDaily",
@@ -153,9 +153,9 @@
          "activeSince": "2024-12-12T07:00:00.000Z"
       },
       {
-         "eventType": "EventFlag.Frostnite.Week3",
-         "activeUntil": "2024-12-19T00:00:00.000Z",
-         "activeSince": "2024-12-12T00:00:00.000Z"
+         "eventType": "EventFlag.Frostnite.Week4",
+         "activeUntil": "2024-12-26T00:00:00.000Z",
+         "activeSince": "2024-12-19T00:00:00.000Z"
       },
       {
          "eventType": "EventFlag.LobbySeason33",
@@ -620,12 +620,12 @@
          }
       },
       {
-         "instanceId": "73ott963n8l15u976f1vqcnb4d[2]0",
-         "devName": "Event_SparksS06_Week07",
-         "eventName": "CalendarEvent_SparksS06_Week07",
-         "eventStart": "2024-12-12T00:00:00Z",
-         "eventEnd": "2024-12-19T00:00:00Z",
-         "eventType": "EventFlag.Event_SparksS06_Week07",
+         "instanceId": "3f1aisstmrhc8qt186muciddem[2]0",
+         "devName": "Event_SparksS06_Week08",
+         "eventName": "CalendarEvent_SparksS06_Week08",
+         "eventStart": "2024-12-19T00:00:00Z",
+         "eventEnd": "2024-12-26T00:00:00Z",
+         "eventType": "EventFlag.Event_SparksS06_Week08",
          "profileItem": null
       },
       {
