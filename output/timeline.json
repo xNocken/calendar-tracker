@@ -153,6 +153,11 @@
          "activeSince": "2024-12-12T07:00:00.000Z"
       },
       {
+         "eventType": "EventFlag.FigmentShopUnlockQuests",
+         "activeUntil": "2025-01-31T00:00:00.000Z",
+         "activeSince": "2024-12-20T00:00:00.000Z"
+      },
+      {
          "eventType": "EventFlag.Frostnite.Week4",
          "activeUntil": "2024-12-26T00:00:00.000Z",
          "activeSince": "2024-12-19T00:00:00.000Z"
@@ -640,6 +645,15 @@
          "eventStart": "2024-12-12T07:00:00Z",
          "eventEnd": "2025-02-21T09:00:00Z",
          "eventType": "EventFlag.Event_SproutQuestDaily",
+         "profileItem": null
+      },
+      {
+         "instanceId": "3cl9ascc9s2pqlkj1j4lpknh3r[2]0",
+         "devName": "Event_S33_FigmentShopUnlockQuests",
+         "eventName": "CalendarEvent_S33_FigmentShopUnlockQuests",
+         "eventStart": "2024-12-20T00:00:00Z",
+         "eventEnd": "2025-01-31T00:00:00Z",
+         "eventType": "EventFlag.FigmentShopUnlockQuests",
          "profileItem": null
       },
       {
