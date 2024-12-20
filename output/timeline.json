@@ -203,6 +203,16 @@
          "activeSince": "2024-11-21T00:00:00.000Z"
       },
       {
+         "eventType": "EventFlag.S33_WinterFest",
+         "activeUntil": "2025-01-07T14:00:00.000Z",
+         "activeSince": "2024-12-20T20:00:00.000Z"
+      },
+      {
+         "eventType": "EventFlag.S33_WinterFestTab",
+         "activeUntil": "2025-01-07T14:00:00.000Z",
+         "activeSince": "2024-12-20T20:00:00.000Z"
+      },
+      {
          "eventType": "EventFlag.Season11.Frostnite",
          "activeUntil": "2025-01-23T00:00:00.000Z",
          "activeSince": "2024-11-21T00:00:00.000Z"
@@ -236,6 +246,11 @@
          "eventType": "EventFlag.Winterfest.EnableEnemyVariants",
          "activeUntil": "2025-01-23T00:00:00.000Z",
          "activeSince": "2024-11-21T00:00:00.000Z"
+      },
+      {
+         "eventType": "Winter",
+         "activeUntil": "2025-01-07T14:00:00.000Z",
+         "activeSince": "2024-12-20T20:00:00.000Z"
       }
    ],
    "additionalActiveEvents": [
@@ -654,6 +669,24 @@
          "eventStart": "2024-12-20T00:00:00Z",
          "eventEnd": "2025-01-31T00:00:00Z",
          "eventType": "EventFlag.FigmentShopUnlockQuests",
+         "profileItem": null
+      },
+      {
+         "instanceId": "1eo62o9e882fjt5etrpu46k6ej[2]0",
+         "devName": "Event_S33_WinterFest",
+         "eventName": "CalendarEvent_Season33_Winterfest",
+         "eventStart": "2024-12-20T20:00:00Z",
+         "eventEnd": "2025-01-07T14:00:00Z",
+         "eventType": "EventFlag.S33_WinterFest",
+         "profileItem": null
+      },
+      {
+         "instanceId": "33mm4talr99bgk10ab9hhbaehv[2]0",
+         "devName": "WinterfestTab S33",
+         "eventName": "CalendarEvent_Season33_WinterfestTab",
+         "eventStart": "2024-12-20T20:00:00Z",
+         "eventEnd": "2025-01-07T14:00:00Z",
+         "eventType": "EventFlag.S33_WinterFestTab",
          "profileItem": null
       },
       {
